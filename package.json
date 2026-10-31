@@ -1,0 +1,24 @@
+{
+  "name": "earthsiege-exhumed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "import": "node scripts/import-analysis.mjs",
+    "check:browser": "node scripts/browser-check.mjs"
+  },
+  "dependencies": {
+    "marked": "18.1.0",
+    "parse5": "8.0.0"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}

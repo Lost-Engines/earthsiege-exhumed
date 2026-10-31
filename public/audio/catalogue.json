@@ -1,0 +1,68 @@
+[
+  {
+    "name": "INTRO2",
+    "title": "The introduction",
+    "role": "The introduction and campaign victory use this score.",
+    "device": "opl2",
+    "start": 8,
+    "seconds": 24,
+    "source": "native-flac/opl2/shell0/RES32/INTRO2.flac",
+    "gain": 1,
+    "file": "intro2-opl2.flac"
+  },
+  {
+    "name": "INTRO2",
+    "title": "The introduction",
+    "role": "The introduction and campaign victory use this score.",
+    "device": "opl3",
+    "start": 8,
+    "seconds": 24,
+    "source": "native-flac/opl3/shell0/RES32/INTRO2.flac",
+    "gain": 1,
+    "file": "intro2-opl3.flac"
+  },
+  {
+    "name": "BATTLE1A",
+    "title": "Out on patrol",
+    "role": "One of three A/B pairs selected for missions.",
+    "device": "opl2",
+    "start": 8,
+    "seconds": 24,
+    "source": "native-flac/opl2/simsound/HMI/BATTLE1A.flac",
+    "gain": 1,
+    "file": "battle1a-opl2.flac"
+  },
+  {
+    "name": "BATTLE1A",
+    "title": "Out on patrol",
+    "role": "One of three A/B pairs selected for missions.",
+    "device": "opl3",
+    "start": 8,
+    "seconds": 24,
+    "source": "native-flac/opl3/simsound/HMI/BATTLE1A.flac",
+    "gain": 1,
+    "file": "battle1a-opl3.flac"
+  },
+  {
+    "name": "BATTLE1B",
+    "title": "An encounter",
+    "role": "The paired encounter variant. The game fades out before restarting the new piece.",
+    "device": "opl2",
+    "start": 8,
+    "seconds": 24,
+    "source": "native-flac/opl2/simsound/HMI/BATTLE1B.flac",
+    "gain": 1,
+    "file": "battle1b-opl2.flac"
+  },
+  {
+    "name": "BATTLE1B",
+    "title": "An encounter",
+    "role": "The paired encounter variant. The game fades out before restarting the new piece.",
+    "device": "opl3",
+    "start": 8,
+    "seconds": 24,
+    "source": "native-flac/opl3/simsound/HMI/BATTLE1B.flac",
+    "gain": 1,
+    "file": "battle1b-opl3.flac"
+  }
+]

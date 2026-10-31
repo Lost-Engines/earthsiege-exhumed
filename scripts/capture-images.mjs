@@ -1,0 +1,22 @@
+import {chromium} from 'playwright';import fs from 'node:fs/promises';
+const base=process.env.SITE_URL||'http://127.0.0.1:4178/earthsiege-exhumed/';await fs.mkdir('.test-output/captures',{recursive:true});
+const browser=await chromium.launch({...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:1600,height:1100},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(String(e)));
+await page.goto(base+'models/');await page.waitForFunction(()=>document.getElementById('info').textContent.includes('faces'));
+await page.evaluate(()=>{const canvas=document.getElementById('view');canvas.style.setProperty('width','1000px','important');canvas.style.setProperty('height','650px','important');zoom=.62;draw()});
+await page.locator('#view').screenshot({path:'.test-output/captures/models.png'});
+// A wide canvas places the same model on the right, leaving room for headline text.
+await page.evaluate(()=>{const canvas=document.getElementById('view');canvas.style.setProperty('width','1800px','important');canvas.style.setProperty('height','900px','important');});
+await page.waitForTimeout(120);
+await page.evaluate(()=>{zoom=.56;const frame={...cameraFraming,centre:[...cameraFraming.centre]};const shift=frame.radius*1.1;frame.centre[0]-=Math.cos(angle)*shift;frame.centre[1]-=Math.sin(angle)*shift;cameraFraming=frame;draw()});
+await page.locator('#view').screenshot({path:'.test-output/captures/hero.png'});
+await page.goto(base+'missions/?focus=building:4#B0_C3_2A');await page.waitForFunction(()=>document.getElementById('sceneFocus').value==='building:4');
+console.log('Focus',await page.locator('#sceneFocus option:checked').textContent());
+await page.evaluate(async()=>{document.getElementById('sceneWrap').style.height='650px';sceneZoom=.23;sceneElevation=.45;document.getElementById('actors').checked=false;await drawScene()});
+await page.locator('#sceneWrap').screenshot({path:'.test-output/captures/mission.png'});
+await page.goto(base+'missions/?focus=pattern#B0_C1_61');await page.waitForFunction(()=>document.getElementById('sceneFocus').value==='pattern');
+await page.evaluate(async()=>{document.getElementById('sceneWrap').style.height='650px';sceneZoom=.48;for(const id of ['points','routes','actors'])document.getElementById(id).checked=false;await drawScene()});
+await page.locator('#sceneWrap').screenshot({path:'.test-output/captures/signature.png'});
+await page.goto(base+'worlds/?world=8');await page.waitForFunction(()=>document.getElementById('skyNote').textContent.startsWith('Original level'));
+await page.locator('#sky').screenshot({path:'.test-output/captures/sky.png'});
+await browser.close();if(errors.length)throw Error(errors.join('\n'));console.log('Captured five exhibit illustrations.');

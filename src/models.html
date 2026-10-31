@@ -1,0 +1,55 @@
+
+  <div class="toolbar"><label>Find <input id="find" type="search"></label><label>Group <select id="group"><option>All</option></select></label><span id="count"></span></div>
+  <div class="split">
+    <div class="list"><table><thead><tr><th></th><th>Model</th><th>Variants</th></tr></thead><tbody id="models"></tbody></table></div>
+    <section>
+      <h2 id="name"></h2><div id="resourceName" class="muted" data-private=""></div><p id="modelNotes" class="muted" data-private=""></p>
+      <div class="toolbar compact"><label><span id="rootLabel">Model variant</span> <select id="root"></select></label><label>Sequence <select id="sequence"></select></label></div>
+      <div class="toolbar compact"><button id="play">Play</button><label><input id="reverse" type="checkbox">Reverse</label><label>Frame <input id="frame" type="range" min="0" max="0" value="0"><span id="frameText"></span></label><label>Speed × <input id="speed" type="number" min="0.05" max="8" step="0.05" value="1" style="width:65px"></label></div>
+      <div class="toolbar compact"><label id="loadoutLabel">Loadout <select id="loadout"><option value="stock">Original starting loadout</option><option value="bare">Bare chassis</option></select></label><label>Lighting <select id="lighting"><option value="original">Original directional light</option><optgroup label="Mission conditions"><option value="day">Day</option><option value="dusk">Dusk</option><option value="night">Night</option></optgroup><option value="bright">Full bright inspection</option></select></label><label><input id="edges" type="checkbox">Edges</label></div>
+      <div id="missionLighting" class="toolbar compact" hidden=""><label>Environment <select id="lightEnvironment"><option value="auto">Automatic · model environment</option><option value="0">Desert</option><option value="1">Temperate</option><option value="2">Ice</option><option value="3">Urban</option></select></label><label>Visibility <select id="lightVisibility"><option value="0">Normal</option><option value="1">Low</option></select></label><label title="Preview original distance shading without moving the camera. The original fades shaded polygons, but does not distance-fade textures.">Shading distance <input id="lightDistance" type="range" min="0" max="1800" step="6" value="0"><output id="lightDistanceText" for="lightDistance">0 m</output></label></div>
+      <p id="lightingInfo" class="muted" hidden=""></p>
+      <canvas id="view" width="900" height="650" style="width:100%;height:48vh;min-height:320px;touch-action:none"></canvas>
+      <p id="info"></p>
+      <p class="muted">Drag to orbit; wheel to zoom. The camera stays fixed during animation. Thumbnails use a fixed angle and default pose/loadout.</p>
+      <details id="variantsPanel" open=""><summary>Variant thumbnails</summary><p id="variantsHint" class="muted"></p><div id="variants"></div>
+</details>
+<details id="assembly" hidden="" open=""><summary>Equipment &amp; hardpoints</summary><p id="loadoutSource" class="muted"></p><table><thead><tr><th>Hardpoint</th><th>Equipment</th><th>Mount</th></tr></thead><tbody id="mounts"></tbody></table><p id="loadoutRules" class="muted"></p></details>
+      <details><summary>Animation, damage &amp; rendering controls</summary>
+        <div class="toolbar" data-private=""><label data-private=""><input type="checkbox" id="runtime" checked="">Runtime node bindings</label><label data-private="">Cell sequence <select id="cellSequence"><option value="-1">All</option></select></label><label data-private="">Frame override <input id="cell" type="number" min="-1" value="-1" max="65535" style="width:65px"> (−1 = initial state)</label><label data-private="">Pose blend <input id="blend" type="range" min="0" max="1024" value="0"></label><label data-private="">Palette <select id="palette"></select></label><label data-private="">Texture bank <select id="bank"></select></label><label data-private="">Nested detail <select id="lod"><option value="-1">Highest</option><option value="0">0 (most distant)</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select></label><label hidden="" data-private="">Effect simulation step <select id="effectTick"><option value="64">25 ms nominal</option><option value="128">50 ms nominal</option><option value="256">100 ms nominal</option><option value="450">175.8 ms nominal</option></select></label></div>
+<div class="toolbar" id="transitions" hidden=""><label>Request sequence <select id="target"></select></label><label>Destination frame <input id="targetFrame" type="number" value="-1" min="-1" style="width:65px" title="−1 accepts any destination frame"></label><button id="queue">Queue transition</button><label><input id="stopAtTarget" type="checkbox">Stop on arrival</label><span id="transitionState"></span></div><div class="toolbar" id="rootMotionControls" hidden=""><label><input id="worldMotion" type="checkbox">Apply world movement</label><button id="fitMotion">Fit travelled path</button><span id="rootMotionState"></span></div><div class="toolbar" id="movementControls" hidden=""><label>Movement example <select id="movement"><option value="manual">Manual sequence inspection</option><option value="accelerate_coast_brake">Accelerate, coast &amp; brake</option><option value="reverse_then_forward">Reverse, then forward</option><option value="steer_stationary">Turn at rest</option><option value="steer_moving">Turn while moving</option></select></label><span id="movementState"></span></div><div class="toolbar" id="aimControls" hidden=""><label><input id="aimLayers" type="checkbox">Apply torso &amp; elevation layers</label><label>Torso <input id="aimYaw" type="range" min="-14000" max="14000" value="0"><span id="aimYawText">0°</span></label><label>Elevation <input id="aimPitch" type="range" min="-8000" max="8500" value="0"><span id="aimPitchText">0°</span></label></div><div class="toolbar" id="damageControls" hidden=""><label>Damage inspection <select id="damage"><option value="-1">Intact</option></select></label><label>Impact <select id="damageKind"><option value="destroy">Heavy hit (32,000)</option><option value="penetrate">Armor + 250</option></select></label><span id="damageState"></span></div>
+      </details>
+      <details data-private=""><summary>Rendering, animation &amp; preview scope</summary>
+<p>Lighting uses the original directional light, fixed-point intensity rules, palette ramps and texture remaps. Full bright mode shows the unlit artwork. Day, dusk and night use the original mission palettes, with normal or low visibility in desert, temperate, ice or urban environments. Shading distance applies the original per-object colour ramps while keeping the model at inspection size, even beyond its original draw cutoff. It does not move the camera or select a lower-detail model. In the original game, distance haze changes shaded polygon colours but does not fade textures; textured faces retain their light-level shading. Material IDs stay constant across a polygon; only Gouraud shading interpolates palette indices. Inspection modes use near-distance environment material ramps; mission modes also apply distance shading to HERCs and flyers. Automatic palette selection chooses desert, temperate, ice or urban colours for each terrain set. Camouflage is part of the original textures; the former extra speckling from interpolated material indices has been fixed.</p>
+<p>This browser uses WebGL triangles and a depth buffer. The native C++ renderer separately reproduces the original painter order and software pixel coverage. Dynamic effect lights, secondary smoke, flying debris and collisions are not simulated in this inspection preview. <a href="https://lostengines.com/earthsiege/docs/RENDERING.md">Rendering analysis</a> · <a href="https://lostengines.com/earthsiege/docs/LIGHTING.md">Lighting analysis</a></p>
+<p>Sequences use authored frame durations, transition points, reverse playback and verified fixed-point pose blending. Gameplay can vary their rate. Movement examples run the original controller at nominal 100 ms steps. Apply world movement shows the verified displacement and rotation against a fixed reference grid; the default keeps the model in place. Fit travelled path is an explicit camera adjustment. Exact destination-frame requests stop at the requested authored frame when reachable. Damage previews show captured post-impact cells and missing weapons; they do not animate falling parts. Captures originated with the starting loadout; changing equipment here only changes its visible model. Explosion playback advances the original primary cell/countdown controller.</p>
+<p><a href="https://lostengines.com/earthsiege/docs/MODEL_BROWSER.md">Names, categories, loadout sources and remaining boundaries</a></p></details>
+<section id="usage" data-private=""></section>
+<details id="collisionField" hidden="" data-private=""><summary>Scenery collision field</summary><canvas id="collisionMap" style="max-width:100%;image-rendering:pixelated"></canvas><p id="collisionInfo"></p><p class="muted">Movement uses horizontal occupancy; line-of-sight and projectile queries inspect the stored heights. This is collision data, not a terrain texture. <a href="https://lostengines.com/earthsiege/docs/COLLISION.md">Verified original rules</a></p></details>
+<details data-private=""><summary>Hierarchy &amp; animation metadata</summary><pre id="metadata" data-private=""></pre></details>
+    </section>
+  </div>
+
+<script src="../browser_data.js"></script>
+<script src="catalogue.js"></script>
+<script src="../media/data.js"></script>
+<script src="../model_cosine.js"></script>
+<script src="../model_math.js"></script>
+<script src="../animation_channel.js"></script>
+<script src="../model_atan.js"></script>
+<script src="../locomotion.js"></script>
+<script src="locomotion/viewer.js"></script>
+<script src="damage/viewer.js"></script>
+<script src="material-shading.js"></script>
+<script src="lighting.js"></script>
+<script src="../model_lighting.js"></script>
+<script src="../world-data.js"></script>
+<script src="../world_materials.js"></script>
+<script src="../model_renderer.js"></script>
+<script src="texture-bindings.js"></script>
+<script src="assemblies.js"></script>
+<script src="runtime-bindings.js"></script>
+<script src="effects.js"></script>
+<script src="collision_viewer.js"></script>
+<script src="../model_assembly.js"></script>
+<script src="viewer.js"></script>
