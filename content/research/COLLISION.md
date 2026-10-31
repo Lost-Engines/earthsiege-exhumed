@@ -45,4 +45,22 @@ That response ordering is traced and exercised in the whole-frame fixtures. Its 
 
 `check_contact_motion.py` now captures 1,920 original `0x14844` updates across all eight playable HERCs, with controlled first/second contact answers. C++ matches each attempted placement, resulting controls and complete pose/matrix state. The rollback preserves the original Euler angles while restoring the saved placement matrix/position and animation state; a second root-motion attempt can therefore retain the first attempt's turning. Collision clears the throttle at `+0x226`, not steering at `+0x222`. Transition interruption uses `0x6200c` (direct reset), rather than a queued sequence request. Foot/effect updates and collision audio remain explicitly separate fixture boundaries.
 
-`check_scenery_contact.py` retains another 5,600 original moving-body occupancy queries across all 140 height fields, with four candidate objects, varied headings, altitudes and body radii. Native C++ agrees with all of them and all 1,400 retained actor-contact/ramming fixtures. The native inspection scene now applies this movement blocking; combat damage and non-player controller integration remain separate work.
+`check_scenery_contact.py` retains another 5,600 original moving-body occupancy queries across all 140 height fields, with four candidate objects, varied headings, altitudes and body radii. Native C++ agrees with all of them and all 1,400 retained actor-contact/ramming fixtures. The native mission applies this movement blocking to the integrated player and AI controllers. Combat damage and long-running mission comparisons are documented in DAMAGE.md and AUTONOMOUS_VALIDATION.md.
+
+
+## Ramming blast centre and synchronous removal
+
+18278 passes the rammer's live position address (actor +20) into 1f75c. The
+latter visits HERCs in pool order and passes that same address to radial damage
+13a7c. A rammer with remove-on-death enabled can kill itself during that loop;
+13250 then moves its Z to -100,000 before later victims are considered. The
+blast centre moves with it. Native code must retain a reference to that position
+rather than copying the initial value.
+
+The B0_C5_50 seed-17, ratio-128 capture first exposed the difference at frame
+410. Original damage visits rammer 2 at (95,108, 229,921, 0), then its removal
+changes the referenced Z. Player HERC 8 subsequently takes no blast damage.
+The copied native centre had damaged five of its armour sections instead.
+Keeping the live reference makes all 512 frames agree. The original pointer,
+damage call and Z write are recorded in autonomous-validation/ramming-trace;
+mission_ramming_frames.bin retains the complete independent regression.

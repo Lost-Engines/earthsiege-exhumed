@@ -2,7 +2,7 @@
 
 The analysis viewer uses the original persistent directional light, created by DBSIM `0x5a888`: intensity **256**, world direction **(-1099, -984, -1421)**. The initializer rotates (0, 2048, 0) by the original Euler/table routines with angles (-8000, 0, 24000); the resulting vector is retained unchanged. It is registered both with the active renderer and the persistent-light list. This replaces the viewer's earlier invented direction and ambient/brightness curve.
 
-`check_lighting.py` executes original code with only host memory allocation. `check_lighting.js` independently checks the viewer implementation against **16,896** original intensity results and **512** light transforms. The data includes ambient, directional, positional and combined lights, forward/back normals, saturation, integer division and overflow edges. These are controlled original-code probes, not a claim that a complete game frame has been reproduced.
+`check_lighting.py` executes original code with only host memory allocation. `check_lighting.js` independently checks the viewer implementation against **16,896** original intensity results and **512** light transforms. The data includes ambient, directional, positional and combined lights, forward/back normals, saturation, integer division and overflow edges. These probes isolate lighting. Complete native-frame comparisons are documented separately in PIXEL_FIDELITY.md.
 
 ## Light records and intensity
 

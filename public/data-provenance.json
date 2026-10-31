@@ -17,8 +17,8 @@
     },
     {
       "source": "../docs/COLLISION.md",
-      "sha256": "0b33231b13cb7c806daa4a79868d140d61485ada263298f03172dfdb6b6c4fb4",
-      "bytes": 6694
+      "sha256": "26686930f6850532905623a860c4c86dc94dd882f624bb301664f2ba7457a81b",
+      "bytes": 7776
     },
     {
       "source": "../docs/COMMAND_LINE.md",
@@ -27,8 +27,8 @@
     },
     {
       "source": "../docs/LIGHTING.md",
-      "sha256": "408c175c3b49f2035eb62dac3d30739f4cecb3c794c886959c98c2a8ca291704",
-      "bytes": 13663
+      "sha256": "4c487abaeea1b134b8777033157335b6a5b66e0cab39ea484715bfc58bfa2c0f",
+      "bytes": 13673
     },
     {
       "source": "../docs/MISSION_LAUNCH.md",
@@ -37,28 +37,28 @@
     },
     {
       "source": "../docs/MODEL_BROWSER.md",
-      "sha256": "7b55cbdaca8974737357ebf74ac09f5d659f8626030e3821512005f502b14442",
-      "bytes": 12132
+      "sha256": "e0484139e1c1d55396cc347a36f9352de47265d273b5698511729cb4c5942fd7",
+      "bytes": 12143
     },
     {
       "source": "../docs/MUSIC.md",
-      "sha256": "21bd399bccf78a92da01c15e0b9c567a846e79a0b6dfe421e2605f811c977888",
-      "bytes": 23518
+      "sha256": "be06359de26d1fda9ef394ef85793eb694655fa30b77a8c7ff9c5092f0bb5429",
+      "bytes": 27093
     },
     {
       "source": "../docs/PIXEL_FIDELITY.md",
-      "sha256": "e40b66ead56bebdae4d86070f750d45970e73ef57d376818a90e2f3abbac2d51",
-      "bytes": 8812
+      "sha256": "b764c90aa4c7e02f6fbbb104a62b0fac2821baa7838665682bc2f35dee892439",
+      "bytes": 8772
     },
     {
       "source": "../docs/RENDERING.md",
-      "sha256": "a6654b44b604f5d0f6dcc658cbacf86fd8dbbee47fc979748bbc722fe46a8656",
-      "bytes": 24983
+      "sha256": "4ee51e8f9ed1efd08b1f243189973656d88ea38a47248875301d450a9ed5fc87",
+      "bytes": 25209
     },
     {
       "source": "../docs/SCENERY_BROWSER.md",
-      "sha256": "59fb103e081d2304d53d55cb833d10286066e4aed4c16adb7486704422c7df82",
-      "bytes": 11950
+      "sha256": "e8c3680dcc0985b97ec4bc773bb563e8a4e6d81ed94bfb353cf27353d1139346",
+      "bytes": 12054
     },
     {
       "source": "animation_channel.js",

@@ -35,7 +35,7 @@ The callback bridge at `0x81719` invokes the installed far function at `0xa2594`
 
 ## Audition limits
 
-Native FM auditions preserve the original scheduler's loop controls and physical-driver choices. They stop at a declared source-duration bound, then run original note cleanup and a two-second release tail. This is not a claim that looping music naturally finishes there. No game branch callbacks or in-game music transitions are supplied.
+Native FM auditions preserve the original scheduler's loop controls and physical-driver choices. They stop at a declared source-duration bound, then run original note cleanup and a two-second release tail. The export length is a listening bound; the game can continue looping. No game branch callbacks or in-game music transitions are supplied.
 
 ISA delays, Sound Blaster DAC/mixer arithmetic and the analogue output stage are not emulated. Host PCM interpolation, stereo balance, FM/PCM relative mix, immediate stop handling and completion notifications at scheduler boundaries are labelled approximations. Overall gain is reduced only if necessary to keep the exported mix below clipping, and is recorded beside each FLAC. No loudness normalization is imposed on quieter material.
 
@@ -158,7 +158,7 @@ from successful digital voice allocation.
 
 `capture_footsteps.py` executes DBSIM `0x144dc` for 1,800 stateful cases. The requested movement sequence takes precedence over the current sequence. Foot contacts use each attachment's animated local Y: forward walk/turn/stopping, reverse walk/stopping and fast gait select threshold pairs 0, 1 and 2. Reverse playback reverses both comparisons. The disabled sequence uses attachment type 2, world Z, pair 3 and the initially armed fifth latch for sound 31. Foot contacts request sound 29 at the actor origin, not at the attachment. Comparisons are strict. Missing attachment objects do not advance the original latch pointer.
 
-`capture_herc_steps.py` adds 2,560 complete movement/aiming updates on the eight original constructed player HERCs. Original attachment allocation, part lookup and hierarchy transforms execute. The corresponding native C++ animation path matches all 279 footstep requests. The native mission now consumes these and the projectile/explosion, collapse, collision, radar and shared flyer-engine requests through the verified PCM mixer. All 37 simulation samples and four live wingmate acknowledgement paths produce audible PCM in automated integration checks. Full auditory/gameplay equivalence remains a later whole-game check.
+`capture_herc_steps.py` adds 2,560 complete movement/aiming updates on the eight original constructed player HERCs. Original attachment allocation, part lookup and hierarchy transforms execute. The corresponding native C++ animation path matches all 279 footstep requests. The native mission now consumes these and the projectile/explosion, collapse, collision, radar and shared flyer-engine requests through the verified PCM mixer. All 37 simulation samples and four live wingmate acknowledgement paths produce audible PCM in automated integration checks. The later whole-game audio checks below compare request order and identify the remaining engine-start timing limit.
 
 `capture_audio_controls.py` records 6,000 original calls to the yaw/pitch sound gates (`0x14afc`, `0x14dc4`), target tones (`0x1552c`) and cockpit-engine update (`0x58574`). Independent yaw/pitch latches share sound 33; the threshold is strictly greater than 192, and signed -32768 retains its original wrapped magnitude. Target acquisition/change uses 20, lock pulses 21 and lock loss 22. Pulses follow clock bit 6, not an invented interval timer. The sensor caller returns before the sound update if there is no target. Cockpit view 4 is external: it stops engine loop 45; other views start it only after startup sample 19 has finished. Native controllers and emitted requests agree with all captured states.
 
@@ -238,15 +238,10 @@ EARTHSIEGE_REPLAY_AUDIO writes the native requests, driver acceptance and active
 voice counts. Audio advances against the recorded outer clocks during replay.
 
 Engine 16/45 starts depend on whether their prior sample is still playing and
-whether the shared 32-voice pool can accept it. These requests remain in the
-fixtures and analysis comparison reports, but are excluded from the exact
-request assertion pending complete DMA/interrupt timeline comparison. The
-third recording still has substantial flyer-engine retry differences; the
-fourth differs in three frames. This is not a claim of complete audio equality.
-
-The corrected lower-panel transition also exposes retained portrait/background
-and button differences in full frames (about 4,100 RGB pixels in two sampled
-lower views). The earlier 13–146-pixel results refer to sampled forward views.
+whether the shared 32-voice pool can accept it. They remain in the comparison
+reports, with the current counts in the final request-order section below.
+The lower-panel and retained-page visual differences found during this work
+are resolved in PIXEL_FIDELITY.md.
 
 
 ## Flyer engine destruction state
@@ -257,10 +252,9 @@ can remain stale until another controller refresh. It now reads flyer_actor's
 actual destruction state; the replay audit also compares that flag against the
 original on every frame. Gameplay, random state and return files still agree.
 
-This reduced DEMO3's flyer-engine request differences from 376 frames to six,
-and DEMO4's from three to one. Remaining start retries coincide with differences
-in audio channel availability/completion timing; that timeline remains under
-comparison. This supersedes the earlier substantial retry-difference count.
+This removed the stale destruction-state cause of repeated engine starts.
+The remaining differences depend on channel availability and sample completion;
+the final request-order section below gives the current counts.
 
 
 ## Complete sound request ordering
@@ -273,3 +267,64 @@ in exact combined frame/call order (7,073 requests), including engine stops.
 Engine starts/retries remain separately reported because they depend on the PCM
 completion and voice-allocation timeline: current differing-frame counts for
 cockpit engine 45 are 17/5/1/10, and flyer engine 16 differs in two DEMO3 frames.
+
+
+## Roland devices and the missing MT-32 arrangement
+
+The native game now offers OPL2, OPL3, SC-55 v1.21, SCC-1A v1.30,
+MT-32/CM-32L and General MIDI SoundFont playback. Ctrl+Shift+M selects the device
+and saves it beside the game saves. Munt, Nuked-SC55 and TinySoundFont adapters
+reuse the approaches from Darker and TFX. Firmware fetch helpers and automatic
+asset lookup follow those projects too. [The native music guide](../../earthsiege-cpp/docs/MUSIC.md)
+covers setup, locations and the two distinct MT-32 choices.
+
+The supplied installer advertises an MT-32 option, but **none of the twenty HMP
+resources assigns a melodic track to device 0xa004**. This includes the separate
+SSET/SOUNDSET.HMP setup song. Original scheduler routing leaves those tracks at
+255, meaning no installed destination. Only tracks assigned to the separately
+installed digital driver 0xa005 survive. In MENU, its first sampled-percussion
+hit occurs at tick 220, about 1.83 seconds after playback starts.
+
+This is an original-data limitation in the supplied 1.0 release. The relevant
+boundaries were checked directly:
+
+- HMIMDRV.386 contains `mpu401.com` at offset 68044, size 677, and `mt32.com` at
+  offset 68769, size 664. Their SHA-256 values are respectively
+  `52e7c4b40e079ea9e00467af14cb26637d23309963b0978660a3c6c9f628c366`
+  and `d10b1dd2e42653c442b2feebdb5d9fbabd629f6f0e3d44551ef7e30cd5165b2f`.
+- Original module installation at `0x71076` retains the MT-32 device ID.
+  Scheduler aliases accept 0xa001/0xa008 for 0xa000, and 0xa009 for 0xa002;
+  they do not treat 0xa004 as General MIDI.
+- SoundManager loading at `0x4ef8c` supplies MELODIC.BNK, DRUM.BNK and
+  DRUM32.DIG, then disables HMI channel remapping with `0x7225a(0)`. There is
+  no GM-to-MT-32 patch conversion or instrument-bank upload in this path.
+- Both archived physical-MIDI drivers send the MIDI bytes unchanged. Their
+  MPU port handshake is emulated explicitly by `tools/native_midi.py`.
+- Master gain at `0x6edb3` uses the installed channel-enable mask. MT-32's
+  mask is 0x02fe, channels 1-7 and 9 with zero-based numbering; MPU-401 uses
+  all sixteen. This mask controls emitted volume updates, not track routing.
+
+`tools/capture_midi_pipeline.py` executes the original installation, scheduler,
+gain, physical module and digital-percussion driver. All twenty songs are
+captured with each physical driver for 722 steps, including six master-volume
+levels, explicit PCM completion, stop and cleanup. `analysis/music/midi-pipeline.json`
+records 27,644 MPU-401 bytes, 3,120 MT-32 bytes and 1,546 digital events per
+selection. The MT-32 bytes are setup, volume and cleanup commands, not a missing
+melody arrangement. Native C++ matches all 30,764 bytes and 3,092 events.
+Ready MPU ports, timer registration and sample completion are controlled host
+inputs; this fixture does not measure hardware bus latency.
+
+The strict MT-32 choice preserves the original omission. A separate **MPU-401
+experiment** sends the available General MIDI parts to Munt, without rewriting
+program numbers or inventing a patch bank. Its instrumentation can therefore
+sound quite different. SC-55, SCC-1A and SoundFont choices retain any GM gaps in
+the data as well: DESERT, for example, has no GM melody route.
+
+The analysis browser's existing exports remain OPL2, OPL3 and SoundFont
+listening copies. Adding native hardware backends does not relabel those files
+as Roland recordings. All synthesis modes are tested with actual local firmware
+or a SoundFont in the native build, including percussion, suspension, resume
+and switching devices. The complete native suite passes 272 tests, with six
+audio suites also passing ASan/UBSan and leak checking.
+
+The private-window report is retained in `analysis/music/window-check/report.json`, with screenshots of selection, restoration after restart and the resumed menu. It uses an isolated Xvfb display and SDL dummy audio; real synthesis is exercised by the separate firmware tests.

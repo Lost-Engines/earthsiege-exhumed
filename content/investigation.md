@@ -62,6 +62,8 @@ Earthsiege’s usual FM sound setup combines synthesised notes with its own samp
 
 We ran the game’s scheduler and drivers to recover the note events, then rendered them with chip emulation. The value 120 in the music header specifies a timer frequency in hertz. Interpreting it as a MIDI tempo or tick resolution would give the wrong timing.
 
+The MT-32 option brought a surprise. The installer offers it and includes a driver, but none of the twenty supplied music files assigns a melody to that device. Running the original driver confirmed the result: only the game's separate sampled percussion plays. That finding applies to the version 1.0 data we examined. The native reconstruction preserves this choice and also offers an experiment that sends the General MIDI parts to an emulated MT-32, where the different instrument numbers produce a different arrangement.
+
 During a mission, the game chooses one of three pairs of scores. A threat can trigger the encounter version: the current piece fades out and stops before the other starts. The check for returning to the quieter music has a curious detail. A sufficiently distant living flyer can prevent the switch. That comparison is present in the original code, so the reconstruction keeps it.
 
 [Compare OPL2 and OPL3, and hear a patrol/encounter pair →](../sound/)

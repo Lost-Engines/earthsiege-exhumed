@@ -116,8 +116,9 @@ The mission scene intentionally uses the nearest band rather than dimming or cul
 objects according to an inspection camera. The model browser now also offers
 explicit day/dusk/night presets and distance shading, documented in
 [Lighting](LIGHTING.md#mission-condition-presets-in-the-model-browser). The optional ground plane is a flat
-inspection backdrop. Textured ground, panorama and full environment simulation
-remain separate work; see [the analysis audit](ANALYSIS_STATUS.md).
+inspection backdrop. The native game renders textured ground, panoramas and the environment.
+This static scenery inspector uses the flat backdrop for inspection; see
+[the environment research](ENVIRONMENT.md) and [analysis audit](ANALYSIS_STATUS.md).
 
 ## North-edge pattern in B0_C1_61
 

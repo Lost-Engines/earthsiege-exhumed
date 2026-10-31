@@ -50,6 +50,7 @@ for(const row of noteRows){
  // Keep links among published notes; unpublished capture/code references stay as text.
  const linked=source.replace(/\[([^\]]+)\]\(([^)]+)\)/g,(all,label,target)=>{
   if(/^https?:/.test(target))return all;
+  if(/earthsiege-cpp\//.test(target))return label;
   const file=target.split('#')[0].split('/').pop(),match=noteRows.find(r=>r.name===file);
   return match?'['+label+'](../'+match.key+'/)' : label;
  });

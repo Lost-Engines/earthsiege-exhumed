@@ -120,7 +120,7 @@ is an asset inspector, not the complete game renderer: dynamic effect lights,
 secondary smoke, detached-part motion, collisions and full combat are outside its
 current preview. Damage captures originate with the starting loadouts; editing
 equipment changes the visible attachments, not the captured damage simulation.
-The four retained weapon model families now have explicit normal/low-memory and mounted/detached bindings. Root 6 in each is not selected by any supplied weapon definition; its intended identity remains unproven. Native implementation is paused while remaining analysis and documentation are completed; see ANALYSIS_STATUS.md.
+The four retained weapon model families now have explicit normal/low-memory and mounted/detached bindings. Root 6 in each is not selected by any supplied weapon definition; its intended identity remains unproven. The native game implements attachment, animation and combat consumers; see [the current analysis audit](ANALYSIS_STATUS.md).
 
 `check_model_browser.py` exercises names, ordering, all sixteen chassis, empty
 mounts, custom arrays, retained edits across LOD changes, scenery selection and

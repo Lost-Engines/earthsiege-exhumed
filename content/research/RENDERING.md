@@ -1,9 +1,11 @@
-# Native projection and rasterization
+# Original software rendering
 
-The C++ renderer is being checked against original DBSIM instructions, separately
-from the WebGL inspection renderer. The browser retains original geometry,
-lighting and palette choices, but its depth-buffer triangles are not a claim
-of original pixel coverage or painter order.
+The native renderer reproduces the original fixed-point projection, painter
+ordering, palette shading and span drawing. Component captures and complete
+recorded frames check the result; [PIXEL_FIDELITY.md](PIXEL_FIDELITY.md) records
+the final image comparison. The WebGL browsers use the recovered geometry,
+materials and lighting for inspection, with depth-buffer triangles in place of
+the game rasterizer.
 
 ## Projection and near clipping
 
@@ -50,7 +52,7 @@ from a half-step offset, round texture coordinates and use inclusive spans.
 `check_texture_raster.py` captures 600 complete original rasters in both modes;
 `check_texture_math.py` independently reproduces all of them. C++ uses the same
 verified rules. Row fixtures currently use a single rectangular clipping region;
-multiple regions and cockpit masks remain integration work.
+the integrated environment, cockpit and full-frame comparisons cover multiple regions and cockpit masks separately.
 
 Without a lighting translation, texture index zero is transparent. With a
 translation, every texel is written, including translated zero. The browser
@@ -82,7 +84,7 @@ bounding rejection is disabled for these isolated captures.
 `check_model_render.py` captures all 401 roots across all 44 supplied model
 resources from eight orientations: 3,208 complete 320×200 frames. Each frame
 currently agrees with the integrated C++ renderer at every indexed pixel. These
-are isolated default instances, not yet complete gameplay scenes.
+use isolated default instances. Complete gameplay scenes are checked separately in PIXEL_FIDELITY.md.
 
 The original back-face helper reverses projected positions but leaves Gouraud
 intensities and translated-texture UVs in place. Only its untranslated style-5
@@ -109,7 +111,7 @@ polygons was too strict; the C++ mapper now retains the original signed steps.
 
 ## Whole-scene painter order
 
-`check_scene_order.py` independently reproduces 2,000 original `0x21bec`/`0x21c60` insertion trees. Extended scenery is inserted before ordinary point objects; nodes are then visited left/object/right. The per-terrain 24-byte records are two local line-segment endpoints, not arbitrary shading metadata. A negative first endpoint Z disables their use. Original `0x206c8` transforms both endpoints into world space. Overlapping objects use observer-relative separating planes, with original repeated integer halving and cross/dot operations; simple cases fall back to centre distance. The C++ implementation matches every captured order. This supplies the scene ordering boundary; complete environment shading and cockpit masks remain separate consumers.
+`check_scene_order.py` independently reproduces 2,000 original `0x21bec`/`0x21c60` insertion trees. Extended scenery is inserted before ordinary point objects; nodes are then visited left/object/right. The per-terrain 24-byte records are two local line-segment endpoints, not arbitrary shading metadata. A negative first endpoint Z disables their use. Original `0x206c8` transforms both endpoints into world space. Overlapping objects use observer-relative separating planes, with original repeated integer halving and cross/dot operations; simple cases fall back to centre distance. The C++ implementation matches every captured order. This supplies the scene ordering boundary; environment shading and cockpit masks are verified separately and integrated in the complete-frame comparisons.
 
 ## Complete static-world integration
 
@@ -238,11 +240,11 @@ bytes. The native safety rule leaves undefined samples untouched; all defined
 pixels remain exact. Four captures test this boundary, in addition to the 600
 ordinary texture rasters. This does not emulate arbitrary adjacent heap bytes.
 
-Whole-frame comparison remains separate from these exact state/raster checks.
-Across 120 sampled frames, the largest differences in demos 1–4 are now
-515/627/728/564 RGB pixels, down from tens of thousands in external views.
-Cursor and independent clock-phase pixels are included in these counts;
-weapon selection highlights and smaller scene differences remain under review.
+The full sampled-frame investigation is complete: 114 of 120 images match
+exactly after controlling presentation timing. The other six differ only at the
+intentionally repaired malformed radar model, and match when the same repair is
+applied to the original renderer. See [PIXEL_FIDELITY.md](PIXEL_FIDELITY.md) for
+all 230 affected pixels, original instructions and reference boundaries.
 
 Vertical cockpit pans reuse their existing pages and do not invoke the full
 shield painter. Horizontal preparations and a return from external view do.
@@ -268,9 +270,8 @@ exchange. Repeated draw-only calls advance to the already exchanged values.
 The replay tests additionally compare 584 original 18x7 weapon-name rectangles
 in stable forward views. Positions are taken from live original widget objects;
 eight rectangles near the recorded software pointer are excluded explicitly.
-These are expected RGB outputs, never inputs to the game. Complete sampled frame
-maxima are now 385/382/728/444 differing pixels in demos 1–4; these totals still
-include reference cursors, clock differences and remaining scene differences.
+These are expected RGB outputs, never inputs to the game. The final complete-frame results are recorded in PIXEL_FIDELITY.md, including
+software cursor ownership and independently timed presentation layers.
 
 Original 58574 gates cockpit-engine sound 45 on cockpit view 4, not on camera
 ownership. During a prepared transition those change on different frames.

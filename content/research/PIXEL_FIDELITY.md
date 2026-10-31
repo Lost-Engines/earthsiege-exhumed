@@ -106,8 +106,7 @@ original-executable test independent of these observed copy calls.
 
 Without that timing alignment, the same native samples have maximum differences
 of 42/62/24/43 pixels for DEMO1/2/3/4. Those raw reports are retained alongside the
-controlled reports; the latter are not a claim that host and DOS interrupt
-scheduling will naturally remain synchronized.
+controlled reports. The host and DOS interrupt schedules have independent phases.
 
 ## Reproduce
 
