@@ -43,3 +43,5 @@ The site uses relative URLs and the canonical project URL <https://lost-engines.
 ## Editorial scope
 
 Keep the introduction intelligible to someone who has never played Earthsiege. Separate original data, verified code behavior, browser inspection choices and interpretation. Do not call the northern map arrangement a confirmed developer signature, or claim a key combination is a first discovery. See [content/research-sources.md](content/research-sources.md).
+
+Write for curious readers, including people who have never played the game. Describe what they can see, hear or learn. Keep useful uncertainties close to the relevant finding, without repeating disclaimers throughout the page. Avoid formulaic contrasts and phrases such as “not a claim that” or “rebuilding it meant”. Use a normal keyboard hyphen when a dash is needed; do not use em dashes.
