@@ -1,0 +1,79 @@
+{
+  "width": 320,
+  "height": 200,
+  "total_calls": 200,
+  "stages": [
+    {
+      "image": "model-step-00.png",
+      "calls": 0
+    },
+    {
+      "image": "model-step-01.png",
+      "calls": 17
+    },
+    {
+      "image": "model-step-02.png",
+      "calls": 33
+    },
+    {
+      "image": "model-step-03.png",
+      "calls": 50
+    },
+    {
+      "image": "model-step-04.png",
+      "calls": 67
+    },
+    {
+      "image": "model-step-05.png",
+      "calls": 83
+    },
+    {
+      "image": "model-step-06.png",
+      "calls": 100
+    },
+    {
+      "image": "model-step-07.png",
+      "calls": 117
+    },
+    {
+      "image": "model-step-08.png",
+      "calls": 133
+    },
+    {
+      "image": "model-step-09.png",
+      "calls": 150
+    },
+    {
+      "image": "model-step-10.png",
+      "calls": 167
+    },
+    {
+      "image": "model-step-11.png",
+      "calls": 183
+    },
+    {
+      "image": "model-step-12.png",
+      "calls": 200
+    }
+  ],
+  "angles": [
+    5000,
+    0,
+    39768
+  ],
+  "translation": [
+    0,
+    4927,
+    -1346
+  ],
+  "equipment": [
+    6,
+    6,
+    6,
+    10,
+    6,
+    0,
+    0,
+    0
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "description": "Original renderer captures, controlled synthetic examples and explanatory SVG diagrams for the graphics article.",
+  "files": [
+    {
+      "file": "affine-quad.png",
+      "bytes": 1675,
+      "sha256": "292521354694adf6903950b0c546f748665ac5d997199e83f08eb4889e5a7aba",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "clipping.svg",
+      "bytes": 1548,
+      "sha256": "8646796872dc634a7701c781113c2ccb0dd1a4a95086ed8ff0c890e84321e934",
+      "kind": "explanatory SVG"
+    },
+    {
+      "file": "expansion-default.png",
+      "bytes": 13178,
+      "sha256": "6b9ddfd3c4cb6fa2b7a4823f7ceb156444deeb538c5a4dd1d675498add273c50",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "expansion-v1.png",
+      "bytes": 16065,
+      "sha256": "7111ec5e66b4e891f0e0cf50cf949ec25ce6f4d97c1962ea6986ce9e2f5a9dbb",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "gameplay.png",
+      "bytes": 21121,
+      "sha256": "c4d47ded64d815c9605dbf29a0807c8cd2eeffe1d231492657147faae718c95e",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "gouraud-bands.json",
+      "bytes": 4017,
+      "sha256": "c0e78b55c4eeff2debab58e15853ab0da2c6689321b8627ef0b018efb294a3a7",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "gouraud-bands.svg",
+      "bytes": 3021,
+      "sha256": "dfc903b9548bf0901071b10d9cdae9303b0f3a2b88a51d84759368ad5f4e8612",
+      "kind": "explanatory SVG"
+    },
+    {
+      "file": "gouraud.png",
+      "bytes": 1909,
+      "sha256": "049097054b86c01efa9c9bdd33a8480e09426277bef8a307e3cb023e7e98c478",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "herc-hangar-band-0.png",
+      "bytes": 1786,
+      "sha256": "a9ccdd5cae075857177a98399bd9eb4139df0f194b783898a26a87830e2a9baf",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "herc-hangar-band-15.png",
+      "bytes": 1664,
+      "sha256": "dc82af74d4d78f35f4985f50a13ddfd7888d7fbb5bc2b47d616fab1bc965256c",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-progress.json",
+      "bytes": 1128,
+      "sha256": "a36ce0f08e976303ccb7a2620a65f4c7ca09ee94a54c33a274ddb8c57a5a5796",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-00.png",
+      "bytes": 922,
+      "sha256": "f938d8d6a7b04fd5a2eb0573c7c4150d5acbbe8e9664026180e285208ec232ea",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-01.png",
+      "bytes": 1065,
+      "sha256": "10e619be812536c34ee9d0fd8999428bcb962ece77edb5c61310d99086b91e6c",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-02.png",
+      "bytes": 1301,
+      "sha256": "539a1dc7a1d3dad842b1b156666620f05391ea159652311827f9dacbb0161010",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-03.png",
+      "bytes": 1352,
+      "sha256": "7093a9b096f445b62eb99b11aa6e6f0ffb2929c7ee06604762a74ba4d642448f",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-04.png",
+      "bytes": 1420,
+      "sha256": "00a709021046a1f9f168bd297b96debba28e77457074a57beb41974a4a4c900e",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-05.png",
+      "bytes": 1688,
+      "sha256": "4dd20fb170a34ac058a3543f1e6e4911ad57760737d6ac056b472e081598776f",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-06.png",
+      "bytes": 1804,
+      "sha256": "0ebdf98302896fc32dbdcf405210ecb12d4a035e4805bcf685f0e17b176d9cb1",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-07.png",
+      "bytes": 1989,
+      "sha256": "04ae97c1b35399bfa7e8f9f10876c7ed1ff8ec2081769a2dd62ce98aefee2d63",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-08.png",
+      "bytes": 2053,
+      "sha256": "c3aeb74b9cc4e4f532701d11d0c455f14637224039075aac5b262ec739835b50",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-09.png",
+      "bytes": 2373,
+      "sha256": "23732f16da661298147c228c52cd03b4edb6f89b6f1f2517538514c98a08637a",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-10.png",
+      "bytes": 2690,
+      "sha256": "cf8002e46d1c097f69f3bd6d2e3c966ef66a95b6cadbce73fa51c0ef774f9699",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-11.png",
+      "bytes": 3140,
+      "sha256": "a1046132317845bddcda127181287e6b08f0be3d431841e6b01ba63fdc529660",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "model-step-12.png",
+      "bytes": 3472,
+      "sha256": "8b5c8eb631711605506c348c3186e8f3aba9a382310c99e13e944199c0491ae2",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "painter.svg",
+      "bytes": 2244,
+      "sha256": "b4cfad9f323dc7533d155cef29eab3b12905d8e811b286d17d423a79d47573c6",
+      "kind": "explanatory SVG"
+    },
+    {
+      "file": "palette.json",
+      "bytes": 8148,
+      "sha256": "267ad08cd04c6248f2e991f185b12013b662a1d0bc8c245d78879c7dd6cc9118",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "pipeline.svg",
+      "bytes": 2835,
+      "sha256": "e5e5b701f8a6a1834dedc378340e5748de4947dac4c7faadb01a13a6305789ed",
+      "kind": "explanatory SVG"
+    },
+    {
+      "file": "projection.svg",
+      "bytes": 2345,
+      "sha256": "f49ecc1cbfcca5d686caae7b751c3915054c3151ed4f4a12621a30b342caed5c",
+      "kind": "explanatory SVG"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 7242,
+      "sha256": "9e50c1fbf0d3217c9f3d79e59ea44a5c76f6dffb72387cd3d2661cd6caf48348",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "samson-wire.png",
+      "bytes": 6312,
+      "sha256": "5d7ac8dd133c6ac85bdc0b096dcbfe5c34f0fd701bcf5dfc666bc1de0ded4faa",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "samson.png",
+      "bytes": 3472,
+      "sha256": "8b5c8eb631711605506c348c3186e8f3aba9a382310c99e13e944199c0491ae2",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "texture-quad.json",
+      "bytes": 6543,
+      "sha256": "03aa4116a1c01005860bbd4a36c5d3200a7e1e52b6862d68c3f5e66da512ead9",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "vga.svg",
+      "bytes": 6016,
+      "sha256": "147cca1d1e51a80f60d8968017c64c047730080a6ceb9742860dd7049cb14f50",
+      "kind": "explanatory SVG"
+    },
+    {
+      "file": "world-bands.png",
+      "bytes": 1277,
+      "sha256": "3ca9003ceda0bf5697c0a4fe091cb3c4f4ac83319705440db41782cc8472ac5a",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "world-clouds.png",
+      "bytes": 8045,
+      "sha256": "fe079ee5174fd779c38bf006e55af4abe4af9c9b8c88bd9201eb5d1960ea26fe",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "world-ground.png",
+      "bytes": 2702,
+      "sha256": "8e7ed170fa4806c31e634a32c1e9338af9f89105c3c32b0d2d6cef72c2d5d8a2",
+      "kind": "analysis capture or data"
+    },
+    {
+      "file": "world-panorama.png",
+      "bytes": 2835,
+      "sha256": "cdf3cfec6348a6341c4c12242085ddf2bb012d0d85d992d8092fab14ca7c6842",
+      "kind": "analysis capture or data"
+    }
+  ]
+}

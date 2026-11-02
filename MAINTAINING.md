@@ -32,7 +32,7 @@ Public-specific changes live in the importer, the page templates, and `src/publi
 
 `public/data-provenance.json` records source hashes. `public/audio/provenance.json` records both full-render and excerpt hashes. Excerpts start eight seconds into the existing renders and last 24 seconds; FFmpeg FLAC compression level 12 changes no decoded sample amplitudes. Run the excerpt script with FFmpeg installed. Original render gain is retained in the metadata; it is not applied a second time.
 
-Illustrations are actual captures of the public viewers. `scripts/capture-images.mjs` captures them with Playwright; `scripts/prepare-images.py` publishes the lossless captures and prepares the social card with Pillow. They are not generated concept art. The screenshot tool supports `SITE_URL` and `CHROMIUM_PATH`.
+The home and gallery illustrations are actual captures of the public viewers. `scripts/capture-images.mjs` captures them with Playwright; `scripts/prepare-images.py` publishes the lossless captures and prepares the social card with Pillow. They are not generated concept art. The screenshot tool supports `SITE_URL` and `CHROMIUM_PATH`.
 
 ## Deployment
 
@@ -45,3 +45,22 @@ The site uses relative URLs and the canonical project URL <https://lost-engines.
 Keep the introduction intelligible to someone who has never played Earthsiege. Separate original data, verified code behavior, browser inspection choices and interpretation. Do not call the northern map arrangement a confirmed developer signature, or claim a key combination is a first discovery. See [content/research-sources.md](content/research-sources.md).
 
 Write for curious readers, including people who have never played the game. Describe what they can see, hear or learn. Keep useful uncertainties close to the relevant finding, without repeating disclaimers throughout the page. Avoid formulaic contrasts and phrases such as “not a claim that” or “rebuilding it meant”. Use a normal keyboard hyphen when a dash is needed; do not use em dashes.
+
+## Graphics-engine article
+
+The article at `graphics/` is authored in `content/graphics-engine.md`. It uses original renderer output, retained DOSBox captures and separately labelled explanatory SVGs. `src/graphics.js` adds the drawing-progress slider, layer selection and affine-triangle comparison; every example retains a still image without JavaScript. Nothing animates automatically.
+
+To regenerate its assets from the sibling analysis workspace:
+
+```sh
+cd ../earthsiege-reverse
+PYTHONPATH=tools .venv/bin/python tools/build_graphics_article.py
+cd ../earthsiege-exhumed
+python3 scripts/import-graphics.py ../earthsiege-reverse
+npm run build
+npm run check
+```
+
+The analysis generator requires its existing Unicorn/Pillow environment and original game data. The importer needs Python 3's standard library. It refreshes the relevant research notes, generates the six SVG diagrams and records all published hashes in `public/graphics/manifest.json`. `provenance.json` retains the original executable hash and per-image capture method. These dependencies are only for regeneration; the committed article builds with the ordinary Node workflow.
+
+With the preview server running, use `CHROMIUM_PATH=/usr/bin/chromium npm run check:graphics`. It checks progress endpoints, environment switching, texture interpolation and overlay controls, mobile layout, dark mode and the JavaScript-disabled article. `npm run check:browser` also covers the new navigation and article across its responsive sweep.

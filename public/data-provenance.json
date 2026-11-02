@@ -6,6 +6,26 @@
   "worlds": 24,
   "files": [
     {
+      "source": "../docs/ANIMATION.md",
+      "sha256": "728187dbdfdb363431bd2325dee37b54ba48557caadddd4f584c7bb40eac5df5",
+      "bytes": 5501
+    },
+    {
+      "source": "../docs/ENVIRONMENT.md",
+      "sha256": "e1a102fc5c1dd7cfbd9dc1ac4241faa82ed8a5e8a3a00415ddb5f19ef3d70f61",
+      "bytes": 18177
+    },
+    {
+      "source": "../docs/FORMATS.md",
+      "sha256": "203d484717d0e6e8f80e82548a085c354683674d19a7b0a248968f6af5ed3697",
+      "bytes": 20712
+    },
+    {
+      "source": "../docs/SIMULATOR_VERSIONS.md",
+      "sha256": "97cd6a5edc585b70c5a8dc0d56d4a448fd6a8a2f4766cdbfa8eeb407454998cd",
+      "bytes": 14638
+    },
+    {
       "source": "../docs/BUILD_EVIDENCE.md",
       "sha256": "462693adc39fdbf21a4a4d5747b2ffa9a54d730f5bbc7a5bce3a2d647f795dbb",
       "bytes": 7945
@@ -22,8 +42,8 @@
     },
     {
       "source": "../docs/COMMAND_LINE.md",
-      "sha256": "ef07799c71d91dfe30508040386269677718668caeb1caf5dcbfed317549dc20",
-      "bytes": 9577
+      "sha256": "9153a072e0c96fcd9080ebdf155076218f0fbc73f746aac507f65272ccb78486",
+      "bytes": 10757
     },
     {
       "source": "../docs/LIGHTING.md",

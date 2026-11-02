@@ -1,0 +1,209 @@
+{
+  "method": "Produce article illustrations with original Earthsiege drawing instructions.\n\nModel progress is observed passively before raster calls. World layers use\nfresh, equally seeded original environments. Synthetic Gouraud/texture inputs\nare identified separately from game assets. No game executable is modified.\n",
+  "images": [
+    {
+      "file": "model-step-00.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 0,
+      "sha256": "f938d8d6a7b04fd5a2eb0573c7c4150d5acbbe8e9664026180e285208ec232ea"
+    },
+    {
+      "file": "model-step-01.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 17,
+      "sha256": "10e619be812536c34ee9d0fd8999428bcb962ece77edb5c61310d99086b91e6c"
+    },
+    {
+      "file": "model-step-02.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 33,
+      "sha256": "539a1dc7a1d3dad842b1b156666620f05391ea159652311827f9dacbb0161010"
+    },
+    {
+      "file": "model-step-03.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 50,
+      "sha256": "7093a9b096f445b62eb99b11aa6e6f0ffb2929c7ee06604762a74ba4d642448f"
+    },
+    {
+      "file": "model-step-04.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 67,
+      "sha256": "00a709021046a1f9f168bd297b96debba28e77457074a57beb41974a4a4c900e"
+    },
+    {
+      "file": "model-step-05.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 83,
+      "sha256": "4dd20fb170a34ac058a3543f1e6e4911ad57760737d6ac056b472e081598776f"
+    },
+    {
+      "file": "model-step-06.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 100,
+      "sha256": "0ebdf98302896fc32dbdcf405210ecb12d4a035e4805bcf685f0e17b176d9cb1"
+    },
+    {
+      "file": "model-step-07.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 117,
+      "sha256": "04ae97c1b35399bfa7e8f9f10876c7ed1ff8ec2081769a2dd62ce98aefee2d63"
+    },
+    {
+      "file": "model-step-08.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 133,
+      "sha256": "c3aeb74b9cc4e4f532701d11d0c455f14637224039075aac5b262ec739835b50"
+    },
+    {
+      "file": "model-step-09.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 150,
+      "sha256": "23732f16da661298147c228c52cd03b4edb6f89b6f1f2517538514c98a08637a"
+    },
+    {
+      "file": "model-step-10.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 167,
+      "sha256": "cf8002e46d1c097f69f3bd6d2e3c966ef66a95b6cadbce73fa51c0ef774f9699"
+    },
+    {
+      "file": "model-step-11.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 183,
+      "sha256": "a1046132317845bddcda127181287e6b08f0be3d431841e6b01ba63fdc529660"
+    },
+    {
+      "file": "model-step-12.png",
+      "source": "Original armed HERCULES draw; passively sampled VGA",
+      "raster_calls": 200,
+      "sha256": "8b5c8eb631711605506c348c3186e8f3aba9a382310c99e13e944199c0491ae2"
+    },
+    {
+      "file": "samson-wire.png",
+      "source": "Diagram of projected raster-call boundaries from original draw; includes hidden edges and Gouraud subdivisions",
+      "sha256": "5d7ac8dd133c6ac85bdc0b096dcbfe5c34f0fd701bcf5dfc666bc1de0ded4faa"
+    },
+    {
+      "file": "samson.png",
+      "source": "Original armed HERCULES draw",
+      "angles": [
+        5000,
+        0,
+        39768
+      ],
+      "translation": [
+        0,
+        4927,
+        -1346
+      ],
+      "sha256": "8b5c8eb631711605506c348c3186e8f3aba9a382310c99e13e944199c0491ae2"
+    },
+    {
+      "file": "world-bands.png",
+      "source": "Original WORLD6 environment with controlled layer preferences",
+      "camera": [
+        0,
+        0,
+        3000,
+        2500,
+        0,
+        0
+      ],
+      "seed": 17,
+      "panorama": false,
+      "clouds": 0,
+      "detail": 240,
+      "sha256": "3ca9003ceda0bf5697c0a4fe091cb3c4f4ac83319705440db41782cc8472ac5a"
+    },
+    {
+      "file": "world-ground.png",
+      "source": "Original WORLD6 environment with controlled layer preferences",
+      "camera": [
+        0,
+        0,
+        3000,
+        2500,
+        0,
+        0
+      ],
+      "seed": 17,
+      "panorama": false,
+      "clouds": 0,
+      "detail": 255,
+      "sha256": "8e7ed170fa4806c31e634a32c1e9338af9f89105c3c32b0d2d6cef72c2d5d8a2"
+    },
+    {
+      "file": "world-panorama.png",
+      "source": "Original WORLD6 environment with controlled layer preferences",
+      "camera": [
+        0,
+        0,
+        3000,
+        2500,
+        0,
+        0
+      ],
+      "seed": 17,
+      "panorama": true,
+      "clouds": 0,
+      "detail": 255,
+      "sha256": "cdf3cfec6348a6341c4c12242085ddf2bb012d0d85d992d8092fab14ca7c6842"
+    },
+    {
+      "file": "world-clouds.png",
+      "source": "Original WORLD6 environment with controlled layer preferences",
+      "camera": [
+        0,
+        0,
+        3000,
+        2500,
+        0,
+        0
+      ],
+      "seed": 17,
+      "panorama": true,
+      "clouds": 255,
+      "detail": 255,
+      "sha256": "fe079ee5174fd779c38bf006e55af4abe4af9c9b8c88bd9201eb5d1960ea26fe"
+    },
+    {
+      "file": "gouraud.png",
+      "source": "Original 0x78ccc and VGA writer; synthetic triangle using WORLD0 palette indices 112,127,120",
+      "sha256": "049097054b86c01efa9c9bdd33a8480e09426277bef8a307e3cb023e7e98c478"
+    },
+    {
+      "file": "affine-quad.png",
+      "source": "Original 0x534ac on a synthetic skew quad and stripe texture",
+      "sha256": "292521354694adf6903950b0c546f748665ac5d997199e83f08eb4889e5a7aba"
+    },
+    {
+      "file": "herc-hangar-band-0.png",
+      "source": "analysis/models/distance-textures/herc-hangar-band-0.png",
+      "sha256": "a9ccdd5cae075857177a98399bd9eb4139df0f194b783898a26a87830e2a9baf"
+    },
+    {
+      "file": "herc-hangar-band-15.png",
+      "source": "analysis/models/distance-textures/herc-hangar-band-15.png",
+      "sha256": "dc82af74d4d78f35f4985f50a13ddfd7888d7fbb5bc2b47d616fab1bc965256c"
+    },
+    {
+      "file": "gameplay.png",
+      "source": "analysis/tapes/replays/demo3-clock-pages/frame-00000.png",
+      "sha256": "c4d47ded64d815c9605dbf29a0807c8cd2eeffe1d231492657147faae718c95e"
+    },
+    {
+      "file": "expansion-default.png",
+      "source": "analysis/releases/executables/dosbox-default/session/screen.png",
+      "sha256": "6b9ddfd3c4cb6fa2b7a4823f7ceb156444deeb538c5a4dd1d675498add273c50",
+      "executable_sha256": "db430a7f313efe24bc4dd2a6bb432ea494d66e332e2a58a761c6f4028661d0a2"
+    },
+    {
+      "file": "expansion-v1.png",
+      "source": "analysis/releases/executables/dosbox-v1/session/screen.png",
+      "sha256": "7111ec5e66b4e891f0e0cf50cf949ec25ce6f4d97c1962ea6986ce9e2f5a9dbb",
+      "executable_sha256": "db430a7f313efe24bc4dd2a6bb432ea494d66e332e2a58a761c6f4028661d0a2"
+    }
+  ],
+  "base_executable_sha256": "e5fb35966f3c755106cbeff2cfc1f2aed496bed388edab8ea2c857779efec34a"
+}

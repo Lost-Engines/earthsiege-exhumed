@@ -21,3 +21,11 @@ This guide refers to files in the `earthsiege-reverse` research workspace. Selec
 | C++, resource system, DOS extender, READFLIC ancestry | `docs/BUILD_EVIDENCE.md`, `docs/COMMAND_LINE.md` | Exact compiler unestablished; different components have different origins. |
 
 The site contains no independent new historical claim derived only from a web cheat list. Its substantive findings are grounded in the supplied data and original program execution. The public text marks interpretations explicitly.
+
+## Graphics-engine walkthrough
+
+`content/graphics-engine.md` follows the base simulator's pipeline. Its transforms, clipping, painter order, span coverage, whole-polygon texture interpolation and palette bands come from `docs/RENDERING.md`, `LIGHTING.md`, `ANIMATION.md`, `ENVIRONMENT.md` and their original-instruction probes. VGA page ownership and full-frame limits follow `PIXEL_FIDELITY.md` and the retained DOSBox observers. Build attribution follows `BUILD_EVIDENCE.md`; no precise compiler is inferred from a disassembler configuration.
+
+`tools/build_graphics_article.py` records a complete armed Samson drawing with passive raster-entry observations, four identically initialized environment variants, a synthetic Gouraud triangle and a synthetic textured quad. It also copies the retained distance-shading and DOSBox captures. `scripts/import-graphics.py` publishes these and generates the explanatory SVGs. The triangle comparison in `src/graphics.js` is an illustration of a different interpolation rule, not an alternative original-code capture.
+
+The expansion section follows `docs/SIMULATOR_VERSIONS.md`. The comparison distinguishes instruction traces, controlled original-code probes, complete initialized-image accounting for the small revisions, and running DOSBox observations. Whole expansion campaigns have not been verified by these tests.

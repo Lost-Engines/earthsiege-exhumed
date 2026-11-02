@@ -1,4 +1,4 @@
-import fs from 'node:fs/promises';import path from 'node:path';import vm from 'node:vm';import {fileURLToPath} from 'node:url';import {parse} from 'parse5';
+import fs from 'node:fs/promises';import path from 'node:path';import vm from 'node:vm';import {fileURLToPath} from 'node:url';import {parse} from 'parse5';import {createHash} from 'node:crypto';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../dist'),files=[];
 async function scan(dir){for(const f of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,f.name);if(f.isSymbolicLink())throw Error('Symlink in site: '+p);if(f.isDirectory())await scan(p);else files.push(p)}}await scan(root);
 const errors=[],documents=new Map();
@@ -18,5 +18,14 @@ for(const sky of JSON.parse(await fs.readFile(path.join(root,'worlds/data.json')
 for(const song of JSON.parse(await fs.readFile(path.join(root,'audio/catalogue.json'),'utf8')))await exists('audio/'+song.file);
 // Tour targets are executable state, not ordinary document anchors.
 for(const [file,{links}]of documents){for(const ref of links){if(!ref.includes('#')||/^https?:/.test(ref))continue;const url=new URL(ref,'https://site.test/'+path.relative(root,file));if(url.pathname.endsWith('/models/')){const name=decodeURIComponent(url.hash.slice(1)),model=data.modelCatalogue.find(x=>x.name===name),index=Number(url.searchParams.get('root')||0);if(!model||!model.roots[index])errors.push('Invalid model tour '+ref)}if(url.pathname.endsWith('/missions/')){const name=url.hash.slice(1);if(!data.missionCatalogue.some(x=>x.name===name))errors.push('Invalid mission tour '+ref)}}}
+// Article controls use dynamic images; every illustration is covered by hashes.
+for(const row of JSON.parse(await fs.readFile(path.join(root,'graphics/manifest.json'),'utf8')).files){
+ const rel='graphics/'+row.file;await exists(rel);
+ try{const bytes=await fs.readFile(path.join(root,rel));if(bytes.length!==row.bytes||createHash('sha256').update(bytes).digest('hex')!==row.sha256)errors.push('Graphics asset hash mismatch '+rel)}catch{}
+}
+const progress=JSON.parse(await fs.readFile(path.join(root,'graphics/model-progress.json'),'utf8'));
+for(const stage of progress.stages)await exists('graphics/'+stage.image);
+if(progress.stages[0].calls!==0||progress.stages.at(-1).calls!==progress.total_calls)errors.push('Incomplete model progress capture');
+for(const layer of ['bands','ground','panorama','clouds'])await exists('graphics/world-'+layer+'.png');
 if(errors.length){console.error(errors.join('\n'));process.exit(1)}
 console.log(`Checked ${documents.size} HTML pages, ${files.length} files, all model/texture/mission/sky dependencies and tour targets.`);

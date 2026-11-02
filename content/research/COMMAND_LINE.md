@@ -141,3 +141,21 @@ in `0x46235`, GUI callback setup in `0x1b0ff`, and mouse cursor callbacks in
 `0x45a68` and main shutdown `0x12ec7` can enter debugger traps. These consumers
 explain its observed bypass behavior, but no supplied launch script establishes
 an intended standalone workflow for it.
+
+## Expansion simulator additions
+
+The expansion main parser is `0x5ef90`. Its additions are case-sensitive:
+
+| Option | Original behavior | Verification |
+|---|---|---|
+| `-v` | 320x400 VGA and doubled vertical perspective scale | Original DOSBox capture; default page offsets overlap views |
+| `-v1` | Tall mode with two 320x400 pages arranged horizontally; upper and lower cockpit artwork together | Original DOSBox capture |
+| `-v2` | Tall mode with vertically arranged 320x400 pages and modified cockpit masks | Original DOSBox capture has misplaced instruments/gaps |
+| `-b` | RAM bitmap drawing target, then copy to the display | Parser and backend consumers traced |
+| `-F` / `-G` | French/German resource and speech path selector | Original parser and path consumers traced |
+
+These belong to DBSIM, with the normal `-eggplant` handshake and existing mission
+handoff. They do not make the base executable high resolution, and lowercase
+`-v` is separate from uppercase `-V`. The tall modes are retained development
+paths; the captures do not establish them as supported user configurations.
+See [SIMULATOR_VERSIONS.md](SIMULATOR_VERSIONS.md) for evidence and screenshots.
