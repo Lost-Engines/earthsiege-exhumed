@@ -1,0 +1,1116 @@
+{
+  "weapons": [
+    {
+      "index": 0,
+      "name": "ATC20",
+      "model_indices": [
+        31,
+        15,
+        0,
+        32
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 70000,
+      "shot_value_penalty": 10,
+      "energy_thresholds": [
+        0,
+        5
+      ],
+      "magazine": 1000,
+      "barrels": 1,
+      "projectile": 0,
+      "muzzle_offset": [
+        0,
+        750,
+        0
+      ],
+      "side_muzzle_offset": [
+        40,
+        0,
+        40
+      ],
+      "refire_delay": 1200,
+      "combat_rating": 20,
+      "damage_icon": 2
+    },
+    {
+      "index": 1,
+      "name": "ATC35",
+      "model_indices": [
+        16,
+        18,
+        7,
+        17
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 70000,
+      "shot_value_penalty": 20,
+      "energy_thresholds": [
+        0,
+        5
+      ],
+      "magazine": 1000,
+      "barrels": 1,
+      "projectile": 1,
+      "muzzle_offset": [
+        0,
+        980,
+        0
+      ],
+      "side_muzzle_offset": [
+        60,
+        0,
+        60
+      ],
+      "refire_delay": 1200,
+      "combat_rating": 350,
+      "damage_icon": 2
+    },
+    {
+      "index": 2,
+      "name": "ATC50",
+      "model_indices": [
+        19,
+        21,
+        8,
+        20
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 70000,
+      "shot_value_penalty": 30,
+      "energy_thresholds": [
+        0,
+        5
+      ],
+      "magazine": 1000,
+      "barrels": 1,
+      "projectile": 2,
+      "muzzle_offset": [
+        0,
+        1240,
+        0
+      ],
+      "side_muzzle_offset": [
+        68,
+        0,
+        68
+      ],
+      "refire_delay": 1200,
+      "combat_rating": 500,
+      "damage_icon": 2
+    },
+    {
+      "index": 3,
+      "name": "ELF",
+      "model_indices": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 15000,
+      "shot_value_penalty": 5,
+      "energy_thresholds": [
+        400,
+        70
+      ],
+      "magazine": 0,
+      "barrels": 1,
+      "projectile": 15,
+      "muzzle_offset": [
+        0,
+        820,
+        0
+      ],
+      "side_muzzle_offset": [
+        150,
+        0,
+        150
+      ],
+      "refire_delay": 0,
+      "combat_rating": 1000,
+      "damage_icon": 0
+    },
+    {
+      "index": 4,
+      "name": "EMP",
+      "model_indices": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 40000,
+      "shot_value_penalty": 150,
+      "energy_thresholds": [
+        350,
+        10000
+      ],
+      "magazine": 0,
+      "barrels": 1,
+      "projectile": 6,
+      "muzzle_offset": [
+        0,
+        800,
+        0
+      ],
+      "side_muzzle_offset": [
+        165,
+        0,
+        135
+      ],
+      "refire_delay": 2000,
+      "combat_rating": 600,
+      "damage_icon": 3
+    },
+    {
+      "index": 5,
+      "name": "GREN",
+      "model_indices": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 15000,
+      "range": 35000,
+      "shot_value_penalty": 300,
+      "energy_thresholds": [
+        0,
+        0
+      ],
+      "magazine": 8,
+      "barrels": 1,
+      "projectile": 22,
+      "muzzle_offset": [
+        0,
+        450,
+        50
+      ],
+      "side_muzzle_offset": [
+        250,
+        300,
+        100
+      ],
+      "refire_delay": 3000,
+      "combat_rating": 400,
+      "damage_icon": 5
+    },
+    {
+      "index": 6,
+      "name": "LAS100",
+      "model_indices": [
+        22,
+        24,
+        1,
+        23
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 50000,
+      "shot_value_penalty": 10,
+      "energy_thresholds": [
+        80,
+        80
+      ],
+      "magazine": 0,
+      "barrels": 1,
+      "projectile": 3,
+      "muzzle_offset": [
+        0,
+        630,
+        0
+      ],
+      "side_muzzle_offset": [
+        50,
+        0,
+        50
+      ],
+      "refire_delay": 1200,
+      "combat_rating": 200,
+      "damage_icon": 1
+    },
+    {
+      "index": 7,
+      "name": "LAS200",
+      "model_indices": [
+        25,
+        27,
+        9,
+        26
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 50000,
+      "shot_value_penalty": 20,
+      "energy_thresholds": [
+        100,
+        100
+      ],
+      "magazine": 0,
+      "barrels": 1,
+      "projectile": 4,
+      "muzzle_offset": [
+        0,
+        720,
+        100
+      ],
+      "side_muzzle_offset": [
+        60,
+        0,
+        60
+      ],
+      "refire_delay": 1200,
+      "combat_rating": 350,
+      "damage_icon": 1
+    },
+    {
+      "index": 8,
+      "name": "LAS300",
+      "model_indices": [
+        28,
+        30,
+        10,
+        29
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 50000,
+      "shot_value_penalty": 30,
+      "energy_thresholds": [
+        120,
+        120
+      ],
+      "magazine": 0,
+      "barrels": 1,
+      "projectile": 5,
+      "muzzle_offset": [
+        0,
+        820,
+        0
+      ],
+      "side_muzzle_offset": [
+        70,
+        0,
+        70
+      ],
+      "refire_delay": 1200,
+      "combat_rating": 500,
+      "damage_icon": 1
+    },
+    {
+      "index": 9,
+      "name": "6",
+      "model_indices": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 60000,
+      "shot_value_penalty": 500,
+      "energy_thresholds": [
+        0,
+        1
+      ],
+      "magazine": 6,
+      "barrels": 1,
+      "projectile": 21,
+      "muzzle_offset": [
+        0,
+        1040,
+        0
+      ],
+      "side_muzzle_offset": [
+        160,
+        0,
+        80
+      ],
+      "refire_delay": 2500,
+      "combat_rating": 600,
+      "damage_icon": 5
+    },
+    {
+      "index": 10,
+      "name": "8",
+      "model_indices": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 60000,
+      "shot_value_penalty": 500,
+      "energy_thresholds": [
+        0,
+        1
+      ],
+      "magazine": 8,
+      "barrels": 1,
+      "projectile": 21,
+      "muzzle_offset": [
+        0,
+        1040,
+        50
+      ],
+      "side_muzzle_offset": [
+        160,
+        0,
+        80
+      ],
+      "refire_delay": 2500,
+      "combat_rating": 700,
+      "damage_icon": 5
+    },
+    {
+      "index": 11,
+      "name": "10",
+      "model_indices": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 60000,
+      "shot_value_penalty": 500,
+      "energy_thresholds": [
+        0,
+        1
+      ],
+      "magazine": 10,
+      "barrels": 1,
+      "projectile": 21,
+      "muzzle_offset": [
+        0,
+        1040,
+        50
+      ],
+      "side_muzzle_offset": [
+        160,
+        0,
+        80
+      ],
+      "refire_delay": 2500,
+      "combat_rating": 800,
+      "damage_icon": 5
+    },
+    {
+      "index": 12,
+      "name": "PBEAM",
+      "model_indices": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 35000,
+      "shot_value_penalty": 150,
+      "energy_thresholds": [
+        300,
+        10000
+      ],
+      "magazine": 0,
+      "barrels": 1,
+      "projectile": 14,
+      "muzzle_offset": [
+        0,
+        630,
+        0
+      ],
+      "side_muzzle_offset": [
+        75,
+        0,
+        60
+      ],
+      "refire_delay": 1000,
+      "combat_rating": 600,
+      "damage_icon": 4
+    },
+    {
+      "index": 13,
+      "name": "ECM",
+      "model_indices": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "internal_maximum": 500,
+      "minimum_range": 0,
+      "range": 0,
+      "shot_value_penalty": 0,
+      "energy_thresholds": [
+        0,
+        100
+      ],
+      "magazine": 0,
+      "barrels": 0,
+      "projectile": 20,
+      "muzzle_offset": [
+        0,
+        0,
+        0
+      ],
+      "side_muzzle_offset": [
+        100,
+        0,
+        100
+      ],
+      "refire_delay": 0,
+      "combat_rating": 0,
+      "damage_icon": 3
+    },
+    {
+      "index": 14,
+      "name": "EMP",
+      "model_indices": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "internal_maximum": 15000,
+      "minimum_range": 0,
+      "range": 50000,
+      "shot_value_penalty": 1,
+      "energy_thresholds": [
+        350,
+        10000
+      ],
+      "magazine": 0,
+      "barrels": 3,
+      "projectile": 16,
+      "muzzle_offset": [
+        -600,
+        2300,
+        0
+      ],
+      "side_muzzle_offset": [
+        0,
+        0,
+        250
+      ],
+      "refire_delay": 5000,
+      "combat_rating": 500,
+      "damage_icon": 3
+    },
+    {
+      "index": 15,
+      "name": "PBEAM",
+      "model_indices": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "internal_maximum": 15000,
+      "minimum_range": 0,
+      "range": 40000,
+      "shot_value_penalty": 150,
+      "energy_thresholds": [
+        300,
+        10000
+      ],
+      "magazine": 0,
+      "barrels": 1,
+      "projectile": 17,
+      "muzzle_offset": [
+        0,
+        1880,
+        0
+      ],
+      "side_muzzle_offset": [
+        0,
+        0,
+        250
+      ],
+      "refire_delay": 3000,
+      "combat_rating": 600,
+      "damage_icon": 4
+    },
+    {
+      "index": 16,
+      "name": "MISSL",
+      "model_indices": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "internal_maximum": 15000,
+      "minimum_range": 0,
+      "range": 60000,
+      "shot_value_penalty": 600,
+      "energy_thresholds": [
+        0,
+        1
+      ],
+      "magazine": 36,
+      "barrels": 1,
+      "projectile": 18,
+      "muzzle_offset": [
+        0,
+        2725,
+        50
+      ],
+      "side_muzzle_offset": [
+        0,
+        0,
+        240
+      ],
+      "refire_delay": 5000,
+      "combat_rating": 800,
+      "damage_icon": 5
+    }
+  ],
+  "projectiles": [
+    {
+      "index": 0,
+      "kind": 2,
+      "kind_name": "Bullet",
+      "subtype": 0,
+      "shield_damage": 60,
+      "armour_damage": 360,
+      "splash_q10": 0,
+      "speed": 5000,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "armour_effects": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "index": 1,
+      "kind": 2,
+      "kind_name": "Bullet",
+      "subtype": 1,
+      "shield_damage": 120,
+      "armour_damage": 480,
+      "splash_q10": 0,
+      "speed": 5000,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "armour_effects": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "index": 2,
+      "kind": 2,
+      "kind_name": "Bullet",
+      "subtype": 2,
+      "shield_damage": 180,
+      "armour_damage": 600,
+      "splash_q10": 0,
+      "speed": 5000,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "armour_effects": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "index": 3,
+      "kind": 4,
+      "kind_name": "Beam",
+      "subtype": 3,
+      "shield_damage": 1500,
+      "armour_damage": 600,
+      "splash_q10": 0,
+      "speed": 0,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "armour_effects": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "index": 4,
+      "kind": 4,
+      "kind_name": "Beam",
+      "subtype": 4,
+      "shield_damage": 1800,
+      "armour_damage": 960,
+      "splash_q10": 0,
+      "speed": 0,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "armour_effects": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "index": 5,
+      "kind": 4,
+      "kind_name": "Beam",
+      "subtype": 5,
+      "shield_damage": 2000,
+      "armour_damage": 1200,
+      "splash_q10": 0,
+      "speed": 0,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "armour_effects": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "index": 6,
+      "kind": 2,
+      "kind_name": "Bullet",
+      "subtype": 6,
+      "shield_damage": 2000,
+      "armour_damage": 400,
+      "splash_q10": 0,
+      "speed": 2000,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "armour_effects": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "index": 7,
+      "kind": 3,
+      "kind_name": "Grenade",
+      "subtype": 0,
+      "shield_damage": 1000,
+      "armour_damage": 1000,
+      "splash_q10": 1000,
+      "speed": 1000,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "armour_effects": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "index": 8,
+      "kind": 3,
+      "kind_name": "Grenade",
+      "subtype": 1,
+      "shield_damage": 1000,
+      "armour_damage": 1000,
+      "splash_q10": 500,
+      "speed": 1000,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "armour_effects": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "index": 9,
+      "kind": 3,
+      "kind_name": "Grenade",
+      "subtype": 2,
+      "shield_damage": 1000,
+      "armour_damage": 1000,
+      "splash_q10": 500,
+      "speed": 1000,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "armour_effects": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "index": 10,
+      "kind": 0,
+      "kind_name": "Rocket",
+      "subtype": 0,
+      "shield_damage": 400,
+      "armour_damage": 1600,
+      "splash_q10": 500,
+      "speed": 6000,
+      "shield_effects": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "ground_effects": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "armour_effects": [
+        4,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "index": 11,
+      "kind": 0,
+      "kind_name": "Rocket",
+      "subtype": 1,
+      "shield_damage": 400,
+      "armour_damage": 1600,
+      "splash_q10": 500,
+      "speed": 6000,
+      "shield_effects": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "ground_effects": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "armour_effects": [
+        4,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "index": 12,
+      "kind": 0,
+      "kind_name": "Rocket",
+      "subtype": 2,
+      "shield_damage": 400,
+      "armour_damage": 1600,
+      "splash_q10": 500,
+      "speed": 6000,
+      "shield_effects": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "ground_effects": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "armour_effects": [
+        4,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "index": 13,
+      "kind": 0,
+      "kind_name": "Rocket",
+      "subtype": 3,
+      "shield_damage": 400,
+      "armour_damage": 1600,
+      "splash_q10": 500,
+      "speed": 6000,
+      "shield_effects": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "ground_effects": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "armour_effects": [
+        4,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "index": 14,
+      "kind": 4,
+      "kind_name": "Beam",
+      "subtype": 0,
+      "shield_damage": 1000,
+      "armour_damage": 1000,
+      "splash_q10": 0,
+      "speed": 0,
+      "shield_effects": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "ground_effects": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "armour_effects": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "index": 15,
+      "kind": 4,
+      "kind_name": "Beam",
+      "subtype": 1,
+      "shield_damage": 150,
+      "armour_damage": 200,
+      "splash_q10": 0,
+      "speed": 0,
+      "shield_effects": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "ground_effects": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "armour_effects": [
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "index": 16,
+      "kind": 2,
+      "kind_name": "Bullet",
+      "subtype": 7,
+      "shield_damage": 8000,
+      "armour_damage": 2000,
+      "splash_q10": 0,
+      "speed": 2000,
+      "shield_effects": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "ground_effects": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "armour_effects": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "index": 17,
+      "kind": 4,
+      "kind_name": "Beam",
+      "subtype": 2,
+      "shield_damage": 4000,
+      "armour_damage": 4000,
+      "splash_q10": 0,
+      "speed": 0,
+      "shield_effects": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "ground_effects": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "armour_effects": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "index": 18,
+      "kind": 0,
+      "kind_name": "Rocket",
+      "subtype": 4,
+      "shield_damage": 3000,
+      "armour_damage": 7200,
+      "splash_q10": 500,
+      "speed": 6000,
+      "shield_effects": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "ground_effects": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "armour_effects": [
+        4,
+        5,
+        4,
+        5
+      ]
+    }
+  ]
+}

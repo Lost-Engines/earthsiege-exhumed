@@ -1,0 +1,1221 @@
+{
+  "scope": "Original 0x13b44, real articulated Samson hit geometry and effects. Incoming post-scaling packet armour360/shield60, splash0; attacker side1 avoids difficulty multiplier.",
+  "heading": 0,
+  "position": [
+    -500,
+    0,
+    800
+  ],
+  "radius": 0,
+  "rows": [
+    {
+      "charge": 0,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        0,
+        0
+      ]
+    },
+    {
+      "charge": 1,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        1,
+        0
+      ]
+    },
+    {
+      "charge": 2,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        2,
+        0
+      ]
+    },
+    {
+      "charge": 3,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        3,
+        0
+      ]
+    },
+    {
+      "charge": 4,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        4,
+        0
+      ]
+    },
+    {
+      "charge": 5,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        5,
+        0
+      ]
+    },
+    {
+      "charge": 6,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        6,
+        0
+      ]
+    },
+    {
+      "charge": 7,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        7,
+        0
+      ]
+    },
+    {
+      "charge": 8,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        8,
+        0
+      ]
+    },
+    {
+      "charge": 9,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        9,
+        0
+      ]
+    },
+    {
+      "charge": 10,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        10,
+        0
+      ]
+    },
+    {
+      "charge": 11,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        11,
+        0
+      ]
+    },
+    {
+      "charge": 12,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        12,
+        0
+      ]
+    },
+    {
+      "charge": 13,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        13,
+        0
+      ]
+    },
+    {
+      "charge": 14,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        14,
+        0
+      ]
+    },
+    {
+      "charge": 15,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        15,
+        0
+      ]
+    },
+    {
+      "charge": 16,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        16,
+        0
+      ]
+    },
+    {
+      "charge": 17,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        17,
+        0
+      ]
+    },
+    {
+      "charge": 18,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        18,
+        0
+      ]
+    },
+    {
+      "charge": 19,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        19,
+        0
+      ]
+    },
+    {
+      "charge": 20,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        20,
+        0
+      ]
+    },
+    {
+      "charge": 21,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        21,
+        0
+      ]
+    },
+    {
+      "charge": 22,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        22,
+        0
+      ]
+    },
+    {
+      "charge": 23,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        23,
+        0
+      ]
+    },
+    {
+      "charge": 24,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        24,
+        0
+      ]
+    },
+    {
+      "charge": 25,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        25,
+        0
+      ]
+    },
+    {
+      "charge": 26,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        26,
+        0
+      ]
+    },
+    {
+      "charge": 27,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        27,
+        0
+      ]
+    },
+    {
+      "charge": 28,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        28,
+        0
+      ]
+    },
+    {
+      "charge": 29,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        29,
+        0
+      ]
+    },
+    {
+      "charge": 30,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        30,
+        0
+      ]
+    },
+    {
+      "charge": 31,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        31,
+        0
+      ]
+    },
+    {
+      "charge": 32,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        32,
+        0
+      ]
+    },
+    {
+      "charge": 33,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        33,
+        0
+      ]
+    },
+    {
+      "charge": 34,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        34,
+        0
+      ]
+    },
+    {
+      "charge": 35,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        35,
+        0
+      ]
+    },
+    {
+      "charge": 36,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        36,
+        0
+      ]
+    },
+    {
+      "charge": 37,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        37,
+        0
+      ]
+    },
+    {
+      "charge": 38,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        38,
+        0
+      ]
+    },
+    {
+      "charge": 39,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        39,
+        0
+      ]
+    },
+    {
+      "charge": 40,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        40,
+        0
+      ]
+    },
+    {
+      "charge": 41,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        41,
+        0
+      ]
+    },
+    {
+      "charge": 42,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        42,
+        0
+      ]
+    },
+    {
+      "charge": 43,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        43,
+        0
+      ]
+    },
+    {
+      "charge": 44,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        44,
+        0
+      ]
+    },
+    {
+      "charge": 45,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        45,
+        0
+      ]
+    },
+    {
+      "charge": 46,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        46,
+        0
+      ]
+    },
+    {
+      "charge": 47,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        47,
+        0
+      ]
+    },
+    {
+      "charge": 48,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        48,
+        0
+      ]
+    },
+    {
+      "charge": 49,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        49,
+        0
+      ]
+    },
+    {
+      "charge": 50,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        50,
+        0
+      ]
+    },
+    {
+      "charge": 51,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        51,
+        0
+      ]
+    },
+    {
+      "charge": 52,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        52,
+        0
+      ]
+    },
+    {
+      "charge": 53,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        53,
+        0
+      ]
+    },
+    {
+      "charge": 54,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        54,
+        0
+      ]
+    },
+    {
+      "charge": 55,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        55,
+        0
+      ]
+    },
+    {
+      "charge": 56,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        56,
+        0
+      ]
+    },
+    {
+      "charge": 57,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        57,
+        0
+      ]
+    },
+    {
+      "charge": 58,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        58,
+        0
+      ]
+    },
+    {
+      "charge": 59,
+      "body_damage": 360,
+      "events": [
+        {
+          "amount": 360,
+          "part": 7
+        }
+      ],
+      "remaining": [
+        59,
+        0
+      ]
+    },
+    {
+      "charge": 60,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        60,
+        0
+      ]
+    },
+    {
+      "charge": 61,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        61,
+        1
+      ]
+    },
+    {
+      "charge": 62,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        62,
+        2
+      ]
+    },
+    {
+      "charge": 63,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        63,
+        3
+      ]
+    },
+    {
+      "charge": 64,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        64,
+        4
+      ]
+    },
+    {
+      "charge": 65,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        65,
+        5
+      ]
+    },
+    {
+      "charge": 66,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        66,
+        6
+      ]
+    },
+    {
+      "charge": 67,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        67,
+        7
+      ]
+    },
+    {
+      "charge": 68,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        68,
+        8
+      ]
+    },
+    {
+      "charge": 69,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        69,
+        9
+      ]
+    },
+    {
+      "charge": 70,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        70,
+        10
+      ]
+    },
+    {
+      "charge": 71,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        71,
+        11
+      ]
+    },
+    {
+      "charge": 72,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        72,
+        12
+      ]
+    },
+    {
+      "charge": 73,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        73,
+        13
+      ]
+    },
+    {
+      "charge": 74,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        74,
+        14
+      ]
+    },
+    {
+      "charge": 75,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        75,
+        15
+      ]
+    },
+    {
+      "charge": 76,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        76,
+        16
+      ]
+    },
+    {
+      "charge": 77,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        77,
+        17
+      ]
+    },
+    {
+      "charge": 78,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        78,
+        18
+      ]
+    },
+    {
+      "charge": 79,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        79,
+        19
+      ]
+    },
+    {
+      "charge": 80,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        80,
+        20
+      ]
+    },
+    {
+      "charge": 81,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        81,
+        21
+      ]
+    },
+    {
+      "charge": 82,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        82,
+        22
+      ]
+    },
+    {
+      "charge": 83,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        83,
+        23
+      ]
+    },
+    {
+      "charge": 84,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        84,
+        24
+      ]
+    },
+    {
+      "charge": 85,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        85,
+        25
+      ]
+    },
+    {
+      "charge": 86,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        86,
+        26
+      ]
+    },
+    {
+      "charge": 87,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        87,
+        27
+      ]
+    },
+    {
+      "charge": 88,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        88,
+        28
+      ]
+    },
+    {
+      "charge": 89,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        89,
+        29
+      ]
+    },
+    {
+      "charge": 90,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        90,
+        30
+      ]
+    },
+    {
+      "charge": 91,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        91,
+        31
+      ]
+    },
+    {
+      "charge": 92,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        92,
+        32
+      ]
+    },
+    {
+      "charge": 93,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        93,
+        33
+      ]
+    },
+    {
+      "charge": 94,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        94,
+        34
+      ]
+    },
+    {
+      "charge": 95,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        95,
+        35
+      ]
+    },
+    {
+      "charge": 96,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        96,
+        36
+      ]
+    },
+    {
+      "charge": 97,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        97,
+        37
+      ]
+    },
+    {
+      "charge": 98,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        98,
+        38
+      ]
+    },
+    {
+      "charge": 99,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        99,
+        39
+      ]
+    },
+    {
+      "charge": 100,
+      "body_damage": 0,
+      "events": [],
+      "remaining": [
+        100,
+        40
+      ]
+    }
+  ]
+}

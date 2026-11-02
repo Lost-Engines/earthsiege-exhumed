@@ -1,8 +1,10 @@
 # Earthsiege Exhumed
 
-A guided look inside Dynamix’s *Metaltech: Earthsiege*: animated HERCs, mission scenery, original sky rendering, soundtrack comparisons, and the reverse engineering that connects them.
+A guided look inside Dynamix’s *Metaltech: Earthsiege*: animated HERCs, mission scenery, original sky rendering, soundtrack comparisons, and illustrated articles on the renderer, damage model and physics.
 
 **[Visit the site](https://lost-engines.github.io/earthsiege-exhumed/)** · [The investigation](https://lost-engines.github.io/earthsiege-exhumed/story/)
+
+Read [How Earthsiege draws a frame](https://lost-engines.github.io/earthsiege-exhumed/graphics/) and [Taking a HERC apart](https://lost-engines.github.io/earthsiege-exhumed/combat/) for the graphics and combat internals.
 
 Part of the [Lost Engines Project](https://lostengines.com/), alongside [Darker Discovered](https://lost-engines.github.io/darker-discovered/), [TFX Traced](https://lost-engines.github.io/tfx-traced/) and [Corncob Contemplated](https://lost-engines.github.io/corncob-contemplated/).
 

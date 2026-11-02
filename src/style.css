@@ -73,3 +73,37 @@
 .graphics-feature{margin-bottom:50px}
 @media(min-width:951px) and (max-width:1250px){.topbar{padding-left:3vw;padding-right:3vw}.nav-links{gap:15px;font-size:12px}.brand{font-size:16px}.brand span{font-size:11px;letter-spacing:.06em}.parent-brand{max-width:100px}}
 @media(max-width:600px){.graphics-article .figure-pair{grid-template-columns:1fr}.graphics-article .figure-pair img{max-width:none}.figure-controls{padding:12px}.figure-controls select{width:100%}.graphics-article .pixel-figure figcaption{padding:12px}.graphics-article h2{font-size:32px}}
+
+/* Combat article: original pixels and controlled numerical examples. */
+.combat-article .pixel-figure{background:#000;margin:0;border:0}
+.combat-article .pixel-figure img{display:block;image-rendering:pixelated;aspect-ratio:8/5}
+.combat-article .pixel-figure figcaption{background:var(--paper);padding:14px 16px;margin:0}
+.combat-article .interactive-figure figure{margin:0}
+.combat-article .interactive-figure figure>figcaption{padding:12px 16px;margin:0}
+.combat-article .combat-readout{padding:16px 20px;font:15px/1.7 system-ui;min-height:72px}
+.combat-article .combat-readout strong{color:var(--teal)}
+.combat-article .combat-readout p{margin:8px 0 0}
+.combat-article .combat-caption{font:12px/1.8 system-ui;color:var(--muted);padding:0 20px 16px;margin:0}
+.combat-meters{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:5px 20px 16px;font:13px/1.6 system-ui}
+.combat-meters label{display:flex;flex-direction:column;gap:6px}
+.combat-meters meter{width:100%;height:24px;accent-color:var(--teal)}
+.combat-meters meter::-webkit-meter-optimum-value{background:#386e68}
+.combat-meters .harm-meter::-webkit-meter-optimum-value{background:#b75739}
+.combat-meters meter::-moz-meter-bar{background:#386e68}
+.combat-meters .harm-meter::-moz-meter-bar{background:#b75739}
+.salvage-live-chart{display:block;width:100%;height:auto}
+.combat-feature img{image-rendering:auto}
+@media(min-width:1101px) and (max-width:1350px){
+ .topbar{padding-left:3vw;padding-right:3vw;gap:18px}
+ .nav-links{gap:13px;font-size:12px}
+ .brand-links{gap:14px}.parent-brand{padding-right:14px}
+ .brand span{margin-left:8px;font-size:11px}
+}
+@media(max-width:600px){
+ .combat-article .figure-controls{gap:10px}
+ .combat-article .figure-controls label{flex-basis:100%}
+ .combat-article .figure-controls select{width:100%;font-size:13px}
+ .combat-article table{font-size:11px}
+ .combat-article th,.combat-article td{padding:9px 5px;overflow-wrap:anywhere}
+ .combat-meters{gap:12px}
+}

@@ -12,6 +12,8 @@ The model gallery uses the game’s geometry, equipment tables, palettes and ani
 
 The graphics-engine article combines output from original drawing routines, DOSBox screenshots, synthetic test shapes and explanatory diagrams. Captions identify their origins; the graphics asset manifest records the published hashes.
 
+The damage and physics article uses controlled original-code captures of component loss, shield absorption, movement and salvage. Its diagrams are explanatory; captions distinguish supplied test states from ordinary gameplay. The combat manifest records the published assets.
+
 The sky exhibit shows output captured from the original drawing routines. The panorama lays all four sections of horizon artwork side by side.
 
 Audio excerpts follow the original HMI scheduler and OPL2/OPL3 driver paths. FM synthesis uses [Nuked OPL3](https://github.com/nukeykt/Nuked-OPL3), an LGPL project. Playback on a physical card may differ in mixing, resampling and analogue output.

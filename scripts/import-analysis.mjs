@@ -94,7 +94,7 @@ await put('missions/viewer.js',missionJS);
 console.log(`Imported ${data.modelCatalogue.length} model files, ${missions.length} missions / ${launches.length} launches, ${skies.length} skies.`);
 
 // Supporting notes travel with the site; the complete research archive is separate.
-const notes=['MODEL_BROWSER','SCENERY_BROWSER','MISSION_LAUNCH','CHEATS_AND_DEVELOPMENT','COMMAND_LINE','BUILD_EVIDENCE','PIXEL_FIDELITY','MUSIC','LIGHTING','RENDERING','COLLISION','SIMULATOR_VERSIONS','ENVIRONMENT','ANIMATION','FORMATS'];
+const notes=['MODEL_BROWSER','SCENERY_BROWSER','MISSION_LAUNCH','CHEATS_AND_DEVELOPMENT','COMMAND_LINE','BUILD_EVIDENCE','PIXEL_FIDELITY','MUSIC','LIGHTING','RENDERING','COLLISION','SIMULATOR_VERSIONS','ENVIRONMENT','ANIMATION','FORMATS','DAMAGE','WEAPONS','LOCOMOTION','EFFECTS','CAMPAIGN','CONTROLLERS','MULTIFUNCTION_DISPLAYS','COMBAT_ARTICLE'];
 await fs.mkdir(path.join(root,'content/research'),{recursive:true});
 for(const name of notes){const bytes=await read('../docs/'+name+'.md');await fs.writeFile(path.join(root,'content/research',name+'.md'),bytes);}
 await put('data-provenance.json',JSON.stringify({description:'Display snapshot from the Earthsiege research archive. See content/research-sources.md and MAINTAINING.md.',modelFiles:data.modelCatalogue.length,missions:missions.length,launchExamples:launches.length,worlds:skies.length,files:provenance.sort((a,b)=>a.source.localeCompare(b.source))},null,2)+'\n');

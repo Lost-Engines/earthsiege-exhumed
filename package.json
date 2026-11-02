@@ -13,7 +13,8 @@
     "preview": "node scripts/serve.mjs",
     "import": "node scripts/import-analysis.mjs",
     "check:browser": "node scripts/browser-check.mjs",
-    "check:graphics": "node scripts/check-graphics.mjs"
+    "check:graphics": "node scripts/check-graphics.mjs",
+    "check:combat": "node scripts/check-combat.mjs"
   },
   "dependencies": {
     "marked": "18.1.0",

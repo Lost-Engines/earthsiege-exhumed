@@ -1,0 +1,50 @@
+{
+  "scope": "Internal engine damage supplied directly, then original 0x13250 consequence checks; original reactor prefix 0x14ee0 with recorded weapon allocation boundary.",
+  "capacity": 700,
+  "paths": [
+    {
+      "path": "gradual",
+      "steps": [
+        {
+          "damage": 400,
+          "light": 1,
+          "heavy": 0
+        },
+        {
+          "damage": 600,
+          "light": 1,
+          "heavy": 0
+        },
+        {
+          "damage": 700,
+          "light": 1,
+          "heavy": 0
+        }
+      ]
+    },
+    {
+      "path": "single large hit",
+      "steps": [
+        {
+          "damage": 600,
+          "light": 0,
+          "heavy": 1
+        }
+      ]
+    }
+  ],
+  "generation": [
+    {
+      "label": "Healthy",
+      "generated": 15
+    },
+    {
+      "label": "Light damage",
+      "generated": 9
+    },
+    {
+      "label": "Heavy damage",
+      "generated": 3
+    }
+  ]
+}

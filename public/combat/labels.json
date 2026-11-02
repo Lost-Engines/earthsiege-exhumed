@@ -1,0 +1,37 @@
+{
+  "armour": [
+    "F COCKPIT ARMOR",
+    "R COCKPIT ARMOR",
+    "L WEAPON BRACKET",
+    "R WEAPON BRACKET",
+    "L SHOULDER",
+    "R SHOULDER",
+    "TORSO ARMOR",
+    "L UPPER LEG ARMOR",
+    "R UPPER LEG ARMOR",
+    "L LOWER LEG ARMOR",
+    "R LOWER LEG ARMOR",
+    "L FOOT ARMOR",
+    "R FOOT ARMOR",
+    "RL UPPER LEG ARMOR",
+    "RR UPPER LEG ARMOR",
+    "RL LOWER LEG ARMOR",
+    "RR LOWER LEG ARMOR",
+    "RL FOOT ARMOR",
+    "RR FOOT ARMOR"
+  ],
+  "internal": [
+    "L LEG ACTUATOR",
+    "R LEG ACTUATOR",
+    "L ARM ACTUATOR",
+    "R ARM ACTUATOR",
+    "SENSOR ARRAY",
+    "ENGINE",
+    "HYDRAULICS",
+    "GYROSCOPE",
+    "LIFE SUPPORT",
+    "PILOT",
+    "RL LEG ACTUATOR",
+    "RR LEG ACTUATOR"
+  ]
+}

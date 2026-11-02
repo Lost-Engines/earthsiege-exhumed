@@ -1,0 +1,641 @@
+{
+  "scope": "Verify original weapon ejection and show moving HERC/smoke/debris composition.",
+  "case": {
+    "slot": 0,
+    "physical": true,
+    "orientation": 0,
+    "heading": 0,
+    "template": 1,
+    "initial": {
+      "position": [
+        675,
+        9900,
+        3810
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "velocity": [
+        -275,
+        -85,
+        278
+      ]
+    },
+    "steps": [
+      {
+        "position": [
+          413,
+          9819,
+          4038
+        ],
+        "angles": [
+          1500,
+          0,
+          0
+        ],
+        "velocity": [
+          -262,
+          -81,
+          228
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          164,
+          9742,
+          4216
+        ],
+        "angles": [
+          3000,
+          0,
+          0
+        ],
+        "velocity": [
+          -249,
+          -77,
+          178
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -73,
+          9669,
+          4344
+        ],
+        "angles": [
+          4500,
+          0,
+          0
+        ],
+        "velocity": [
+          -237,
+          -73,
+          128
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -298,
+          9600,
+          4422
+        ],
+        "angles": [
+          6000,
+          0,
+          0
+        ],
+        "velocity": [
+          -225,
+          -69,
+          78
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -512,
+          9534,
+          4450
+        ],
+        "angles": [
+          7500,
+          0,
+          0
+        ],
+        "velocity": [
+          -214,
+          -66,
+          28
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -716,
+          9471,
+          4428
+        ],
+        "angles": [
+          9000,
+          0,
+          0
+        ],
+        "velocity": [
+          -204,
+          -63,
+          -22
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -910,
+          9411,
+          4356
+        ],
+        "angles": [
+          10500,
+          0,
+          0
+        ],
+        "velocity": [
+          -194,
+          -60,
+          -72
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -1095,
+          9354,
+          4234
+        ],
+        "angles": [
+          12000,
+          0,
+          0
+        ],
+        "velocity": [
+          -185,
+          -57,
+          -122
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -1271,
+          9300,
+          4062
+        ],
+        "angles": [
+          13500,
+          0,
+          0
+        ],
+        "velocity": [
+          -176,
+          -54,
+          -172
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -1438,
+          9249,
+          3840
+        ],
+        "angles": [
+          15000,
+          0,
+          0
+        ],
+        "velocity": [
+          -167,
+          -51,
+          -222
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -1597,
+          9200,
+          3568
+        ],
+        "angles": [
+          16500,
+          0,
+          0
+        ],
+        "velocity": [
+          -159,
+          -49,
+          -272
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -1748,
+          9153,
+          3246
+        ],
+        "angles": [
+          18000,
+          0,
+          0
+        ],
+        "velocity": [
+          -151,
+          -47,
+          -322
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -1892,
+          9108,
+          2874
+        ],
+        "angles": [
+          19500,
+          0,
+          0
+        ],
+        "velocity": [
+          -144,
+          -45,
+          -372
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -2029,
+          9065,
+          2452
+        ],
+        "angles": [
+          21000,
+          0,
+          0
+        ],
+        "velocity": [
+          -137,
+          -43,
+          -422
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -2159,
+          9024,
+          1980
+        ],
+        "angles": [
+          22500,
+          0,
+          0
+        ],
+        "velocity": [
+          -130,
+          -41,
+          -472
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -2283,
+          8985,
+          1458
+        ],
+        "angles": [
+          24000,
+          0,
+          0
+        ],
+        "velocity": [
+          -124,
+          -39,
+          -522
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -2401,
+          8948,
+          886
+        ],
+        "angles": [
+          25500,
+          0,
+          0
+        ],
+        "velocity": [
+          -118,
+          -37,
+          -572
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -2513,
+          8913,
+          264
+        ],
+        "angles": [
+          27000,
+          0,
+          0
+        ],
+        "velocity": [
+          -112,
+          -35,
+          -622
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -2620,
+          8880,
+          0
+        ],
+        "angles": [
+          28500,
+          0,
+          0
+        ],
+        "velocity": [
+          -107,
+          -33,
+          295
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -2722,
+          8849,
+          245
+        ],
+        "angles": [
+          30000,
+          0,
+          0
+        ],
+        "velocity": [
+          -102,
+          -31,
+          245
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -2819,
+          8820,
+          440
+        ],
+        "angles": [
+          31500,
+          0,
+          0
+        ],
+        "velocity": [
+          -97,
+          -29,
+          195
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -2911,
+          8792,
+          585
+        ],
+        "angles": [
+          33000,
+          0,
+          0
+        ],
+        "velocity": [
+          -92,
+          -28,
+          145
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -2999,
+          8765,
+          680
+        ],
+        "angles": [
+          34500,
+          0,
+          0
+        ],
+        "velocity": [
+          -88,
+          -27,
+          95
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3083,
+          8739,
+          725
+        ],
+        "angles": [
+          36000,
+          0,
+          0
+        ],
+        "velocity": [
+          -84,
+          -26,
+          45
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3163,
+          8714,
+          720
+        ],
+        "angles": [
+          37500,
+          0,
+          0
+        ],
+        "velocity": [
+          -80,
+          -25,
+          -5
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3239,
+          8690,
+          665
+        ],
+        "angles": [
+          39000,
+          0,
+          0
+        ],
+        "velocity": [
+          -76,
+          -24,
+          -55
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3311,
+          8667,
+          560
+        ],
+        "angles": [
+          40500,
+          0,
+          0
+        ],
+        "velocity": [
+          -72,
+          -23,
+          -105
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3379,
+          8645,
+          405
+        ],
+        "angles": [
+          42000,
+          0,
+          0
+        ],
+        "velocity": [
+          -68,
+          -22,
+          -155
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3444,
+          8624,
+          200
+        ],
+        "angles": [
+          43500,
+          0,
+          0
+        ],
+        "velocity": [
+          -65,
+          -21,
+          -205
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3506,
+          8604,
+          0
+        ],
+        "angles": [
+          45000,
+          0,
+          0
+        ],
+        "velocity": [
+          -62,
+          -20,
+          112
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3565,
+          8585,
+          62
+        ],
+        "angles": [
+          46500,
+          0,
+          0
+        ],
+        "velocity": [
+          -59,
+          -19,
+          62
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3621,
+          8567,
+          74
+        ],
+        "angles": [
+          48000,
+          0,
+          0
+        ],
+        "velocity": [
+          -56,
+          -18,
+          12
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3674,
+          8550,
+          36
+        ],
+        "angles": [
+          49500,
+          0,
+          0
+        ],
+        "velocity": [
+          -53,
+          -17,
+          -38
+        ],
+        "done": false
+      },
+      {
+        "position": [
+          -3724,
+          8534,
+          0
+        ],
+        "angles": [
+          51000,
+          0,
+          0
+        ],
+        "velocity": [
+          -50,
+          -16,
+          39
+        ],
+        "done": true
+      }
+    ]
+  }
+}

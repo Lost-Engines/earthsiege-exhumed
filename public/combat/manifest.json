@@ -1,0 +1,137 @@
+{
+  "description": "Damage, physics and salvage article; original captures and labelled explanatory diagrams.",
+  "files": [
+    {
+      "file": "armour.png",
+      "bytes": 3436,
+      "sha256": "6110f21047b803d0a795f4a2e4d73600077d7e58d2b502ad28a11dea52765d0c",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "cockpit.png",
+      "bytes": 2745,
+      "sha256": "34e6a41daf48dff9c1d72dbdc45471b211c6924ede49d5eab68ade481b04432c",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "collision-shape.svg",
+      "bytes": 2066,
+      "sha256": "073e804e61c3dac95f36c9473d4889b352ab1aca89c2a719ffc6177830aef8e6",
+      "kind": "explanatory diagram"
+    },
+    {
+      "file": "damage-states.json",
+      "bytes": 17463,
+      "sha256": "7e6ca5b85d5ae6ac72b62b4cea7f1f55d30d2957f7fc93b94b8bd1118feba978",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "detached-weapon.json",
+      "bytes": 9610,
+      "sha256": "5a3c2a5d5f18264e59f55fde324c820e7e653a8441a098759ac4595140bc996d",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "foot.png",
+      "bytes": 3435,
+      "sha256": "a06c729d08118c0c5750926da40338462265c530112631e09b7c2c998ca6d03d",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "hit-pipeline.svg",
+      "bytes": 3050,
+      "sha256": "dac37582ea02fcec2609ae9d74e52228a865872699d21370ca81e7950bdc82b8",
+      "kind": "explanatory diagram"
+    },
+    {
+      "file": "intact.png",
+      "bytes": 3472,
+      "sha256": "8b5c8eb631711605506c348c3186e8f3aba9a382310c99e13e944199c0491ae2",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "internal-choice.svg",
+      "bytes": 2242,
+      "sha256": "f3bcd59facf4cd43381307bc5bad8b7b23db233650f5c8fe3216609fb15e262d",
+      "kind": "explanatory diagram"
+    },
+    {
+      "file": "labels.json",
+      "bytes": 712,
+      "sha256": "a7a9e58a1cd7054b26483f05e0240b6d90d5e2cd4b0e9bae1c96588c345cfbb4",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "leg-links.svg",
+      "bytes": 2760,
+      "sha256": "98b2582d46b60d54a28d08c5e2f4acc1c0babfb2098083b44326090702cc8c1e",
+      "kind": "explanatory diagram"
+    },
+    {
+      "file": "movement.json",
+      "bytes": 57607,
+      "sha256": "5f63792214f99003c0e1c2a083f3bd5a1a19a1273f3f332834a7cc846318ddba",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "movement.svg",
+      "bytes": 6579,
+      "sha256": "3643a9e5768ccb984e436ba6424f92741a420865d4167decd776ff4bfd24cdd3",
+      "kind": "explanatory diagram"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 3428,
+      "sha256": "2a9c99367b173577e367b2ea404b9d8bdc62c2880584f0917cff0594f181e0c0",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "reactor.json",
+      "bytes": 913,
+      "sha256": "465b12e35fa8207e119033eec2c6b1901a18c0b9e6dc405d223bcf5cafb9277e",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "salvage.json",
+      "bytes": 31908,
+      "sha256": "8e6d787d4829faf13e1d91054d619d3a1c7ec76b9bc3ef49c6e4ae0d511e09ee",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "salvage.svg",
+      "bytes": 4922,
+      "sha256": "efdc691631bee1ecfde9f2610aec637f2a8d5fdb7f1688d2c7a5acc4d9afb764",
+      "kind": "explanatory diagram"
+    },
+    {
+      "file": "shield.json",
+      "bytes": 17662,
+      "sha256": "10dd37dfa518aa21019d8b40a4042ea601a00b709c01d88966cce698a981be4c",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "shoulder.png",
+      "bytes": 3348,
+      "sha256": "e25f4eb7841b31c55f12103d689df8f3effd0853541ce8dff37fa1fa364facdc",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "upper-leg.png",
+      "bytes": 3051,
+      "sha256": "1df906ec8c0e10432d6db709ceebe6bd9eadd29cc773777eb07f740b7627a705",
+      "kind": "original capture or data"
+    },
+    {
+      "file": "weapon-flight.svg",
+      "bytes": 3580,
+      "sha256": "4ef7b95385ae6f3fc0667dec9816acea42ee8922fd8436709d0e509cee499af3",
+      "kind": "explanatory diagram"
+    },
+    {
+      "file": "weapons.json",
+      "bytes": 18372,
+      "sha256": "0972e30630283e9a25e72fa6bde632b0fd4e9d2303ba6aebdac84d35232ff57f",
+      "kind": "original capture or data"
+    }
+  ]
+}

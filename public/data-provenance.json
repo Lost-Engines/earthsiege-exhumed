@@ -6,6 +6,46 @@
   "worlds": 24,
   "files": [
     {
+      "source": "../docs/CAMPAIGN.md",
+      "sha256": "042e8e0c148469e2e24c136ace5e66dbbf0a0e5eb845c3aabb10123844d8b8f5",
+      "bytes": 17244
+    },
+    {
+      "source": "../docs/COMBAT_ARTICLE.md",
+      "sha256": "7e96d9573cb1a71188f098c88c521a126f6e8971f9c098be9c4ba5bccc64cc64",
+      "bytes": 4689
+    },
+    {
+      "source": "../docs/CONTROLLERS.md",
+      "sha256": "cd18c63f5be6e39f8679fa29dd0c592b0d04563bee1a82bc9d6528d920cee33c",
+      "bytes": 23242
+    },
+    {
+      "source": "../docs/DAMAGE.md",
+      "sha256": "1db8b4c8b059a46fbfd06e29327af0a130054467f575139a1f8f38b5f357a6c1",
+      "bytes": 16743
+    },
+    {
+      "source": "../docs/EFFECTS.md",
+      "sha256": "fb335002dff7a2c734d71c6218092ca77292b66fdbcb9faca77ab5b9ff44f6cf",
+      "bytes": 12061
+    },
+    {
+      "source": "../docs/LOCOMOTION.md",
+      "sha256": "60762b6c84008b0d5203e7ccccda4e43bf1ded7ec652ed2c296dd1a471b6d44e",
+      "bytes": 7308
+    },
+    {
+      "source": "../docs/MULTIFUNCTION_DISPLAYS.md",
+      "sha256": "be3a7d2ebd82a815b334309fd24c31ee7f5fab9caa999ae30d993bbaf2c39153",
+      "bytes": 36649
+    },
+    {
+      "source": "../docs/WEAPONS.md",
+      "sha256": "b6cfac2dc86e92f42afbf94439fa816811e20add080233b536abcf5c69b3c9f4",
+      "bytes": 15376
+    },
+    {
       "source": "../docs/ANIMATION.md",
       "sha256": "728187dbdfdb363431bd2325dee37b54ba48557caadddd4f584c7bb40eac5df5",
       "bytes": 5501

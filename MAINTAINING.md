@@ -64,3 +64,37 @@ npm run check
 The analysis generator requires its existing Unicorn/Pillow environment and original game data. The importer needs Python 3's standard library. It refreshes the relevant research notes, generates the six SVG diagrams and records all published hashes in `public/graphics/manifest.json`. `provenance.json` retains the original executable hash and per-image capture method. These dependencies are only for regeneration; the committed article builds with the ordinary Node workflow.
 
 With the preview server running, use `CHROMIUM_PATH=/usr/bin/chromium npm run check:graphics`. It checks progress endpoints, environment switching, texture interpolation and overlay controls, mobile layout, dark mode and the JavaScript-disabled article. `npm run check:browser` also covers the new navigation and article across its responsive sweep.
+
+## Damage and physics article
+
+The article at `combat/` is authored in `content/combat.md`. Its original-code
+captures and explanatory diagrams are published under `public/combat/`.
+`src/combat.js` adds component-loss selection, shield-threshold inspection and
+the salvage slider. No animation starts automatically; the static article and
+figures remain useful with JavaScript disabled.
+
+To regenerate:
+
+```sh
+cd ../earthsiege-reverse
+PYTHONPATH=tools .venv/bin/python tools/build_combat_article.py
+cd ../earthsiege-exhumed
+python3 scripts/import-combat.py ../earthsiege-reverse
+npm run build
+npm run check
+CHROMIUM_PATH=/usr/bin/chromium npm run check:combat
+```
+
+The last command needs the preview server described above. It checks actual
+captured shield and salvage boundaries, six damage states, the plotted marker,
+keyboard input, nine viewport widths, navigation, dark mode and the no-JS
+fallback. The static checker verifies every combat asset's hash. The importer
+requires only Python's standard library and generates seven SVG diagrams;
+regenerating original captures uses the analysis workspace's Unicorn/Pillow
+setup and original data. Neither is a public build prerequisite.
+
+Keep the article's scope tied to the base CD executable in its provenance.
+Controlled internal-damage inputs isolate reactor consequences; the still model
+views precede collapse animation. Salvage curves isolate valuation and do not
+bypass the eligibility rules in a real mission. Weapon payload figures include
+the firing charge but precede difficulty scaling and do not describe DPS.

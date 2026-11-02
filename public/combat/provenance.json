@@ -1,0 +1,98 @@
+{
+  "method": "Capture evidence and illustrations for the Earthsiege combat article.\n\nOriginal DBSIM instructions run in the established Unicorn harness. Controlled\nstates isolate mechanics; they are not recordings of naturally occurring hits.\nAll article model images use original drawing code and retained original damage\nstates. No executable instructions are patched by this generator.\n",
+  "executable_sha256": "e5fb35966f3c755106cbeff2cfc1f2aed496bed388edab8ea2c857779efec34a",
+  "files": [
+    {
+      "file": "armour.png",
+      "sha256": "6110f21047b803d0a795f4a2e4d73600077d7e58d2b502ad28a11dea52765d0c"
+    },
+    {
+      "file": "cockpit.png",
+      "sha256": "34e6a41daf48dff9c1d72dbdc45471b211c6924ede49d5eab68ade481b04432c"
+    },
+    {
+      "file": "damage-000-00.png",
+      "sha256": "dc3d272fc836d43c9aac33f0e7125c79dbf777f2c25ae8f8f11b2af3a727acb4"
+    },
+    {
+      "file": "damage-160-15.png",
+      "sha256": "6501ee28b36743b6ddb72b3c4e0cc029df2767f9cf1b624a5072e856410ffee8"
+    },
+    {
+      "file": "damage-states.json",
+      "sha256": "7e6ca5b85d5ae6ac72b62b4cea7f1f55d30d2957f7fc93b94b8bd1118feba978"
+    },
+    {
+      "file": "debris-00.png",
+      "sha256": "fba97b26e49c9e8bd72eabe1c1b8c1994ac3415ab00e12e593515ae159c5bc13"
+    },
+    {
+      "file": "debris-10.png",
+      "sha256": "03b314fb53d076736f92583e72a95d395a281d8d57d1fbdf865aaa0002994bf4"
+    },
+    {
+      "file": "debris-20.png",
+      "sha256": "a2f8be585e123d0982ba15d6b9f19604617b818dca8227aaad1b4a0f2669c610"
+    },
+    {
+      "file": "debris-30.png",
+      "sha256": "b8ab108422a1f536698f6bb19a07df54f3b4031a6492aba46bbf2bcae2a50fd7"
+    },
+    {
+      "file": "debris-40.png",
+      "sha256": "47197f78fdffd2a870567ed6c904b9c05ed75fdcb5a1afa0d800a734d9d9e5f6"
+    },
+    {
+      "file": "debris-50.png",
+      "sha256": "900700c01a490c8b9b50c4a6e9ff46492193fd713b47b4805ceba13a969221f8"
+    },
+    {
+      "file": "debris-58.png",
+      "sha256": "e6cb929da3326b5548b197947070403dcea34d41e52930a8102852e4d169f272"
+    },
+    {
+      "file": "detached-weapon.json",
+      "sha256": "5a3c2a5d5f18264e59f55fde324c820e7e653a8441a098759ac4595140bc996d"
+    },
+    {
+      "file": "foot.png",
+      "sha256": "a06c729d08118c0c5750926da40338462265c530112631e09b7c2c998ca6d03d"
+    },
+    {
+      "file": "intact.png",
+      "sha256": "8b5c8eb631711605506c348c3186e8f3aba9a382310c99e13e944199c0491ae2"
+    },
+    {
+      "file": "labels.json",
+      "sha256": "a7a9e58a1cd7054b26483f05e0240b6d90d5e2cd4b0e9bae1c96588c345cfbb4"
+    },
+    {
+      "file": "movement.json",
+      "sha256": "5f63792214f99003c0e1c2a083f3bd5a1a19a1273f3f332834a7cc846318ddba"
+    },
+    {
+      "file": "reactor.json",
+      "sha256": "465b12e35fa8207e119033eec2c6b1901a18c0b9e6dc405d223bcf5cafb9277e"
+    },
+    {
+      "file": "salvage.json",
+      "sha256": "8e6d787d4829faf13e1d91054d619d3a1c7ec76b9bc3ef49c6e4ae0d511e09ee"
+    },
+    {
+      "file": "shield.json",
+      "sha256": "10dd37dfa518aa21019d8b40a4042ea601a00b709c01d88966cce698a981be4c"
+    },
+    {
+      "file": "shoulder.png",
+      "sha256": "e25f4eb7841b31c55f12103d689df8f3effd0853541ce8dff37fa1fa364facdc"
+    },
+    {
+      "file": "upper-leg.png",
+      "sha256": "1df906ec8c0e10432d6db709ceebe6bd9eadd29cc773777eb07f740b7627a705"
+    },
+    {
+      "file": "weapons.json",
+      "sha256": "0972e30630283e9a25e72fa6bde632b0fd4e9d2303ba6aebdac84d35232ff57f"
+    }
+  ]
+}

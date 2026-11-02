@@ -1,0 +1,1451 @@
+{
+  "scope": "Controlled otherwise-undamaged Samson, left upper leg armour accumulator varied; original 0x10c38 and 0x14034. Eligibility bypassed to isolate valuation.",
+  "capacity": 4000,
+  "section": 7,
+  "weight": 2000,
+  "hull_value": 1024,
+  "armour_weights": [
+    3000,
+    3000,
+    1000,
+    1000,
+    2000,
+    2000,
+    1000,
+    2000,
+    2000,
+    1000,
+    1000,
+    500,
+    500,
+    2000,
+    2000,
+    1000,
+    1000,
+    500,
+    500
+  ],
+  "internal_weights": [
+    1500,
+    1500,
+    0,
+    0,
+    1000,
+    3000,
+    1000,
+    1000,
+    1000,
+    0,
+    1500,
+    1500
+  ],
+  "rows": [
+    {
+      "damage": 0,
+      "armour_remaining": 4000,
+      "section_contribution": 2000,
+      "score": 28000,
+      "recoverable_value": 28000
+    },
+    {
+      "damage": 1,
+      "armour_remaining": 3999,
+      "section_contribution": 1999,
+      "score": 27999,
+      "recoverable_value": 27999
+    },
+    {
+      "damage": 2,
+      "armour_remaining": 3998,
+      "section_contribution": 1999,
+      "score": 27999,
+      "recoverable_value": 27999
+    },
+    {
+      "damage": 3,
+      "armour_remaining": 3997,
+      "section_contribution": 1998,
+      "score": 27998,
+      "recoverable_value": 27998
+    },
+    {
+      "damage": 4,
+      "armour_remaining": 3996,
+      "section_contribution": 1998,
+      "score": 27998,
+      "recoverable_value": 27998
+    },
+    {
+      "damage": 5,
+      "armour_remaining": 3995,
+      "section_contribution": 1997,
+      "score": 27997,
+      "recoverable_value": 27997
+    },
+    {
+      "damage": 6,
+      "armour_remaining": 3994,
+      "section_contribution": 1997,
+      "score": 27997,
+      "recoverable_value": 27997
+    },
+    {
+      "damage": 7,
+      "armour_remaining": 3993,
+      "section_contribution": 1996,
+      "score": 27996,
+      "recoverable_value": 27996
+    },
+    {
+      "damage": 8,
+      "armour_remaining": 3992,
+      "section_contribution": 1996,
+      "score": 27996,
+      "recoverable_value": 27996
+    },
+    {
+      "damage": 9,
+      "armour_remaining": 3991,
+      "section_contribution": 1995,
+      "score": 27995,
+      "recoverable_value": 27995
+    },
+    {
+      "damage": 10,
+      "armour_remaining": 3990,
+      "section_contribution": 1995,
+      "score": 27995,
+      "recoverable_value": 27995
+    },
+    {
+      "damage": 11,
+      "armour_remaining": 3989,
+      "section_contribution": 1994,
+      "score": 27994,
+      "recoverable_value": 27994
+    },
+    {
+      "damage": 12,
+      "armour_remaining": 3988,
+      "section_contribution": 1994,
+      "score": 27994,
+      "recoverable_value": 27994
+    },
+    {
+      "damage": 13,
+      "armour_remaining": 3987,
+      "section_contribution": 1993,
+      "score": 27993,
+      "recoverable_value": 27993
+    },
+    {
+      "damage": 14,
+      "armour_remaining": 3986,
+      "section_contribution": 1993,
+      "score": 27993,
+      "recoverable_value": 27993
+    },
+    {
+      "damage": 15,
+      "armour_remaining": 3985,
+      "section_contribution": 1992,
+      "score": 27992,
+      "recoverable_value": 27992
+    },
+    {
+      "damage": 16,
+      "armour_remaining": 3984,
+      "section_contribution": 1992,
+      "score": 27992,
+      "recoverable_value": 27992
+    },
+    {
+      "damage": 17,
+      "armour_remaining": 3983,
+      "section_contribution": 1991,
+      "score": 27991,
+      "recoverable_value": 27991
+    },
+    {
+      "damage": 18,
+      "armour_remaining": 3982,
+      "section_contribution": 1991,
+      "score": 27991,
+      "recoverable_value": 27991
+    },
+    {
+      "damage": 19,
+      "armour_remaining": 3981,
+      "section_contribution": 1990,
+      "score": 27990,
+      "recoverable_value": 27990
+    },
+    {
+      "damage": 20,
+      "armour_remaining": 3980,
+      "section_contribution": 1990,
+      "score": 27990,
+      "recoverable_value": 27990
+    },
+    {
+      "damage": 21,
+      "armour_remaining": 3979,
+      "section_contribution": 1989,
+      "score": 27989,
+      "recoverable_value": 27989
+    },
+    {
+      "damage": 22,
+      "armour_remaining": 3978,
+      "section_contribution": 1989,
+      "score": 27989,
+      "recoverable_value": 27989
+    },
+    {
+      "damage": 23,
+      "armour_remaining": 3977,
+      "section_contribution": 1988,
+      "score": 27988,
+      "recoverable_value": 27988
+    },
+    {
+      "damage": 24,
+      "armour_remaining": 3976,
+      "section_contribution": 1988,
+      "score": 27988,
+      "recoverable_value": 27988
+    },
+    {
+      "damage": 25,
+      "armour_remaining": 3975,
+      "section_contribution": 1987,
+      "score": 27987,
+      "recoverable_value": 27987
+    },
+    {
+      "damage": 26,
+      "armour_remaining": 3974,
+      "section_contribution": 1987,
+      "score": 27987,
+      "recoverable_value": 27987
+    },
+    {
+      "damage": 27,
+      "armour_remaining": 3973,
+      "section_contribution": 1986,
+      "score": 27986,
+      "recoverable_value": 27986
+    },
+    {
+      "damage": 28,
+      "armour_remaining": 3972,
+      "section_contribution": 1986,
+      "score": 27986,
+      "recoverable_value": 27986
+    },
+    {
+      "damage": 29,
+      "armour_remaining": 3971,
+      "section_contribution": 1985,
+      "score": 27985,
+      "recoverable_value": 27985
+    },
+    {
+      "damage": 30,
+      "armour_remaining": 3970,
+      "section_contribution": 1985,
+      "score": 27985,
+      "recoverable_value": 27985
+    },
+    {
+      "damage": 31,
+      "armour_remaining": 3969,
+      "section_contribution": 1984,
+      "score": 27984,
+      "recoverable_value": 27984
+    },
+    {
+      "damage": 32,
+      "armour_remaining": 3968,
+      "section_contribution": 1984,
+      "score": 27984,
+      "recoverable_value": 27984
+    },
+    {
+      "damage": 33,
+      "armour_remaining": 3967,
+      "section_contribution": 1983,
+      "score": 27983,
+      "recoverable_value": 27983
+    },
+    {
+      "damage": 34,
+      "armour_remaining": 3966,
+      "section_contribution": 1983,
+      "score": 27983,
+      "recoverable_value": 27983
+    },
+    {
+      "damage": 35,
+      "armour_remaining": 3965,
+      "section_contribution": 1982,
+      "score": 27982,
+      "recoverable_value": 27982
+    },
+    {
+      "damage": 36,
+      "armour_remaining": 3964,
+      "section_contribution": 1982,
+      "score": 27982,
+      "recoverable_value": 27982
+    },
+    {
+      "damage": 37,
+      "armour_remaining": 3963,
+      "section_contribution": 1981,
+      "score": 27981,
+      "recoverable_value": 27981
+    },
+    {
+      "damage": 38,
+      "armour_remaining": 3962,
+      "section_contribution": 1981,
+      "score": 27981,
+      "recoverable_value": 27981
+    },
+    {
+      "damage": 39,
+      "armour_remaining": 3961,
+      "section_contribution": 1980,
+      "score": 27980,
+      "recoverable_value": 27980
+    },
+    {
+      "damage": 40,
+      "armour_remaining": 3960,
+      "section_contribution": 1980,
+      "score": 27980,
+      "recoverable_value": 27980
+    },
+    {
+      "damage": 41,
+      "armour_remaining": 3959,
+      "section_contribution": 1979,
+      "score": 27979,
+      "recoverable_value": 27979
+    },
+    {
+      "damage": 42,
+      "armour_remaining": 3958,
+      "section_contribution": 1979,
+      "score": 27979,
+      "recoverable_value": 27979
+    },
+    {
+      "damage": 43,
+      "armour_remaining": 3957,
+      "section_contribution": 1978,
+      "score": 27978,
+      "recoverable_value": 27978
+    },
+    {
+      "damage": 44,
+      "armour_remaining": 3956,
+      "section_contribution": 1978,
+      "score": 27978,
+      "recoverable_value": 27978
+    },
+    {
+      "damage": 45,
+      "armour_remaining": 3955,
+      "section_contribution": 1977,
+      "score": 27977,
+      "recoverable_value": 27977
+    },
+    {
+      "damage": 46,
+      "armour_remaining": 3954,
+      "section_contribution": 1977,
+      "score": 27977,
+      "recoverable_value": 27977
+    },
+    {
+      "damage": 47,
+      "armour_remaining": 3953,
+      "section_contribution": 1976,
+      "score": 27976,
+      "recoverable_value": 27976
+    },
+    {
+      "damage": 48,
+      "armour_remaining": 3952,
+      "section_contribution": 1976,
+      "score": 27976,
+      "recoverable_value": 27976
+    },
+    {
+      "damage": 49,
+      "armour_remaining": 3951,
+      "section_contribution": 1975,
+      "score": 27975,
+      "recoverable_value": 27975
+    },
+    {
+      "damage": 50,
+      "armour_remaining": 3950,
+      "section_contribution": 1975,
+      "score": 27975,
+      "recoverable_value": 27975
+    },
+    {
+      "damage": 51,
+      "armour_remaining": 3949,
+      "section_contribution": 1974,
+      "score": 27974,
+      "recoverable_value": 27974
+    },
+    {
+      "damage": 52,
+      "armour_remaining": 3948,
+      "section_contribution": 1974,
+      "score": 27974,
+      "recoverable_value": 27974
+    },
+    {
+      "damage": 53,
+      "armour_remaining": 3947,
+      "section_contribution": 1973,
+      "score": 27973,
+      "recoverable_value": 27973
+    },
+    {
+      "damage": 54,
+      "armour_remaining": 3946,
+      "section_contribution": 1973,
+      "score": 27973,
+      "recoverable_value": 27973
+    },
+    {
+      "damage": 55,
+      "armour_remaining": 3945,
+      "section_contribution": 1972,
+      "score": 27972,
+      "recoverable_value": 27972
+    },
+    {
+      "damage": 56,
+      "armour_remaining": 3944,
+      "section_contribution": 1972,
+      "score": 27972,
+      "recoverable_value": 27972
+    },
+    {
+      "damage": 57,
+      "armour_remaining": 3943,
+      "section_contribution": 1971,
+      "score": 27971,
+      "recoverable_value": 27971
+    },
+    {
+      "damage": 58,
+      "armour_remaining": 3942,
+      "section_contribution": 1971,
+      "score": 27971,
+      "recoverable_value": 27971
+    },
+    {
+      "damage": 59,
+      "armour_remaining": 3941,
+      "section_contribution": 1970,
+      "score": 27970,
+      "recoverable_value": 27970
+    },
+    {
+      "damage": 60,
+      "armour_remaining": 3940,
+      "section_contribution": 1970,
+      "score": 27970,
+      "recoverable_value": 27970
+    },
+    {
+      "damage": 61,
+      "armour_remaining": 3939,
+      "section_contribution": 1969,
+      "score": 27969,
+      "recoverable_value": 27969
+    },
+    {
+      "damage": 62,
+      "armour_remaining": 3938,
+      "section_contribution": 1969,
+      "score": 27969,
+      "recoverable_value": 27969
+    },
+    {
+      "damage": 63,
+      "armour_remaining": 3937,
+      "section_contribution": 1968,
+      "score": 27968,
+      "recoverable_value": 27968
+    },
+    {
+      "damage": 64,
+      "armour_remaining": 3936,
+      "section_contribution": 1968,
+      "score": 27968,
+      "recoverable_value": 27968
+    },
+    {
+      "damage": 65,
+      "armour_remaining": 3935,
+      "section_contribution": 1967,
+      "score": 27967,
+      "recoverable_value": 27967
+    },
+    {
+      "damage": 66,
+      "armour_remaining": 3934,
+      "section_contribution": 1967,
+      "score": 27967,
+      "recoverable_value": 27967
+    },
+    {
+      "damage": 67,
+      "armour_remaining": 3933,
+      "section_contribution": 1966,
+      "score": 27966,
+      "recoverable_value": 27966
+    },
+    {
+      "damage": 68,
+      "armour_remaining": 3932,
+      "section_contribution": 1966,
+      "score": 27966,
+      "recoverable_value": 27966
+    },
+    {
+      "damage": 69,
+      "armour_remaining": 3931,
+      "section_contribution": 1965,
+      "score": 27965,
+      "recoverable_value": 27965
+    },
+    {
+      "damage": 70,
+      "armour_remaining": 3930,
+      "section_contribution": 1965,
+      "score": 27965,
+      "recoverable_value": 27965
+    },
+    {
+      "damage": 71,
+      "armour_remaining": 3929,
+      "section_contribution": 1964,
+      "score": 27964,
+      "recoverable_value": 27964
+    },
+    {
+      "damage": 72,
+      "armour_remaining": 3928,
+      "section_contribution": 1964,
+      "score": 27964,
+      "recoverable_value": 27964
+    },
+    {
+      "damage": 73,
+      "armour_remaining": 3927,
+      "section_contribution": 1963,
+      "score": 27963,
+      "recoverable_value": 27963
+    },
+    {
+      "damage": 74,
+      "armour_remaining": 3926,
+      "section_contribution": 1963,
+      "score": 27963,
+      "recoverable_value": 27963
+    },
+    {
+      "damage": 75,
+      "armour_remaining": 3925,
+      "section_contribution": 1962,
+      "score": 27962,
+      "recoverable_value": 27962
+    },
+    {
+      "damage": 76,
+      "armour_remaining": 3924,
+      "section_contribution": 1962,
+      "score": 27962,
+      "recoverable_value": 27962
+    },
+    {
+      "damage": 77,
+      "armour_remaining": 3923,
+      "section_contribution": 1961,
+      "score": 27961,
+      "recoverable_value": 27961
+    },
+    {
+      "damage": 78,
+      "armour_remaining": 3922,
+      "section_contribution": 1961,
+      "score": 27961,
+      "recoverable_value": 27961
+    },
+    {
+      "damage": 79,
+      "armour_remaining": 3921,
+      "section_contribution": 1960,
+      "score": 27960,
+      "recoverable_value": 27960
+    },
+    {
+      "damage": 80,
+      "armour_remaining": 3920,
+      "section_contribution": 1960,
+      "score": 27960,
+      "recoverable_value": 27960
+    },
+    {
+      "damage": 81,
+      "armour_remaining": 3919,
+      "section_contribution": 1959,
+      "score": 27959,
+      "recoverable_value": 27959
+    },
+    {
+      "damage": 82,
+      "armour_remaining": 3918,
+      "section_contribution": 1959,
+      "score": 27959,
+      "recoverable_value": 27959
+    },
+    {
+      "damage": 83,
+      "armour_remaining": 3917,
+      "section_contribution": 1958,
+      "score": 27958,
+      "recoverable_value": 27958
+    },
+    {
+      "damage": 84,
+      "armour_remaining": 3916,
+      "section_contribution": 1958,
+      "score": 27958,
+      "recoverable_value": 27958
+    },
+    {
+      "damage": 85,
+      "armour_remaining": 3915,
+      "section_contribution": 1957,
+      "score": 27957,
+      "recoverable_value": 27957
+    },
+    {
+      "damage": 86,
+      "armour_remaining": 3914,
+      "section_contribution": 1957,
+      "score": 27957,
+      "recoverable_value": 27957
+    },
+    {
+      "damage": 87,
+      "armour_remaining": 3913,
+      "section_contribution": 1956,
+      "score": 27956,
+      "recoverable_value": 27956
+    },
+    {
+      "damage": 88,
+      "armour_remaining": 3912,
+      "section_contribution": 1956,
+      "score": 27956,
+      "recoverable_value": 27956
+    },
+    {
+      "damage": 89,
+      "armour_remaining": 3911,
+      "section_contribution": 1955,
+      "score": 27955,
+      "recoverable_value": 27955
+    },
+    {
+      "damage": 90,
+      "armour_remaining": 3910,
+      "section_contribution": 1955,
+      "score": 27955,
+      "recoverable_value": 27955
+    },
+    {
+      "damage": 91,
+      "armour_remaining": 3909,
+      "section_contribution": 1954,
+      "score": 27954,
+      "recoverable_value": 27954
+    },
+    {
+      "damage": 92,
+      "armour_remaining": 3908,
+      "section_contribution": 1954,
+      "score": 27954,
+      "recoverable_value": 27954
+    },
+    {
+      "damage": 93,
+      "armour_remaining": 3907,
+      "section_contribution": 1953,
+      "score": 27953,
+      "recoverable_value": 27953
+    },
+    {
+      "damage": 94,
+      "armour_remaining": 3906,
+      "section_contribution": 1953,
+      "score": 27953,
+      "recoverable_value": 27953
+    },
+    {
+      "damage": 95,
+      "armour_remaining": 3905,
+      "section_contribution": 1952,
+      "score": 27952,
+      "recoverable_value": 27952
+    },
+    {
+      "damage": 96,
+      "armour_remaining": 3904,
+      "section_contribution": 1952,
+      "score": 27952,
+      "recoverable_value": 27952
+    },
+    {
+      "damage": 97,
+      "armour_remaining": 3903,
+      "section_contribution": 1951,
+      "score": 27951,
+      "recoverable_value": 27951
+    },
+    {
+      "damage": 98,
+      "armour_remaining": 3902,
+      "section_contribution": 1951,
+      "score": 27951,
+      "recoverable_value": 27951
+    },
+    {
+      "damage": 99,
+      "armour_remaining": 3901,
+      "section_contribution": 1950,
+      "score": 27950,
+      "recoverable_value": 27950
+    },
+    {
+      "damage": 100,
+      "armour_remaining": 3900,
+      "section_contribution": 1950,
+      "score": 27950,
+      "recoverable_value": 27950
+    },
+    {
+      "damage": 101,
+      "armour_remaining": 3899,
+      "section_contribution": 1949,
+      "score": 27949,
+      "recoverable_value": 27949
+    },
+    {
+      "damage": 102,
+      "armour_remaining": 3898,
+      "section_contribution": 1949,
+      "score": 27949,
+      "recoverable_value": 27949
+    },
+    {
+      "damage": 103,
+      "armour_remaining": 3897,
+      "section_contribution": 1948,
+      "score": 27948,
+      "recoverable_value": 27948
+    },
+    {
+      "damage": 104,
+      "armour_remaining": 3896,
+      "section_contribution": 1948,
+      "score": 27948,
+      "recoverable_value": 27948
+    },
+    {
+      "damage": 105,
+      "armour_remaining": 3895,
+      "section_contribution": 1947,
+      "score": 27947,
+      "recoverable_value": 27947
+    },
+    {
+      "damage": 106,
+      "armour_remaining": 3894,
+      "section_contribution": 1947,
+      "score": 27947,
+      "recoverable_value": 27947
+    },
+    {
+      "damage": 107,
+      "armour_remaining": 3893,
+      "section_contribution": 1946,
+      "score": 27946,
+      "recoverable_value": 27946
+    },
+    {
+      "damage": 108,
+      "armour_remaining": 3892,
+      "section_contribution": 1946,
+      "score": 27946,
+      "recoverable_value": 27946
+    },
+    {
+      "damage": 109,
+      "armour_remaining": 3891,
+      "section_contribution": 1945,
+      "score": 27945,
+      "recoverable_value": 27945
+    },
+    {
+      "damage": 110,
+      "armour_remaining": 3890,
+      "section_contribution": 1945,
+      "score": 27945,
+      "recoverable_value": 27945
+    },
+    {
+      "damage": 111,
+      "armour_remaining": 3889,
+      "section_contribution": 1944,
+      "score": 27944,
+      "recoverable_value": 27944
+    },
+    {
+      "damage": 112,
+      "armour_remaining": 3888,
+      "section_contribution": 1944,
+      "score": 27944,
+      "recoverable_value": 27944
+    },
+    {
+      "damage": 113,
+      "armour_remaining": 3887,
+      "section_contribution": 1943,
+      "score": 27943,
+      "recoverable_value": 27943
+    },
+    {
+      "damage": 114,
+      "armour_remaining": 3886,
+      "section_contribution": 1943,
+      "score": 27943,
+      "recoverable_value": 27943
+    },
+    {
+      "damage": 115,
+      "armour_remaining": 3885,
+      "section_contribution": 1942,
+      "score": 27942,
+      "recoverable_value": 27942
+    },
+    {
+      "damage": 116,
+      "armour_remaining": 3884,
+      "section_contribution": 1942,
+      "score": 27942,
+      "recoverable_value": 27942
+    },
+    {
+      "damage": 117,
+      "armour_remaining": 3883,
+      "section_contribution": 1941,
+      "score": 27941,
+      "recoverable_value": 27941
+    },
+    {
+      "damage": 118,
+      "armour_remaining": 3882,
+      "section_contribution": 1941,
+      "score": 27941,
+      "recoverable_value": 27941
+    },
+    {
+      "damage": 119,
+      "armour_remaining": 3881,
+      "section_contribution": 1940,
+      "score": 27940,
+      "recoverable_value": 27940
+    },
+    {
+      "damage": 120,
+      "armour_remaining": 3880,
+      "section_contribution": 1940,
+      "score": 27940,
+      "recoverable_value": 27940
+    },
+    {
+      "damage": 121,
+      "armour_remaining": 3879,
+      "section_contribution": 1939,
+      "score": 27939,
+      "recoverable_value": 27939
+    },
+    {
+      "damage": 122,
+      "armour_remaining": 3878,
+      "section_contribution": 1939,
+      "score": 27939,
+      "recoverable_value": 27939
+    },
+    {
+      "damage": 123,
+      "armour_remaining": 3877,
+      "section_contribution": 1938,
+      "score": 27938,
+      "recoverable_value": 27938
+    },
+    {
+      "damage": 124,
+      "armour_remaining": 3876,
+      "section_contribution": 1938,
+      "score": 27938,
+      "recoverable_value": 27938
+    },
+    {
+      "damage": 125,
+      "armour_remaining": 3875,
+      "section_contribution": 1937,
+      "score": 27937,
+      "recoverable_value": 27937
+    },
+    {
+      "damage": 126,
+      "armour_remaining": 3874,
+      "section_contribution": 1937,
+      "score": 27937,
+      "recoverable_value": 27937
+    },
+    {
+      "damage": 127,
+      "armour_remaining": 3873,
+      "section_contribution": 1936,
+      "score": 27936,
+      "recoverable_value": 27936
+    },
+    {
+      "damage": 128,
+      "armour_remaining": 3872,
+      "section_contribution": 1936,
+      "score": 27936,
+      "recoverable_value": 27936
+    },
+    {
+      "damage": 129,
+      "armour_remaining": 3871,
+      "section_contribution": 1935,
+      "score": 27935,
+      "recoverable_value": 27935
+    },
+    {
+      "damage": 130,
+      "armour_remaining": 3870,
+      "section_contribution": 1935,
+      "score": 27935,
+      "recoverable_value": 27935
+    },
+    {
+      "damage": 131,
+      "armour_remaining": 3869,
+      "section_contribution": 1934,
+      "score": 27934,
+      "recoverable_value": 27934
+    },
+    {
+      "damage": 132,
+      "armour_remaining": 3868,
+      "section_contribution": 1934,
+      "score": 27934,
+      "recoverable_value": 27934
+    },
+    {
+      "damage": 133,
+      "armour_remaining": 3867,
+      "section_contribution": 1933,
+      "score": 27933,
+      "recoverable_value": 27933
+    },
+    {
+      "damage": 134,
+      "armour_remaining": 3866,
+      "section_contribution": 1933,
+      "score": 27933,
+      "recoverable_value": 27933
+    },
+    {
+      "damage": 135,
+      "armour_remaining": 3865,
+      "section_contribution": 1932,
+      "score": 27932,
+      "recoverable_value": 27932
+    },
+    {
+      "damage": 136,
+      "armour_remaining": 3864,
+      "section_contribution": 1932,
+      "score": 27932,
+      "recoverable_value": 27932
+    },
+    {
+      "damage": 137,
+      "armour_remaining": 3863,
+      "section_contribution": 1931,
+      "score": 27931,
+      "recoverable_value": 27931
+    },
+    {
+      "damage": 138,
+      "armour_remaining": 3862,
+      "section_contribution": 1931,
+      "score": 27931,
+      "recoverable_value": 27931
+    },
+    {
+      "damage": 139,
+      "armour_remaining": 3861,
+      "section_contribution": 1930,
+      "score": 27930,
+      "recoverable_value": 27930
+    },
+    {
+      "damage": 140,
+      "armour_remaining": 3860,
+      "section_contribution": 1930,
+      "score": 27930,
+      "recoverable_value": 27930
+    },
+    {
+      "damage": 141,
+      "armour_remaining": 3859,
+      "section_contribution": 1929,
+      "score": 27929,
+      "recoverable_value": 27929
+    },
+    {
+      "damage": 142,
+      "armour_remaining": 3858,
+      "section_contribution": 1929,
+      "score": 27929,
+      "recoverable_value": 27929
+    },
+    {
+      "damage": 143,
+      "armour_remaining": 3857,
+      "section_contribution": 1928,
+      "score": 27928,
+      "recoverable_value": 27928
+    },
+    {
+      "damage": 144,
+      "armour_remaining": 3856,
+      "section_contribution": 1928,
+      "score": 27928,
+      "recoverable_value": 27928
+    },
+    {
+      "damage": 145,
+      "armour_remaining": 3855,
+      "section_contribution": 1927,
+      "score": 27927,
+      "recoverable_value": 27927
+    },
+    {
+      "damage": 146,
+      "armour_remaining": 3854,
+      "section_contribution": 1927,
+      "score": 27927,
+      "recoverable_value": 27927
+    },
+    {
+      "damage": 147,
+      "armour_remaining": 3853,
+      "section_contribution": 1926,
+      "score": 27926,
+      "recoverable_value": 27926
+    },
+    {
+      "damage": 148,
+      "armour_remaining": 3852,
+      "section_contribution": 1926,
+      "score": 27926,
+      "recoverable_value": 27926
+    },
+    {
+      "damage": 149,
+      "armour_remaining": 3851,
+      "section_contribution": 1925,
+      "score": 27925,
+      "recoverable_value": 27925
+    },
+    {
+      "damage": 150,
+      "armour_remaining": 3850,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 151,
+      "armour_remaining": 3849,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 152,
+      "armour_remaining": 3848,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 153,
+      "armour_remaining": 3847,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 154,
+      "armour_remaining": 3846,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 155,
+      "armour_remaining": 3845,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 156,
+      "armour_remaining": 3844,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 157,
+      "armour_remaining": 3843,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 158,
+      "armour_remaining": 3842,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 159,
+      "armour_remaining": 3841,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 160,
+      "armour_remaining": 3840,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 161,
+      "armour_remaining": 3839,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 162,
+      "armour_remaining": 3838,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 163,
+      "armour_remaining": 3837,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 164,
+      "armour_remaining": 3836,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 165,
+      "armour_remaining": 3835,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 166,
+      "armour_remaining": 3834,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 167,
+      "armour_remaining": 3833,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 168,
+      "armour_remaining": 3832,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 169,
+      "armour_remaining": 3831,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 170,
+      "armour_remaining": 3830,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 171,
+      "armour_remaining": 3829,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 172,
+      "armour_remaining": 3828,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 173,
+      "armour_remaining": 3827,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 174,
+      "armour_remaining": 3826,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 175,
+      "armour_remaining": 3825,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 176,
+      "armour_remaining": 3824,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 177,
+      "armour_remaining": 3823,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 178,
+      "armour_remaining": 3822,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 179,
+      "armour_remaining": 3821,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 180,
+      "armour_remaining": 3820,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 181,
+      "armour_remaining": 3819,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 182,
+      "armour_remaining": 3818,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 183,
+      "armour_remaining": 3817,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 184,
+      "armour_remaining": 3816,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 185,
+      "armour_remaining": 3815,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 186,
+      "armour_remaining": 3814,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 187,
+      "armour_remaining": 3813,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 188,
+      "armour_remaining": 3812,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 189,
+      "armour_remaining": 3811,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 190,
+      "armour_remaining": 3810,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 191,
+      "armour_remaining": 3809,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 192,
+      "armour_remaining": 3808,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 193,
+      "armour_remaining": 3807,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 194,
+      "armour_remaining": 3806,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 195,
+      "armour_remaining": 3805,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 196,
+      "armour_remaining": 3804,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 197,
+      "armour_remaining": 3803,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 198,
+      "armour_remaining": 3802,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 199,
+      "armour_remaining": 3801,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    },
+    {
+      "damage": 200,
+      "armour_remaining": 3800,
+      "section_contribution": 0,
+      "score": 26000,
+      "recoverable_value": 26000
+    }
+  ]
+}

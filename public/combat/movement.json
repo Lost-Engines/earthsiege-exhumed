@@ -1,0 +1,3035 @@
+{
+  "scope": "Original 0x12038 and 0x14148, same Samson, speed request 500, frame ratio256, unobstructed, leg flags supplied. No collision/AI or full-world frame.",
+  "traces": [
+    {
+      "label": "Healthy",
+      "start": [
+        -38359,
+        -9688,
+        0
+      ],
+      "states": [
+        {
+          "update": 1,
+          "position": [
+            -38359,
+            -9688,
+            0
+          ],
+          "speed": 30,
+          "animation_rate": 60
+        },
+        {
+          "update": 2,
+          "position": [
+            -38359,
+            -9688,
+            0
+          ],
+          "speed": 60,
+          "animation_rate": 60
+        },
+        {
+          "update": 3,
+          "position": [
+            -38359,
+            -9688,
+            0
+          ],
+          "speed": 90,
+          "animation_rate": 90
+        },
+        {
+          "update": 4,
+          "position": [
+            -38359,
+            -9553,
+            0
+          ],
+          "speed": 120,
+          "animation_rate": 120
+        },
+        {
+          "update": 5,
+          "position": [
+            -38359,
+            -9323,
+            0
+          ],
+          "speed": 120,
+          "animation_rate": 120
+        },
+        {
+          "update": 6,
+          "position": [
+            -38359,
+            -9139,
+            0
+          ],
+          "speed": 120,
+          "animation_rate": 120
+        },
+        {
+          "update": 7,
+          "position": [
+            -38359,
+            -8988,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 8,
+          "position": [
+            -38359,
+            -8928,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 9,
+          "position": [
+            -38359,
+            -8928,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 10,
+          "position": [
+            -38359,
+            -8745,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 11,
+          "position": [
+            -38359,
+            -8541,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 12,
+          "position": [
+            -38359,
+            -8367,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 13,
+          "position": [
+            -38359,
+            -8068,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 14,
+          "position": [
+            -38359,
+            -7604,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 15,
+          "position": [
+            -38359,
+            -7304,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 16,
+          "position": [
+            -38359,
+            -7072,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 17,
+          "position": [
+            -38359,
+            -6869,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 18,
+          "position": [
+            -38359,
+            -6679,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 19,
+          "position": [
+            -38359,
+            -6529,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 20,
+          "position": [
+            -38359,
+            -6334,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 21,
+          "position": [
+            -38359,
+            -6102,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 22,
+          "position": [
+            -38359,
+            -5682,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 23,
+          "position": [
+            -38359,
+            -5238,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 24,
+          "position": [
+            -38359,
+            -5006,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 25,
+          "position": [
+            -38359,
+            -4785,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 26,
+          "position": [
+            -38359,
+            -4582,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 27,
+          "position": [
+            -38359,
+            -4397,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 28,
+          "position": [
+            -38359,
+            -4223,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 29,
+          "position": [
+            -38359,
+            -3996,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 30,
+          "position": [
+            -38359,
+            -3720,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 31,
+          "position": [
+            -38359,
+            -3256,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 32,
+          "position": [
+            -38359,
+            -2900,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 33,
+          "position": [
+            -38359,
+            -2668,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 34,
+          "position": [
+            -38359,
+            -2458,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 35,
+          "position": [
+            -38359,
+            -2256,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 36,
+          "position": [
+            -38359,
+            -2105,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 37,
+          "position": [
+            -38359,
+            -1930,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 38,
+          "position": [
+            -38359,
+            -1698,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 39,
+          "position": [
+            -38359,
+            -1334,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 40,
+          "position": [
+            -38359,
+            -870,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 41,
+          "position": [
+            -38359,
+            -602,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 42,
+          "position": [
+            -38359,
+            -374,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 43,
+          "position": [
+            -38359,
+            -171,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 44,
+          "position": [
+            -38359,
+            21,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 45,
+          "position": [
+            -38359,
+            195,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 46,
+          "position": [
+            -38359,
+            408,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 47,
+          "position": [
+            -38359,
+            640,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 48,
+          "position": [
+            -38359,
+            1092,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 49,
+          "position": [
+            -38359,
+            1504,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 50,
+          "position": [
+            -38359,
+            1736,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 51,
+          "position": [
+            -38359,
+            1953,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 52,
+          "position": [
+            -38359,
+            2156,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 53,
+          "position": [
+            -38359,
+            2319,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 54,
+          "position": [
+            -38359,
+            2474,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 55,
+          "position": [
+            -38359,
+            2706,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 56,
+          "position": [
+            -38359,
+            3014,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 57,
+          "position": [
+            -38359,
+            3478,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 58,
+          "position": [
+            -38359,
+            3802,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 59,
+          "position": [
+            -38359,
+            4034,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 60,
+          "position": [
+            -38359,
+            4240,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 61,
+          "position": [
+            -38359,
+            4439,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 62,
+          "position": [
+            -38359,
+            4613,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 63,
+          "position": [
+            -38359,
+            4812,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 64,
+          "position": [
+            -38359,
+            5044,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 65,
+          "position": [
+            -38359,
+            5440,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 66,
+          "position": [
+            -38359,
+            5904,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 67,
+          "position": [
+            -38359,
+            6140,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 68,
+          "position": [
+            -38359,
+            6364,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 69,
+          "position": [
+            -38359,
+            6567,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 70,
+          "position": [
+            -38359,
+            6742,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 71,
+          "position": [
+            -38359,
+            6893,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 72,
+          "position": [
+            -38359,
+            7110,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 73,
+          "position": [
+            -38359,
+            7362,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 74,
+          "position": [
+            -38359,
+            7826,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 75,
+          "position": [
+            -38359,
+            8206,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 76,
+          "position": [
+            -38359,
+            8438,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 77,
+          "position": [
+            -38359,
+            8651,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 78,
+          "position": [
+            -38359,
+            8854,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 79,
+          "position": [
+            -38359,
+            9031,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 80,
+          "position": [
+            -38359,
+            9216,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 81,
+          "position": [
+            -38359,
+            9448,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 82,
+          "position": [
+            -38359,
+            9788,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 83,
+          "position": [
+            -38359,
+            10252,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 84,
+          "position": [
+            -38359,
+            10544,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 85,
+          "position": [
+            -38359,
+            10775,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 86,
+          "position": [
+            -38359,
+            10978,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 87,
+          "position": [
+            -38359,
+            11166,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 88,
+          "position": [
+            -38359,
+            11317,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 89,
+          "position": [
+            -38359,
+            11514,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 90,
+          "position": [
+            -38359,
+            11746,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 91,
+          "position": [
+            -38359,
+            12174,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 92,
+          "position": [
+            -38359,
+            12610,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 93,
+          "position": [
+            -38359,
+            12842,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 94,
+          "position": [
+            -38359,
+            13062,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 95,
+          "position": [
+            -38359,
+            13265,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 96,
+          "position": [
+            -38359,
+            13449,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 97,
+          "position": [
+            -38359,
+            13623,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 98,
+          "position": [
+            -38359,
+            13852,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 99,
+          "position": [
+            -38359,
+            14136,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        },
+        {
+          "update": 100,
+          "position": [
+            -38359,
+            14600,
+            0
+          ],
+          "speed": 150,
+          "animation_rate": 150
+        }
+      ]
+    },
+    {
+      "label": "Light leg damage",
+      "start": [
+        -38359,
+        -9688,
+        0
+      ],
+      "states": [
+        {
+          "update": 1,
+          "position": [
+            -38359,
+            -9688,
+            0
+          ],
+          "speed": 30,
+          "animation_rate": 60
+        },
+        {
+          "update": 2,
+          "position": [
+            -38359,
+            -9688,
+            0
+          ],
+          "speed": 60,
+          "animation_rate": 60
+        },
+        {
+          "update": 3,
+          "position": [
+            -38359,
+            -9688,
+            0
+          ],
+          "speed": 90,
+          "animation_rate": 90
+        },
+        {
+          "update": 4,
+          "position": [
+            -38359,
+            -9573,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 5,
+          "position": [
+            -38359,
+            -9363,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 6,
+          "position": [
+            -38359,
+            -9170,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 7,
+          "position": [
+            -38359,
+            -9061,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 8,
+          "position": [
+            -38359,
+            -8952,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 9,
+          "position": [
+            -38359,
+            -8928,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 10,
+          "position": [
+            -38359,
+            -8928,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 11,
+          "position": [
+            -38359,
+            -8867,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 12,
+          "position": [
+            -38359,
+            -8716,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 13,
+          "position": [
+            -38359,
+            -8566,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 14,
+          "position": [
+            -38359,
+            -8457,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 15,
+          "position": [
+            -38359,
+            -8347,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 16,
+          "position": [
+            -38359,
+            -8265,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 17,
+          "position": [
+            -38359,
+            -8198,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 18,
+          "position": [
+            -38359,
+            -8137,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 19,
+          "position": [
+            -38359,
+            -8095,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 20,
+          "position": [
+            -38359,
+            -8053,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 21,
+          "position": [
+            -38359,
+            -7915,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 22,
+          "position": [
+            -38359,
+            -7764,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 23,
+          "position": [
+            -38359,
+            -7634,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 24,
+          "position": [
+            -38359,
+            -7525,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 25,
+          "position": [
+            -38359,
+            -7415,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 26,
+          "position": [
+            -38359,
+            -7306,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 27,
+          "position": [
+            -38359,
+            -7197,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 28,
+          "position": [
+            -38359,
+            -7168,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 29,
+          "position": [
+            -38359,
+            -7168,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 30,
+          "position": [
+            -38359,
+            -7114,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 31,
+          "position": [
+            -38359,
+            -6963,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 32,
+          "position": [
+            -38359,
+            -6812,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 33,
+          "position": [
+            -38359,
+            -6702,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 34,
+          "position": [
+            -38359,
+            -6593,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 35,
+          "position": [
+            -38359,
+            -6508,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 36,
+          "position": [
+            -38359,
+            -6441,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 37,
+          "position": [
+            -38359,
+            -6379,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 38,
+          "position": [
+            -38359,
+            -6337,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 39,
+          "position": [
+            -38359,
+            -6295,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 40,
+          "position": [
+            -38359,
+            -6162,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 41,
+          "position": [
+            -38359,
+            -6011,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 42,
+          "position": [
+            -38359,
+            -5879,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 43,
+          "position": [
+            -38359,
+            -5770,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 44,
+          "position": [
+            -38359,
+            -5661,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 45,
+          "position": [
+            -38359,
+            -5551,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 46,
+          "position": [
+            -38359,
+            -5442,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 47,
+          "position": [
+            -38359,
+            -5408,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 48,
+          "position": [
+            -38359,
+            -5408,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 49,
+          "position": [
+            -38359,
+            -5362,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 50,
+          "position": [
+            -38359,
+            -5210,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 51,
+          "position": [
+            -38359,
+            -5059,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 52,
+          "position": [
+            -38359,
+            -4947,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 53,
+          "position": [
+            -38359,
+            -4838,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 54,
+          "position": [
+            -38359,
+            -4752,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 55,
+          "position": [
+            -38359,
+            -4684,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 56,
+          "position": [
+            -38359,
+            -4621,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 57,
+          "position": [
+            -38359,
+            -4579,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 58,
+          "position": [
+            -38359,
+            -4537,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 59,
+          "position": [
+            -38359,
+            -4410,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 60,
+          "position": [
+            -38359,
+            -4258,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 61,
+          "position": [
+            -38359,
+            -4124,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 62,
+          "position": [
+            -38359,
+            -4015,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 63,
+          "position": [
+            -38359,
+            -3906,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 64,
+          "position": [
+            -38359,
+            -3797,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 65,
+          "position": [
+            -38359,
+            -3687,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 66,
+          "position": [
+            -38359,
+            -3648,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 67,
+          "position": [
+            -38359,
+            -3648,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 68,
+          "position": [
+            -38359,
+            -3609,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 69,
+          "position": [
+            -38359,
+            -3458,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 70,
+          "position": [
+            -38359,
+            -3306,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 71,
+          "position": [
+            -38359,
+            -3192,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 72,
+          "position": [
+            -38359,
+            -3083,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 73,
+          "position": [
+            -38359,
+            -2995,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 74,
+          "position": [
+            -38359,
+            -2928,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 75,
+          "position": [
+            -38359,
+            -2863,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 76,
+          "position": [
+            -38359,
+            -2821,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 77,
+          "position": [
+            -38359,
+            -2779,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 78,
+          "position": [
+            -38359,
+            -2657,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 79,
+          "position": [
+            -38359,
+            -2506,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 80,
+          "position": [
+            -38359,
+            -2369,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 81,
+          "position": [
+            -38359,
+            -2260,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 82,
+          "position": [
+            -38359,
+            -2151,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 83,
+          "position": [
+            -38359,
+            -2042,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 84,
+          "position": [
+            -38359,
+            -1933,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 85,
+          "position": [
+            -38359,
+            -1888,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 86,
+          "position": [
+            -38359,
+            -1888,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 87,
+          "position": [
+            -38359,
+            -1856,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 88,
+          "position": [
+            -38359,
+            -1705,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 89,
+          "position": [
+            -38359,
+            -1554,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 90,
+          "position": [
+            -38359,
+            -1437,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 91,
+          "position": [
+            -38359,
+            -1328,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 92,
+          "position": [
+            -38359,
+            -1238,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 93,
+          "position": [
+            -38359,
+            -1171,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 94,
+          "position": [
+            -38359,
+            -1105,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 95,
+          "position": [
+            -38359,
+            -1063,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 96,
+          "position": [
+            -38359,
+            -1021,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 97,
+          "position": [
+            -38359,
+            -904,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 98,
+          "position": [
+            -38359,
+            -753,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 99,
+          "position": [
+            -38359,
+            -615,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        },
+        {
+          "update": 100,
+          "position": [
+            -38359,
+            -505,
+            0
+          ],
+          "speed": 110,
+          "animation_rate": 110
+        }
+      ]
+    },
+    {
+      "label": "Heavy leg damage",
+      "start": [
+        -38359,
+        -9688,
+        0
+      ],
+      "states": [
+        {
+          "update": 1,
+          "position": [
+            -38359,
+            -9688,
+            0
+          ],
+          "speed": 30,
+          "animation_rate": 60
+        },
+        {
+          "update": 2,
+          "position": [
+            -38359,
+            -9688,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 60
+        },
+        {
+          "update": 3,
+          "position": [
+            -38359,
+            -9688,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 4,
+          "position": [
+            -38359,
+            -9688,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 5,
+          "position": [
+            -38359,
+            -9613,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 6,
+          "position": [
+            -38359,
+            -9498,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 7,
+          "position": [
+            -38359,
+            -9383,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 8,
+          "position": [
+            -38359,
+            -9268,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 9,
+          "position": [
+            -38359,
+            -9170,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 10,
+          "position": [
+            -38359,
+            -9110,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 11,
+          "position": [
+            -38359,
+            -9051,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 12,
+          "position": [
+            -38359,
+            -8991,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 13,
+          "position": [
+            -38359,
+            -8931,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 14,
+          "position": [
+            -38359,
+            -8928,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 15,
+          "position": [
+            -38359,
+            -8928,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 16,
+          "position": [
+            -38359,
+            -8928,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 17,
+          "position": [
+            -38359,
+            -8928,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 18,
+          "position": [
+            -38359,
+            -8878,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 19,
+          "position": [
+            -38359,
+            -8795,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 20,
+          "position": [
+            -38359,
+            -8712,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 21,
+          "position": [
+            -38359,
+            -8630,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 22,
+          "position": [
+            -38359,
+            -8553,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 23,
+          "position": [
+            -38359,
+            -8493,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 24,
+          "position": [
+            -38359,
+            -8433,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 25,
+          "position": [
+            -38359,
+            -8373,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 26,
+          "position": [
+            -38359,
+            -8314,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 27,
+          "position": [
+            -38359,
+            -8275,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 28,
+          "position": [
+            -38359,
+            -8238,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 29,
+          "position": [
+            -38359,
+            -8201,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 30,
+          "position": [
+            -38359,
+            -8164,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 31,
+          "position": [
+            -38359,
+            -8135,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 32,
+          "position": [
+            -38359,
+            -8112,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 33,
+          "position": [
+            -38359,
+            -8089,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 34,
+          "position": [
+            -38359,
+            -8066,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 35,
+          "position": [
+            -38359,
+            -8030,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 36,
+          "position": [
+            -38359,
+            -7948,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 37,
+          "position": [
+            -38359,
+            -7865,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 38,
+          "position": [
+            -38359,
+            -7782,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 39,
+          "position": [
+            -38359,
+            -7699,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 40,
+          "position": [
+            -38359,
+            -7636,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 41,
+          "position": [
+            -38359,
+            -7577,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 42,
+          "position": [
+            -38359,
+            -7517,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 43,
+          "position": [
+            -38359,
+            -7457,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 44,
+          "position": [
+            -38359,
+            -7397,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 45,
+          "position": [
+            -38359,
+            -7337,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 46,
+          "position": [
+            -38359,
+            -7278,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 47,
+          "position": [
+            -38359,
+            -7218,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 48,
+          "position": [
+            -38359,
+            -7168,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 49,
+          "position": [
+            -38359,
+            -7168,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 50,
+          "position": [
+            -38359,
+            -7168,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 51,
+          "position": [
+            -38359,
+            -7168,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 52,
+          "position": [
+            -38359,
+            -7168,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 53,
+          "position": [
+            -38359,
+            -7100,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 54,
+          "position": [
+            -38359,
+            -7017,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 55,
+          "position": [
+            -38359,
+            -6934,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 56,
+          "position": [
+            -38359,
+            -6852,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 57,
+          "position": [
+            -38359,
+            -6780,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 58,
+          "position": [
+            -38359,
+            -6720,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 59,
+          "position": [
+            -38359,
+            -6660,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 60,
+          "position": [
+            -38359,
+            -6600,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 61,
+          "position": [
+            -38359,
+            -6544,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 62,
+          "position": [
+            -38359,
+            -6507,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 63,
+          "position": [
+            -38359,
+            -6470,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 64,
+          "position": [
+            -38359,
+            -6433,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 65,
+          "position": [
+            -38359,
+            -6396,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 66,
+          "position": [
+            -38359,
+            -6370,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 67,
+          "position": [
+            -38359,
+            -6347,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 68,
+          "position": [
+            -38359,
+            -6324,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 69,
+          "position": [
+            -38359,
+            -6301,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 70,
+          "position": [
+            -38359,
+            -6252,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 71,
+          "position": [
+            -38359,
+            -6170,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 72,
+          "position": [
+            -38359,
+            -6087,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 73,
+          "position": [
+            -38359,
+            -6004,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 74,
+          "position": [
+            -38359,
+            -5923,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 75,
+          "position": [
+            -38359,
+            -5863,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 76,
+          "position": [
+            -38359,
+            -5804,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 77,
+          "position": [
+            -38359,
+            -5744,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 78,
+          "position": [
+            -38359,
+            -5684,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 79,
+          "position": [
+            -38359,
+            -5624,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 80,
+          "position": [
+            -38359,
+            -5564,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 81,
+          "position": [
+            -38359,
+            -5505,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 82,
+          "position": [
+            -38359,
+            -5445,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 83,
+          "position": [
+            -38359,
+            -5408,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 84,
+          "position": [
+            -38359,
+            -5408,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 85,
+          "position": [
+            -38359,
+            -5408,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 86,
+          "position": [
+            -38359,
+            -5408,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 87,
+          "position": [
+            -38359,
+            -5405,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 88,
+          "position": [
+            -38359,
+            -5322,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 89,
+          "position": [
+            -38359,
+            -5239,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 90,
+          "position": [
+            -38359,
+            -5156,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 91,
+          "position": [
+            -38359,
+            -5074,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 92,
+          "position": [
+            -38359,
+            -5007,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 93,
+          "position": [
+            -38359,
+            -4947,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 94,
+          "position": [
+            -38359,
+            -4887,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 95,
+          "position": [
+            -38359,
+            -4827,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 96,
+          "position": [
+            -38359,
+            -4776,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 97,
+          "position": [
+            -38359,
+            -4739,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 98,
+          "position": [
+            -38359,
+            -4702,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 99,
+          "position": [
+            -38359,
+            -4665,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        },
+        {
+          "update": 100,
+          "position": [
+            -38359,
+            -4628,
+            0
+          ],
+          "speed": 59,
+          "animation_rate": 59
+        }
+      ]
+    }
+  ]
+}
