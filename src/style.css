@@ -107,3 +107,43 @@
  .combat-article th,.combat-article td{padding:9px 5px;overflow-wrap:anywhere}
  .combat-meters{gap:12px}
 }
+
+/* Engine essays share the existing article layout and retain static figures. */
+.engine-article .interactive-figure figure{margin:0}
+.engine-article .interactive-figure figcaption{padding:12px 18px;margin:0}
+.engine-article .article-readout{font:15px/1.75 system-ui;padding:16px 20px;margin:0;min-height:80px}
+.engine-article .example-note{font:12px/1.8 system-ui;padding:0 20px 16px;margin:0;color:var(--muted)}
+.engine-article .pixel-comparison{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:16px;align-items:start;background:#101b25}
+.engine-article .pixel-comparison img,.engine-article .pixel-image{display:block;width:100%;height:auto;image-rendering:pixelated}
+.engine-article .pixel-comparison figcaption{color:#c1d0d5;padding:10px 0;font-size:13px}
+.engine-article .article-detail{margin:0;border:0;border-top:1px solid var(--line)}
+.article-audio{overflow-x:auto}
+.article-audio table{table-layout:fixed}
+.article-audio th:first-child{width:24%}
+.article-audio audio{width:100%;min-width:170px;height:40px}
+.article-audio caption{font:13px/1.7 system-ui;text-align:left;padding-bottom:12px;color:var(--muted)}
+.article-index{max-width:1100px;margin:auto}
+.essay-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 42px}
+.essay-card{padding:28px 0;border-top:1px solid var(--line)}
+.essay-card h2,.essay-card h3{font:400 29px/1.25 Georgia,serif;margin:8px 0 14px}
+.essay-card p{font:16px/1.8 system-ui;color:var(--muted);margin:0}
+.essay-card a{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:4px}
+.article-series{font:14px/1.8 system-ui;border-top:1px solid var(--line);padding-top:24px;margin-top:48px}
+.article-series ul{padding-left:20px;columns:2}
+@media(max-width:600px){
+ .essay-grid{grid-template-columns:1fr}
+ .article-series ul{columns:1}
+ .engine-article .pixel-comparison{grid-template-columns:1fr;padding:20px 14px;gap:18px}
+ .engine-article .pixel-comparison figure{max-width:360px;width:100%;margin:auto}
+ .engine-article .article-readout{padding:14px;font-size:14px}
+ .engine-article .example-note{padding:0 14px 14px}
+ .engine-article .figure-controls label{max-width:100%}
+ .article-audio table,.article-audio tbody,.article-audio tr,.article-audio th,.article-audio td{display:block;width:100%!important}
+ .article-audio thead{display:none}
+ .article-audio caption{display:block;width:100%;box-sizing:border-box}
+ .article-audio tr{padding:12px 0;border-top:1px solid var(--line)}
+ .article-audio th,.article-audio td{border:0;padding:6px 0}
+ .article-audio td:nth-child(2)::before{content:'OPL2 + samples';display:block;margin-bottom:6px}
+ .article-audio td:nth-child(3)::before{content:'OPL3 + samples';display:block;margin-bottom:6px}
+ .article-audio audio{min-width:0}
+}

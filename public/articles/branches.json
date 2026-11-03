@@ -1,0 +1,37 @@
+{
+  "scope": "GO campaign node transitions at the last step; branch 1 means grade above mission-kind threshold. 99 is victory; -1 is failure.",
+  "destinations": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      -1
+    ],
+    [
+      7,
+      -1
+    ],
+    [
+      7,
+      -1
+    ],
+    [
+      99,
+      -1
+    ]
+  ]
+}

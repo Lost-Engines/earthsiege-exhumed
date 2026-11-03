@@ -98,3 +98,42 @@ Controlled internal-damage inputs isolate reactor consequences; the still model
 views precede collapse animation. Salvage curves isolate valuation and do not
 bypass the eligibility rules in a real mission. Weapon payload figures include
 the firing charge but precede difficulty scaling and do not describe DPS.
+
+
+## AI, missions, reconstruction and music articles
+
+The four articles live in `content/ai.md`, `campaign.md`, `reconstruction.md`
+and `music.md`, published at the corresponding routes. `articles/` lists all six
+engine essays; the main page links each new article directly. The header's Engine
+articles link replaces the two individual graphics/combat links to keep navigation
+usable at intermediate window widths.
+
+```sh
+python3 scripts/import-articles.py ../earthsiege-reverse
+npm run build
+npm run check
+CHROMIUM_PATH=/usr/bin/chromium npm run check:articles
+```
+
+The importer is a maintainer operation requiring Pillow and the retained analysis
+captures, including the aligned native PPM frames in `earthsiege-cpp/build`.
+It does not execute either game or alter their resources. It copies cited notes,
+checks that the public atlas carries the same two launch captures, verifies all
+six full-frame radar difference counts, and produces lossless crops and
+explanatory SVG diagrams. `public/articles/provenance.json` records input hashes;
+`manifest.json` covers every output. The public build needs only this checkout.
+
+`src/articles.js` enhances static examples with contact-sharing boundaries,
+mission variation selection, campaign destinations, radar crop selection and
+music fade steps. The first and last controls illustrate documented rules. The
+mission and radar controls select retained capture data. Controls stay hidden
+until ready; a failed request leaves the static example available. No animation
+or audio starts automatically. Audio reuses the six existing FLAC excerpts and
+retains their separate provenance and one-player-at-a-time behaviour.
+
+The article browser check exercises original boundary cases, keyboard operation,
+seven viewport widths, dark mode, SVG text bounds, no-JavaScript pages and a
+failed-data fallback. It decodes every excerpt and verifies audio switching.
+The standard static check includes all article asset hashes and dynamic paths.
+Keep the 120-frame result explicitly scoped to those samples and distinguish
+the intentionally repaired native radar from the unchanged original references.

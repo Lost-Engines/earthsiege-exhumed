@@ -1,0 +1,141 @@
+{
+  "scope": "Figures for AI, mission construction, reconstruction and music articles. SVGs explain documented rules; mission positions and radar pixels come from retained original-code captures. No new original executions or source asset modifications during import.",
+  "inputs": [
+    {
+      "source": "earthsiege-cpp/build/verified-aligned-demo1/frame-00120.ppm",
+      "sha256": "1852de790e939bb56dd272d0b7274d47424e75da83a51f67b68c189dd9d61d00",
+      "bytes": 192015
+    },
+    {
+      "source": "earthsiege-cpp/build/verified-aligned-demo1/frame-01020.ppm",
+      "sha256": "074f9366e23feed7382f00b0d13bf2dfe43213f24e94e60ec1777fc7356ed1e2",
+      "bytes": 192015
+    },
+    {
+      "source": "earthsiege-cpp/build/verified-aligned-demo1/frame-01440.ppm",
+      "sha256": "3f1c2f873aea55901f619d14fc5b077166fffc2b0d94221437d77413c4d72faa",
+      "bytes": 192015
+    },
+    {
+      "source": "earthsiege-cpp/build/verified-aligned-demo2/frame-00660.ppm",
+      "sha256": "e2573cb7b3169c62315a31b4cf9eeea32d41b36c74e9403ce61452e7ede389f0",
+      "bytes": 192015
+    },
+    {
+      "source": "earthsiege-cpp/build/verified-aligned-demo2/frame-00720.ppm",
+      "sha256": "92455b08cb29bc0d04b41383cf5e617bb57717beef99086713a101601250d466",
+      "bytes": 192015
+    },
+    {
+      "source": "earthsiege-cpp/build/verified-aligned-demo4/frame-00000.ppm",
+      "sha256": "ba6293e31d0ce768674307de248e318662acc1931c0a8cf765dac14081f901c6",
+      "bytes": 192015
+    },
+    {
+      "source": "earthsiege-exhumed/public/audio/provenance.json",
+      "sha256": "97ab5e36c2a90b98cbf71ad7bf7faa2608aa77d7df80debd4545c8e45c2c4360",
+      "bytes": 3425
+    },
+    {
+      "source": "earthsiege-exhumed/public/missions/launches/b0_c6_1a/campaign-6-1-seed17.json.js",
+      "sha256": "9ff611a3223057faf0324432570a61a336c0c2442273131928030713994f5e99",
+      "bytes": 49971
+    },
+    {
+      "source": "earthsiege-exhumed/public/missions/launches/b0_c6_1a/campaign-6-1-seed42.json.js",
+      "sha256": "32f7f9ac7aa5a5ecd6df148778631b5afcc8bbafc28bfa4f5ff77d26a6ac760c",
+      "bytes": 49970
+    },
+    {
+      "source": "earthsiege-reverse/analysis/missions/launches/b0_c6_1a/campaign-6-1-seed17.json.js",
+      "sha256": "9ff611a3223057faf0324432570a61a336c0c2442273131928030713994f5e99",
+      "bytes": 49971
+    },
+    {
+      "source": "earthsiege-reverse/analysis/missions/launches/b0_c6_1a/campaign-6-1-seed42.json.js",
+      "sha256": "32f7f9ac7aa5a5ecd6df148778631b5afcc8bbafc28bfa4f5ff77d26a6ac760c",
+      "bytes": 49970
+    },
+    {
+      "source": "earthsiege-reverse/analysis/tapes/replays/demo1-clock-pages/clean-frame-00120.png",
+      "sha256": "aa718e17a96de2b335cab22e9f7e621dd3ff5352e4309d3b99e59d85ebfc08b2",
+      "bytes": 19847
+    },
+    {
+      "source": "earthsiege-reverse/analysis/tapes/replays/demo1-clock-pages/clean-frame-01020.png",
+      "sha256": "e5127020279934e714b535f1608b4d3d2210b6791634651ab581848de6f76f16",
+      "bytes": 13447
+    },
+    {
+      "source": "earthsiege-reverse/analysis/tapes/replays/demo1-clock-pages/clean-frame-01440.png",
+      "sha256": "3366058078c0f42754562ebfacd74b70b4fe223667235d4b0bac3dabf62fdfa4",
+      "bytes": 20479
+    },
+    {
+      "source": "earthsiege-reverse/analysis/tapes/replays/demo2-clock-pages/clean-frame-00660.png",
+      "sha256": "4c1ae63f91b8da25dee0bf6c0171429aaef8c4ccf70e67882686f21140d372f7",
+      "bytes": 17975
+    },
+    {
+      "source": "earthsiege-reverse/analysis/tapes/replays/demo2-clock-pages/clean-frame-00720.png",
+      "sha256": "c71c5ccc95990b4feb8fe4dbe798f10abfb146b7cbe47769718f88bc3e7fa771",
+      "bytes": 18289
+    },
+    {
+      "source": "earthsiege-reverse/analysis/tapes/replays/demo4-clock-pages/clean-frame-00000.png",
+      "sha256": "1a7ec88fed074b878c07336bfe26029a8b5a9f0e7063e24bc1355d806bb1fc18",
+      "bytes": 18778
+    },
+    {
+      "source": "earthsiege-reverse/analysis/tapes/replays/image-differences/radar-allocation-dependence.json",
+      "sha256": "37a54fa3a2267fc656795f1c489de94a4d623ec1d0c28d77662325310e2db99a",
+      "bytes": 3211
+    },
+    {
+      "source": "earthsiege-reverse/analysis/tapes/replays/image-differences/radar-repair-six-scenes.json",
+      "sha256": "5f6e50655112541bf2953828eee6c3f56c236b4afad45d7054765e8d41ae1cc9",
+      "bytes": 16687
+    },
+    {
+      "source": "earthsiege-reverse/docs/CAMPAIGN.md",
+      "sha256": "042e8e0c148469e2e24c136ace5e66dbbf0a0e5eb845c3aabb10123844d8b8f5",
+      "bytes": 17244
+    },
+    {
+      "source": "earthsiege-reverse/docs/CONTROLLERS.md",
+      "sha256": "cd18c63f5be6e39f8679fa29dd0c592b0d04563bee1a82bc9d6528d920cee33c",
+      "bytes": 23242
+    },
+    {
+      "source": "earthsiege-reverse/docs/MISSION_LAUNCH.md",
+      "sha256": "b9dac9b101670117ce14505dee5f56ca9bf7773a25a2953de4fb1b6dee591543",
+      "bytes": 12906
+    },
+    {
+      "source": "earthsiege-reverse/docs/MISSION_RUNTIME.md",
+      "sha256": "a088c0af5694c14fd131d8772311cba820e2cbadb211555d35047ca9f611c1c9",
+      "bytes": 11450
+    },
+    {
+      "source": "earthsiege-reverse/docs/MUSIC.md",
+      "sha256": "6532228394536935e404822b4e89a57c2d9e38502cca0bc8afe31215860ceed3",
+      "bytes": 27819
+    },
+    {
+      "source": "earthsiege-reverse/docs/PERCEPTION.md",
+      "sha256": "0a53cb2444b6932d49af0e055ea73fcf6bb681996ed7d76bcbb0228c4e350c6d",
+      "bytes": 8051
+    },
+    {
+      "source": "earthsiege-reverse/docs/PIXEL_FIDELITY.md",
+      "sha256": "b764c90aa4c7e02f6fbbb104a62b0fac2821baa7838665682bc2f35dee892439",
+      "bytes": 8772
+    },
+    {
+      "source": "earthsiege-reverse/docs/REFERENCE_CAPTURE.md",
+      "sha256": "81416df1d3d2c8eb475e6f464babc79cc2ed31c845fa2fb3fd081f739b941b57",
+      "bytes": 10785
+    }
+  ],
+  "pixel_method": "Lossless RGB conversion and rectangular crops, no rescaling. Red difference masks are diagnostic. Audio clips retain their separate audio/provenance.json."
+}

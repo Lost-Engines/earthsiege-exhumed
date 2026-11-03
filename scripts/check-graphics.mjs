@@ -48,7 +48,7 @@ try{
  for(const id of ['model-progress','texture-example','environment-example'])await page.locator('#'+id).screenshot({path:'.test-output/'+id+'.png'});
  for(const width of [390,768,1024,1200,1440]){
   await page.setViewportSize({width,height:900});await fits();
-  if(width===390){await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'.test-output/graphics-mobile.png'});await page.getByRole('button',{name:'Menu',exact:true}).click();assert(await page.getByRole('link',{name:'Graphics engine',exact:true}).isVisible());await page.getByRole('button',{name:'Menu',exact:true}).click();}
+  if(width===390){await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'.test-output/graphics-mobile.png'});await page.getByRole('button',{name:'Menu',exact:true}).click();assert(await page.getByRole('link',{name:'Engine articles',exact:true}).isVisible());await page.getByRole('button',{name:'Menu',exact:true}).click();}
  }
  await page.emulateMedia({colorScheme:'dark',reducedMotion:'reduce'});await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'.test-output/graphics-dark.png'});await fits();
  const noJS=await browser.newPage({javaScriptEnabled:false,viewport:{width:390,height:844}});

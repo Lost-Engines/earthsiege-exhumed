@@ -34,7 +34,7 @@ try{
   await page.setViewportSize({width,height:950});await fits();
   const layout=await page.evaluate(()=>{const r=document.querySelector('.nav-links').getBoundingClientRect(),b=document.querySelector('.brand-links').getBoundingClientRect();return {display:getComputedStyle(document.querySelector('.nav-links')).display,r:r.left,b:b.right,right:r.right}});
   if(layout.display!=='none')assert(layout.r>=layout.b && layout.right<=width,'Navigation overlaps at '+width);
-  if(width===390){await page.getByRole('button',{name:'Menu',exact:true}).click();assert(await page.getByRole('link',{name:'Damage & physics',exact:true}).isVisible());await page.getByRole('button',{name:'Menu',exact:true}).click();await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'.test-output/combat-mobile.png'});await page.locator('#salvage-example').screenshot({path:'.test-output/combat-salvage-mobile.png'});}
+  if(width===390){await page.getByRole('button',{name:'Menu',exact:true}).click();assert(await page.getByRole('link',{name:'Engine articles',exact:true}).isVisible());await page.getByRole('button',{name:'Menu',exact:true}).click();await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'.test-output/combat-mobile.png'});await page.locator('#salvage-example').screenshot({path:'.test-output/combat-salvage-mobile.png'});}
  }
  await page.setViewportSize({width:1440,height:1000});await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'.test-output/combat-desktop.png'});
  await page.emulateMedia({colorScheme:'dark',reducedMotion:'reduce'});await fits();await page.screenshot({path:'.test-output/combat-dark.png'});

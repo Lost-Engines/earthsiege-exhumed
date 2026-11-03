@@ -87,3 +87,5 @@ The executable also offers a few glimpses of development. Embedded `.cpp` paths 
 We haven’t established the compiler version. The DOS extender carries Doug Huffman’s name, while the separate movie player credits Jim Kent’s READFLIC example from the March 1993 *Dr. Dobb’s Journal*.
 
 The reconstruction, **Earthsiege C++**, brings these findings together in a native game, with comparisons against the original to check its rules and software renderer. Here on the site, you can explore the machines, maps and artwork we recovered along the way.
+
+For longer illustrated accounts, read the [engine articles](../articles/): graphics, damage, AI, mission construction, sound and the reconstruction process.

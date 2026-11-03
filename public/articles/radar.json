@@ -1,0 +1,89 @@
+{
+  "scope": "Unchanged original DOSBox and native aligned final comparison. Native includes the documented invalid-radar-index repair. Pixel counts cover complete frames; crops retain six pixels of context.",
+  "frames": [
+    {
+      "key": "1-120",
+      "demo": 1,
+      "frame": 120,
+      "pixels": 36,
+      "crop": [
+        0,
+        68,
+        41,
+        91
+      ],
+      "width": 41,
+      "height": 23
+    },
+    {
+      "key": "1-1020",
+      "demo": 1,
+      "frame": 1020,
+      "pixels": 33,
+      "crop": [
+        206,
+        71,
+        241,
+        100
+      ],
+      "width": 35,
+      "height": 29
+    },
+    {
+      "key": "1-1440",
+      "demo": 1,
+      "frame": 1440,
+      "pixels": 30,
+      "crop": [
+        0,
+        57,
+        35,
+        91
+      ],
+      "width": 35,
+      "height": 34
+    },
+    {
+      "key": "2-660",
+      "demo": 2,
+      "frame": 660,
+      "pixels": 46,
+      "crop": [
+        119,
+        61,
+        170,
+        91
+      ],
+      "width": 51,
+      "height": 30
+    },
+    {
+      "key": "2-720",
+      "demo": 2,
+      "frame": 720,
+      "pixels": 54,
+      "crop": [
+        112,
+        61,
+        170,
+        94
+      ],
+      "width": 58,
+      "height": 33
+    },
+    {
+      "key": "4-0",
+      "demo": 4,
+      "frame": 0,
+      "pixels": 31,
+      "crop": [
+        283,
+        69,
+        320,
+        82
+      ],
+      "width": 37,
+      "height": 13
+    }
+  ]
+}

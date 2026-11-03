@@ -1,0 +1,50 @@
+{
+  "scope": "Illustration of the verified per-update fade. The last entry is the newly loaded B piece, not a crossfade. Steps do not represent elapsed seconds.",
+  "rows": [
+    {
+      "step": 0,
+      "volume": 100,
+      "piece": "A"
+    },
+    {
+      "step": 1,
+      "volume": 85,
+      "piece": "A"
+    },
+    {
+      "step": 2,
+      "volume": 70,
+      "piece": "A"
+    },
+    {
+      "step": 3,
+      "volume": 55,
+      "piece": "A"
+    },
+    {
+      "step": 4,
+      "volume": 40,
+      "piece": "A"
+    },
+    {
+      "step": 5,
+      "volume": 25,
+      "piece": "A"
+    },
+    {
+      "step": 6,
+      "volume": 10,
+      "piece": "A"
+    },
+    {
+      "step": 7,
+      "volume": 0,
+      "piece": "A"
+    },
+    {
+      "step": 8,
+      "volume": 100,
+      "piece": "B"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "files": [
+    {
+      "file": "ai-decisions.svg",
+      "bytes": 2896,
+      "sha256": "a0bc6ef0f67ffe9a50c7b5e0762a6806270bd93c4f45e7fe9edc49776001343f"
+    },
+    {
+      "file": "ai-navigation.svg",
+      "bytes": 2496,
+      "sha256": "4aa5abfd0a1d577070dcd65fb8a41625309f7792b67ae49d9f606310d7fcad14"
+    },
+    {
+      "file": "ai-sharing.svg",
+      "bytes": 2066,
+      "sha256": "0f31771973f3f8a9eacb15fa9a8e56d18db5b1d8e5ad26ca6373b78d1df588e1"
+    },
+    {
+      "file": "branches.json",
+      "bytes": 415,
+      "sha256": "ce596dae03a76c4483167e9b02a6dcef1ee89b98233250867bf38b553971ef9b"
+    },
+    {
+      "file": "campaign-branches.svg",
+      "bytes": 5511,
+      "sha256": "58e8c4dc52879ec1cc8d79cf826b1f3190f0f1ed41f289d9304552655f4bbe59"
+    },
+    {
+      "file": "fade.json",
+      "bytes": 802,
+      "sha256": "2391bd94f1b5e7e4f2e3f669f5dafbe02e8aeef25d5fcad21fb678be3e0f6f8d"
+    },
+    {
+      "file": "launches.json",
+      "bytes": 18854,
+      "sha256": "17d39a9e5fb4b460577b6d9601414d6090595d121862ff59ca2de44a8460f4ee"
+    },
+    {
+      "file": "mission-17.svg",
+      "bytes": 3783,
+      "sha256": "f83c1ab21aac39162b0a934ba7288479adbdf2fb32536b2397c5c088d8a46415"
+    },
+    {
+      "file": "mission-42.svg",
+      "bytes": 3783,
+      "sha256": "71e17a2ef03d09991acd6c8d6bc3a3faa55e329e9be9f3db0142e7d7fb969094"
+    },
+    {
+      "file": "mission-handoff.svg",
+      "bytes": 3058,
+      "sha256": "1d8a31141a10981c501821bb366b8668fe745d4f51a787cbd8071c78e0756ac1"
+    },
+    {
+      "file": "music-fade.svg",
+      "bytes": 2862,
+      "sha256": "6669cf5ec09aaa4760f7ab8c0a114b32ebb663c40e7fa4381492a8c64757bd95"
+    },
+    {
+      "file": "music-routing.svg",
+      "bytes": 2842,
+      "sha256": "48a54d8462a8c15c8716b480cae3aebd67040434b7ccd8d409da7ef7489556c3"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 5894,
+      "sha256": "2b2d4d7f4cbde819950ac698526dbaeed40aaa8cb0f1e3a2eb0e09e1b3fec477"
+    },
+    {
+      "file": "radar-1-1020-difference.png",
+      "bytes": 160,
+      "sha256": "b158e4a15e4b7b754a9995ae341c23c206297c0668d1d03102febfbcc6dfb9af"
+    },
+    {
+      "file": "radar-1-1020-full.png",
+      "bytes": 12703,
+      "sha256": "579ec4bad42d6c669f70c5b3a00a51b37950a4d360a402c31b74a56f0cea1eee"
+    },
+    {
+      "file": "radar-1-1020-native.png",
+      "bytes": 582,
+      "sha256": "a12438ca6af50e84d74e87caa847d116cf2b6a09abe09f353eb6bc5067635747"
+    },
+    {
+      "file": "radar-1-1020-original.png",
+      "bytes": 592,
+      "sha256": "3891859024455ac34bddbaee32a70079af05dace5a9e37361b8a9b7e266d8064"
+    },
+    {
+      "file": "radar-1-120-difference.png",
+      "bytes": 159,
+      "sha256": "f90b83b76c7ae1e281d6886ce33106a0b87f58df00be019af15c1f3dbc2dc66e"
+    },
+    {
+      "file": "radar-1-120-full.png",
+      "bytes": 19307,
+      "sha256": "a78a06bf0bbd67d10ebefaa51901368eaa7eb0d61bf253a7c8a9c58d5d1bb3f1"
+    },
+    {
+      "file": "radar-1-120-native.png",
+      "bytes": 543,
+      "sha256": "84aab9818fdc1918e54333278d1d27cfa4e3a7f309f4fba79c0222631de06dc3"
+    },
+    {
+      "file": "radar-1-120-original.png",
+      "bytes": 551,
+      "sha256": "49fc176c1ff7e2497b612c19d1f9770acc4089d1e2e28fbc43f9e9936e6992cc"
+    },
+    {
+      "file": "radar-1-1440-difference.png",
+      "bytes": 184,
+      "sha256": "1d398920368f4e455ffe026e9581c224b320182840b510669268c420914d2548"
+    },
+    {
+      "file": "radar-1-1440-full.png",
+      "bytes": 20093,
+      "sha256": "e42e433d70d2e83d311f6d5c1a60d49e0d993a4f254aaba46046f51fcf73160d"
+    },
+    {
+      "file": "radar-1-1440-native.png",
+      "bytes": 716,
+      "sha256": "feb2b91d34cf6724c6e137d08d7a416c830f2eb366c4156cc145f8c2e0aff06e"
+    },
+    {
+      "file": "radar-1-1440-original.png",
+      "bytes": 698,
+      "sha256": "c4aebbfe22fdf57db81c2614d0711bb7fc273508bd0cd117fd2923d692f974de"
+    },
+    {
+      "file": "radar-2-660-difference.png",
+      "bytes": 178,
+      "sha256": "5097708e8195adbcac233623cae28c8020b0ca31871778119122dad2a9251a1f"
+    },
+    {
+      "file": "radar-2-660-full.png",
+      "bytes": 17478,
+      "sha256": "1bc61c48d46a5f421491b4645d6c23a8bf89536d05a63a9616a462cebb6d1f96"
+    },
+    {
+      "file": "radar-2-660-native.png",
+      "bytes": 699,
+      "sha256": "a492c318d21c699db557b9bcf33f0ad527527775e8c4cc4d88f9bf8db365e58c"
+    },
+    {
+      "file": "radar-2-660-original.png",
+      "bytes": 688,
+      "sha256": "682db61a15f4bb14c3e76993b4c95ffc719aabf9984ac88b3e227743155850a8"
+    },
+    {
+      "file": "radar-2-720-difference.png",
+      "bytes": 191,
+      "sha256": "b0c55d6b06ac5b6632dca50ca30648376f7e92d94c571580dae755c09bcc1b8d"
+    },
+    {
+      "file": "radar-2-720-full.png",
+      "bytes": 17718,
+      "sha256": "6c2544b9d7614ccba59aa44f8cd0e718a1222060509a5109174a0b9c5c49c3a2"
+    },
+    {
+      "file": "radar-2-720-native.png",
+      "bytes": 776,
+      "sha256": "d608e75b92e01cc926f66df808b7ebd46e4bd55e561aab4eca4a9d55d05e49ef"
+    },
+    {
+      "file": "radar-2-720-original.png",
+      "bytes": 760,
+      "sha256": "a2716442548e6db9c5d66542ec01a15bee44720d96c32d250fdff0907e3123d0"
+    },
+    {
+      "file": "radar-4-0-difference.png",
+      "bytes": 98,
+      "sha256": "f0397b5f7b76c0f2e5eae7af5f2afb3b1fe9ea585e292180f587cb9333a340aa"
+    },
+    {
+      "file": "radar-4-0-full.png",
+      "bytes": 18231,
+      "sha256": "0c77e9ec1fcc94c7b8a3fa2726cf4db81b285b90169071972857d00ddf33400c"
+    },
+    {
+      "file": "radar-4-0-native.png",
+      "bytes": 214,
+      "sha256": "5fa84b295f5df33d9215540d044e8e09dc0ac7d148bfd7180c5cee4a21d887a9"
+    },
+    {
+      "file": "radar-4-0-original.png",
+      "bytes": 211,
+      "sha256": "88193180597df175c91272f62d52634f05ffaad38eb9244a523679f0e0a645fd"
+    },
+    {
+      "file": "radar-memory.svg",
+      "bytes": 2007,
+      "sha256": "fb1ed24814dd982ef68942f0ad306ac85e7c14db39026527177745e29b626580"
+    },
+    {
+      "file": "radar.json",
+      "bytes": 1448,
+      "sha256": "5b5c580e356504bfef58a470e75df8f539270d72ac7b4396efaecbc07716bbd9"
+    },
+    {
+      "file": "reconstruction-loop.svg",
+      "bytes": 2296,
+      "sha256": "06069dc8d317c1a8da505d4d6a64a84faff45a2391de183540c30377b94c3e58"
+    },
+    {
+      "file": "replay-path.svg",
+      "bytes": 2316,
+      "sha256": "426eb0b144eac0c9417df9c10063b450be5f0fd26e3c031d9712417c5e824ce6"
+    }
+  ]
+}

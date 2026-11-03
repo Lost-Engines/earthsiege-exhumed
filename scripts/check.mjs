@@ -32,5 +32,11 @@ for(const row of JSON.parse(await fs.readFile(path.join(root,'combat/manifest.js
  try{const bytes=await fs.readFile(path.join(root,rel));if(bytes.length!==row.bytes||createHash('sha256').update(bytes).digest('hex')!==row.sha256)errors.push('Combat asset hash mismatch '+rel)}catch{}
 }
 for(const row of JSON.parse(await fs.readFile(path.join(root,'combat/damage-states.json'),'utf8')).states)await exists('combat/'+row.image);
+for(const row of JSON.parse(await fs.readFile(path.join(root,'articles/manifest.json'),'utf8')).files){
+ const rel='articles/'+row.file;await exists(rel);
+ try{const bytes=await fs.readFile(path.join(root,rel));if(bytes.length!==row.bytes||createHash('sha256').update(bytes).digest('hex')!==row.sha256)errors.push('Article asset hash mismatch '+rel)}catch{}
+}
+for(const row of JSON.parse(await fs.readFile(path.join(root,'articles/radar.json'),'utf8')).frames){for(const kind of ['original','native','difference','full'])await exists('articles/radar-'+row.key+'-'+kind+'.png');}
+for(const row of JSON.parse(await fs.readFile(path.join(root,'articles/launches.json'),'utf8')).variations)await exists('articles/mission-'+row.seed+'.svg');
 if(errors.length){console.error(errors.join('\n'));process.exit(1)}
 console.log(`Checked ${documents.size} HTML pages, ${files.length} files, all model/texture/mission/sky dependencies and tour targets.`);

@@ -328,3 +328,16 @@ and switching devices. The complete native suite passes 272 tests, with six
 audio suites also passing ASan/UBSan and leak checking.
 
 The private-window report is retained in `analysis/music/window-check/report.json`, with screenshots of selection, restoration after restart and the resumed menu. It uses an isolated Xvfb display and SDL dummy audio; real synthesis is exercised by the separate firmware tests.
+
+
+## Expansion media audit
+
+The supplied expansion was inventoried after the original 1.0 audio checkpoint.
+It adds 13 HMP files: six battle songs and seven shell songs. None is byte-identical
+to the 20 base songs. Their hardware mappings and complete events are decoded
+under `analysis/releases/music/` and linked in the editions browser. None of
+these 13 files assigns a track with nonzero-velocity note-on events to device
+0xa004, the original MT-32 driver ID. This is a file-header/event observation;
+the expansion executable's music selection and driver execution still need
+comparison. Existing FLAC auditions and native audio tests cover the base game.
+See [INSTALL_MEDIA.md](INSTALL_MEDIA.md) for the expansion scope.

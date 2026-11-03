@@ -14,7 +14,8 @@
     "import": "node scripts/import-analysis.mjs",
     "check:browser": "node scripts/browser-check.mjs",
     "check:graphics": "node scripts/check-graphics.mjs",
-    "check:combat": "node scripts/check-combat.mjs"
+    "check:combat": "node scripts/check-combat.mjs",
+    "check:articles": "node scripts/check-articles.mjs"
   },
   "dependencies": {
     "marked": "18.1.0",
