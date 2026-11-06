@@ -9,7 +9,7 @@ from pathlib import Path
 import json,shutil,hashlib,sys
 site=Path(__file__).resolve().parents[1]
 root=Path(sys.argv[1] if len(sys.argv)>1 else site.parent/'earthsiege-reverse').resolve()
-src=root/'analysis/graphics-engine'; dst=site/'public/graphics';dst.mkdir(parents=True,exist_ok=True)
+src=root/'work/research/graphics-engine'; dst=site/'public/graphics';dst.mkdir(parents=True,exist_ok=True)
 meta=json.loads((src/'provenance.json').read_text())
 files=[row['file']for row in meta['images']]+['model-progress.json','gouraud-bands.json','texture-quad.json','palette.json','provenance.json']
 for name in files:shutil.copy2(src/name,dst/name)

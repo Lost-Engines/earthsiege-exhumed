@@ -3,7 +3,7 @@
 import hashlib,json,math,shutil,sys
 from html import escape
 from pathlib import Path
-site=Path(__file__).resolve().parents[1];root=Path(sys.argv[1]if len(sys.argv)>1 else site/'../earthsiege-reverse').resolve();src=root/'analysis/combat';dst=site/'public/combat';dst.mkdir(exist_ok=True)
+site=Path(__file__).resolve().parents[1];root=Path(sys.argv[1]if len(sys.argv)>1 else site/'../earthsiege-reverse').resolve();src=root/'work/research/combat';dst=site/'public/combat';dst.mkdir(exist_ok=True)
 for p in src.iterdir():
  if p.suffix=='.json' or p.name in ['intact.png','armour.png','shoulder.png','upper-leg.png','foot.png','cockpit.png']:shutil.copy2(p,dst/p.name)
 BG='#101b25';FG='#edf0e7';MUT='#a9bbc5';GOLD='#ebca80';TEAL='#82c9bd';RED='#ef9779'

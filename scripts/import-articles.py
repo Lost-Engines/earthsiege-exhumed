@@ -92,7 +92,7 @@ svg('mission-handoff.svg',570,'The launch and return handoff','GO compiles the m
 # The two publicly retained launch states, with pointers omitted from this exhibit.
 launches=[]
 for seed in [17,42]:
-    p=ROOT/'analysis/missions/launches/b0_c6_1a'/f'campaign-6-1-seed{seed}.json.js'
+    p=ROOT/'work/research/missions/launches/b0_c6_1a'/f'campaign-6-1-seed{seed}.json.js'
     s=read(p).decode();d=json.loads(s[s.index('{'):s.rfind('}')+1])
     # The article links the public atlas; confirm it carries precisely these captures.
     assert read(SITE/'public/missions/launches/b0_c6_1a'/p.name) == s.encode()
@@ -159,11 +159,11 @@ svg('replay-path.svg',390,'Input replay and observation','Ordinary frames and di
 
 # Publish exact pixels from the six retained final comparisons, not the labelled
 # contact sheet. The crops include six pixels of context; counts use full frames.
-report=json.loads(read(ROOT/'analysis/tapes/replays/image-differences/radar-repair-six-scenes.json'))
+report=json.loads(read(ROOT/'work/research/tapes/replays/image-differences/radar-repair-six-scenes.json'))
 radar=[]
 for row in report['cases']:
     demo,frame=row['demo'],row['frame'];key=f'{demo}-{frame}'
-    original_path=ROOT/f'analysis/tapes/replays/demo{demo}-clock-pages/clean-frame-{frame:05d}.png'
+    original_path=ROOT/f'work/research/tapes/replays/demo{demo}-clock-pages/clean-frame-{frame:05d}.png'
     native_path=ROOT.parent/f'earthsiege-cpp/build/verified-aligned-demo{demo}/frame-{frame:05d}.ppm'
     read(original_path);read(native_path)
     original=Image.open(original_path).convert('RGB');native=Image.open(native_path).convert('RGB')
@@ -180,7 +180,7 @@ for row in report['cases']:
     radar.append({'key':key,'demo':demo,'frame':frame,'pixels':len(indices),'crop':bounds,'width':bounds[2]-bounds[0],'height':bounds[3]-bounds[1]})
 assert sum(r['pixels']for r in radar)==230
 output('radar.json',{'scope':'Unchanged original DOSBox and native aligned final comparison. Native includes the documented invalid-radar-index repair. Pixel counts cover complete frames; crops retain six pixels of context.','frames':radar})
-read(ROOT/'analysis/tapes/replays/image-differences/radar-allocation-dependence.json')
+read(ROOT/'work/research/tapes/replays/image-differences/radar-allocation-dependence.json')
 b=text(30,40,'An invalid matrix index reaches the next allocation',GOLD,24)
 b+=box(35,100,210,95,'Pose matrix 0','Valid model transform')+box(265,100,210,95,'Pose matrix 1','Valid model transform')
 b+=box(495,100,270,95,'Neighbouring memory','ABLK header and pointer',RED)
